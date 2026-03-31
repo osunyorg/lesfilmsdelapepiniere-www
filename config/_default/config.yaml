@@ -24,3 +24,27 @@ params:
       disabled: true
     share_links: # Optional
       enabled: false
+  persons:
+    contact_details:
+      with_labels: true
+    index:
+      layout: grid # grid | list
+      options:
+        summary: true
+        image: true
+        link: true
+    toc:
+      disabled: false
+    single:
+      backlinks: false
+      events:
+        layout: list
+        options:
+          dates: true
+          categories: true
+          image: true
+          status: false
+          subtitle: true
+          summary: true
+      taxonomies:
+        position: content # content | hero | none
