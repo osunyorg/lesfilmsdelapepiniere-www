@@ -10,17 +10,44 @@ items:
   descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
-- title: Projets
-  slug: projets
-  target: "/projets/"
+- title: Agenda
+  slug: agenda
+  target: "/agenda/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/events"
+  file: content/fr/events/_index.html
+- title: Films
+  slug: films
+  target: "/films/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: Personnes
-  slug: personnes
+- title: Accompagnements
+  slug: accompagnements
+  target: "/accompagnements/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/accompagnements"
+  file: content/fr/pages/accompagnements/_index.html
+- title: Ressources
+  slug: ressources
+  target: "/ressources/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/ressources"
+  file: content/fr/pages/ressources/_index.html
+- title: Le collectif
+  slug: le-collectif
   target: "/personnes/"
   kind: page
   new_tab: false
@@ -28,13 +55,4 @@ items:
   descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
-- title: Organisations
-  slug: organisations
-  target: "/organisations/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/organizations"
-  file: content/fr/organizations/_index.html
 
