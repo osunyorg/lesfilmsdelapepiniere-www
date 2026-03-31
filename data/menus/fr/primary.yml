@@ -46,8 +46,8 @@ items:
   descendants_targets: []
   path: "/pages/ressources"
   file: content/fr/pages/ressources/_index.html
-- title: Le collectif
-  slug: le-collectif
+- title: La coopérative
+  slug: la-cooperative
   target: "/coop/"
   kind: page
   new_tab: false
