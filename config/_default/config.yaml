@@ -11,3 +11,8 @@ params:
   home:
     head:
       title: site
+  projects:
+    toc:
+      disabled: true
+    share_links: # Optional
+      enabled: false
