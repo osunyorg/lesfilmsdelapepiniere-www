@@ -12,6 +12,14 @@ params:
     head:
       title: site
   projects:
+    index:
+      layout: grid # alternate | grid | large | list
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: true
+        year: true
     toc:
       disabled: true
     share_links: # Optional
