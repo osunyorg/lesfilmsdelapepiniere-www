@@ -11,9 +11,9 @@ params:
   logo:
     header: '/assets/images/logo.png'
     footer: '/assets/images/logo.png'
-  breadcrumb:
-    extendable: false
-    position: hero-start # hero-start | hero-end | after-hero | after-hero-title | none
+  # breadcrumb:
+  #   extendable: false
+  #   position: hero-start # hero-start | hero-end | after-hero | after-hero-title | none
   search:
     active: false
     positions:
@@ -25,41 +25,6 @@ params:
     head:
       title: site
 
-  # PAR DEFAUT
-  default:
-    index:
-      taxonomies:
-        display: true
-        layout: dropdown # dropdown | inline
-        show_name: true
-    single:
-      taxonomies:
-        position: content
-        show_name: true
-    sitemap:
-      ignore_children: false
-  categories:
-    index:
-      layout: grid # alternate | cards | grid | large | list
-      options:
-        image: true
-        summary: true
-    single:
-      taxonomies:
-        display: false
-  projects:
-    index:
-      layout: grid # alternate | grid | large | list
-      options:
-        categories: true
-        image: true
-        subtitle: true
-        summary: true
-        year: true
-    toc:
-      disabled: true
-    share_links: # Optional
-      enabled: false
 
   # BLOCKS
   blocks:
