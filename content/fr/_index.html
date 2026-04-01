@@ -10,7 +10,7 @@ bodyclass: >-
 url: "/"
 slug: ""
 date: 2026-03-31T12:59:56+02:00
-lastmod: 2026-03-31T18:11:13+02:00
+lastmod: 2026-04-01T11:30:51+02:00
 meta:
   hugo:
     permalink: "/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2026-03-31T12:59:56+02:00
-    updated_at: 2026-03-31T18:11:13+02:00
+    updated_at: 2026-04-01T11:30:51+02:00
     published_at: 2026-03-31T12:59:56+02:00
 search:
   id: "166624f0-874d-4e92-910a-d7a1e726dfdd"
@@ -30,7 +30,7 @@ search:
   title: >-
     Accueil
   summary: >-
-    <p> Les Films de la Pépinière est une société coopérative d'intérêt  collectif (SCIC-SARL) basée à Lussas (Ardèche) et dédiée à la production  de films documentaires de création.   </p>
+    <p>  Pratiquer et penser collectivement les métiers de la production du cinéma documentaire de création.</p>
 
 
 breadcrumbs:
@@ -58,7 +58,6 @@ children:
   - "pages/ressources/_index.html"
   - "posts/_index.html"
   - "persons/_index.html"
-  - "events/_index.html"
 child_pages:
   - permalink: "/films/"
     path: "/projects"
@@ -80,13 +79,9 @@ child_pages:
     path: "/persons"
     slug: "coop"
     file: "content/fr/persons/_index.html"
-  - permalink: "/agenda/"
-    path: "/events"
-    slug: "agenda"
-    file: "content/fr/events/_index.html"
 
 summary: >-
-  <p> Les Films de la Pépinière est une société coopérative d'intérêt  collectif (SCIC-SARL) basée à Lussas (Ardèche) et dédiée à la production  de films documentaires de création.   </p>
+  <p>  Pratiquer et penser collectivement les métiers de la production du cinéma documentaire de création.</p>
 header_cta:
 
 
@@ -95,5 +90,58 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: pages
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+      options:
+        image: true
+        categories: false
+        main_summary: true
+        summary: true
+
+      layout: grid
+      pages:
+        - permalink: "/films/"
+          path: "/projects"
+          slug: "films"
+          file: "content/fr/projects/_index.html"
+          name: >-
+            Films
+        - permalink: "/accompagnements/"
+          path: "/pages/accompagnements"
+          slug: "accompagnements"
+          file: "content/fr/pages/accompagnements/_index.html"
+          name: >-
+            Accompagnements
+        - permalink: "/ressources/"
+          path: "/pages/ressources"
+          slug: "ressources"
+          file: "content/fr/pages/ressources/_index.html"
+          name: >-
+            Ressources
+        - permalink: "/actualites/"
+          path: "/posts"
+          slug: "actualites"
+          file: "content/fr/posts/_index.html"
+          name: >-
+            Actualités
+        - permalink: "/coop/"
+          path: "/persons"
+          slug: "coop"
+          file: "content/fr/persons/_index.html"
+          name: >-
+            La coopérative
+
+      quantity: 5
+
+
 
 ---
