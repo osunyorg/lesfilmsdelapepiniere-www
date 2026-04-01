@@ -6,8 +6,6 @@ services:
 params:
   summary:
     position: hero
-  search:
-    active: true
 
   # Design system
   logo:
@@ -62,8 +60,6 @@ params:
       disabled: true
     share_links: # Optional
       enabled: false
-    toc:
-      disabled: true
 
   # BLOCKS
   blocks:
