@@ -15,114 +15,114 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/personnes/alice-marsal/index.html"
+from = "/personnes/alice-marsal/"
 to = "/coop/alice-marsal/"
 
 [[redirects]]
-from = "/personnes/romane-martin/index.html"
+from = "/personnes/romane-martin/"
 to = "/coop/romane-martin/"
 
 [[redirects]]
-from = "/actualites/type/actualite-des-films/index.html"
+from = "/actualites/type/actualite-des-films/"
 to = "/actualites/type/actualites-des-films/"
 
 [[redirects]]
-from = "/personnes/clothilde-bunod/index.html"
+from = "/personnes/clothilde-bunod/"
 to = "/coop/clothilde-bunod/"
 
 [[redirects]]
-from = "/personnes/equipe-editoriale/index.html"
+from = "/personnes/equipe-editoriale/"
 to = "/coop/equipe-editoriale/"
 
 [[redirects]]
-from = "/personnes/avrin-cardi/index.html"
+from = "/personnes/avrin-cardi/"
 to = "/coop/avrin-cardi/"
 
 [[redirects]]
-from = "/personnes/categories/membres/index.html"
+from = "/personnes/categories/membres/"
 to = "/coop/categories/membres/"
 
 [[redirects]]
-from = "/personnes/sylvie-plunian/index.html"
+from = "/personnes/sylvie-plunian/"
 to = "/coop/sylvie-plunian/"
 
 [[redirects]]
-from = "/personnes/jean-charles-leyris/index.html"
+from = "/personnes/jean-charles-leyris/"
 to = "/coop/jean-charles-leyris/"
 
 [[redirects]]
-from = "/personnes/categories/ancien-membre/index.html"
+from = "/personnes/categories/ancien-membre/"
 to = "/coop/categories/anciens-membres/"
 
 [[redirects]]
-from = "/personnes/categories/membre/index.html"
+from = "/personnes/categories/membre/"
 to = "/coop/categories/membres/"
 
 [[redirects]]
-from = "/tenk/index.html"
+from = "/tenk/"
 to = "/organisations/tenk/"
 
 [[redirects]]
-from = "/personnes/chantal-tran/index.html"
+from = "/personnes/chantal-tran/"
 to = "/coop/chantal-tran/"
 
 [[redirects]]
-from = "/personnes/flora-jouvencel/index.html"
+from = "/personnes/flora-jouvencel/"
 to = "/coop/flora-jouvencel/"
 
 [[redirects]]
-from = "/archives-expositions/index.html"
+from = "/archives-expositions/"
 to = "/expositions/archives-expositions/"
 
 [[redirects]]
-from = "/films/2023-une-bosse-dans-le-coeur/index.html"
+from = "/films/2023-une-bosse-dans-le-coeur/"
 to = "/films/2022-une-bosse-dans-le-coeur/"
 
 [[redirects]]
-from = "/personnes/categories/anciens-membres/index.html"
+from = "/personnes/categories/anciens-membres/"
 to = "/coop/categories/anciens-membres/"
 
 [[redirects]]
-from = "/personnes/raphaele-dumas/index.html"
+from = "/personnes/raphaele-dumas/"
 to = "/coop/raphaele-dumas/"
 
 [[redirects]]
-from = "/films/2024-une-bosse-dans-le-coeur/index.html"
+from = "/films/2024-une-bosse-dans-le-coeur/"
 to = "/films/2022-une-bosse-dans-le-coeur/"
 
 [[redirects]]
-from = "/personnes/claire-marty/index.html"
+from = "/personnes/claire-marty/"
 to = "/coop/claire-marty/"
 
 [[redirects]]
-from = "/projets/2023-une-bosse-dans-le-coeur/index.html"
+from = "/projets/2023-une-bosse-dans-le-coeur/"
 to = "/films/2022-une-bosse-dans-le-coeur/"
 
 [[redirects]]
-from = "/personnes/aurelia-pfend/index.html"
+from = "/personnes/aurelia-pfend/"
 to = "/coop/aurelia-pfend/"
 
 [[redirects]]
-from = "/projets/en-developpement/index.html"
+from = "/projets/en-developpement/"
 to = "/films/statut/en-developpement/"
 
 [[redirects]]
-from = "/categories/diffuseur/index.html"
+from = "/categories/diffuseur/"
 to = "/organisations/categories/diffuseur/"
 
 [[redirects]]
-from = "/projets/en-diffusion/index.html"
+from = "/projets/en-diffusion/"
 to = "/films/statut/en-diffusion/"
 
 [[redirects]]
-from = "/personnes/index.html"
+from = "/personnes/"
 to = "/coop/"
 
 [[redirects]]
-from = "/personnes/anouck-lanot/index.html"
+from = "/personnes/anouck-lanot/"
 to = "/coop/anouck-lanot/"
 
 [[redirects]]
-from = "/projets/index.html"
+from = "/projets/"
 to = "/films/"
 
