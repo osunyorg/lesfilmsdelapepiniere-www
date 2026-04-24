@@ -13,3 +13,116 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/personnes/alice-marsal/"
+to = "/coop/alice-marsal/"
+
+[[redirects]]
+from = "/personnes/romane-martin/"
+to = "/coop/romane-martin/"
+
+[[redirects]]
+from = "/actualites/type/actualite-des-films/"
+to = "/actualites/type/actualites-des-films/"
+
+[[redirects]]
+from = "/personnes/clothilde-bunod/"
+to = "/coop/clothilde-bunod/"
+
+[[redirects]]
+from = "/personnes/equipe-editoriale/"
+to = "/coop/equipe-editoriale/"
+
+[[redirects]]
+from = "/personnes/avrin-cardi/"
+to = "/coop/avrin-cardi/"
+
+[[redirects]]
+from = "/personnes/categories/membres/"
+to = "/coop/categories/membres/"
+
+[[redirects]]
+from = "/personnes/sylvie-plunian/"
+to = "/coop/sylvie-plunian/"
+
+[[redirects]]
+from = "/personnes/jean-charles-leyris/"
+to = "/coop/jean-charles-leyris/"
+
+[[redirects]]
+from = "/personnes/categories/ancien-membre/"
+to = "/coop/categories/anciens-membres/"
+
+[[redirects]]
+from = "/personnes/categories/membre/"
+to = "/coop/categories/membres/"
+
+[[redirects]]
+from = "/tenk/"
+to = "/organisations/tenk/"
+
+[[redirects]]
+from = "/personnes/chantal-tran/"
+to = "/coop/chantal-tran/"
+
+[[redirects]]
+from = "/personnes/flora-jouvencel/"
+to = "/coop/flora-jouvencel/"
+
+[[redirects]]
+from = "/archives-expositions/"
+to = "/expositions/archives-expositions/"
+
+[[redirects]]
+from = "/films/2023-une-bosse-dans-le-coeur/"
+to = "/films/2022-une-bosse-dans-le-coeur/"
+
+[[redirects]]
+from = "/personnes/categories/anciens-membres/"
+to = "/coop/categories/anciens-membres/"
+
+[[redirects]]
+from = "/personnes/raphaele-dumas/"
+to = "/coop/raphaele-dumas/"
+
+[[redirects]]
+from = "/films/2024-une-bosse-dans-le-coeur/"
+to = "/films/2022-une-bosse-dans-le-coeur/"
+
+[[redirects]]
+from = "/personnes/claire-marty/"
+to = "/coop/claire-marty/"
+
+[[redirects]]
+from = "/projets/2023-une-bosse-dans-le-coeur/"
+to = "/films/2022-une-bosse-dans-le-coeur/"
+
+[[redirects]]
+from = "/personnes/aurelia-pfend/"
+to = "/coop/aurelia-pfend/"
+
+[[redirects]]
+from = "/projets/en-developpement/"
+to = "/films/statut/en-developpement/"
+
+[[redirects]]
+from = "/categories/diffuseur/"
+to = "/organisations/categories/diffuseur/"
+
+[[redirects]]
+from = "/projets/en-diffusion/"
+to = "/films/statut/en-diffusion/"
+
+[[redirects]]
+from = "/personnes/"
+to = "/coop/"
+
+[[redirects]]
+from = "/personnes/anouck-lanot/"
+to = "/coop/anouck-lanot/"
+
+[[redirects]]
+from = "/projets/"
+to = "/films/"
+
