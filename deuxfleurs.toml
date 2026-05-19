@@ -15,6 +15,10 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/ressources/strategie-de-production/index.html"
+to = "/ressources/produire/strategie-de-production/"
+
+[[redirects]]
 from = "/personnes/alice-marsal/index.html"
 to = "/coop/alice-marsal/"
 
@@ -37,6 +41,10 @@ to = "/coop/equipe-editoriale/"
 [[redirects]]
 from = "/personnes/avrin-cardi/index.html"
 to = "/coop/avrin-cardi/"
+
+[[redirects]]
+from = "/ressources/vie-de-la-structure/index.html"
+to = "/ressources/produire/vie-de-la-structure/"
 
 [[redirects]]
 from = "/personnes/categories/membres/index.html"
@@ -67,6 +75,10 @@ from = "/personnes/chantal-tran/index.html"
 to = "/coop/chantal-tran/"
 
 [[redirects]]
+from = "/ressources/la-vie-des-realisateurs/index.html"
+to = "/ressources/realisation/la-vie-des-realisateurs/"
+
+[[redirects]]
 from = "/personnes/flora-jouvencel/index.html"
 to = "/coop/flora-jouvencel/"
 
@@ -89,6 +101,10 @@ to = "/coop/raphaele-dumas/"
 [[redirects]]
 from = "/films/2024-une-bosse-dans-le-coeur/index.html"
 to = "/films/2022-une-bosse-dans-le-coeur/"
+
+[[redirects]]
+from = "/ressources/travailler-avec-les-realisateurs/index.html"
+to = "/ressources/produire/travailler-avec-les-realisateurs/"
 
 [[redirects]]
 from = "/personnes/claire-marty/index.html"
@@ -121,6 +137,10 @@ to = "/coop/"
 [[redirects]]
 from = "/actualites/par-film/nicole-nicole/index.html"
 to = "/actualites/film/nicole-nicole/"
+
+[[redirects]]
+from = "/ressources/la-vie-du-producteur/index.html"
+to = "/ressources/produire/la-vie-du-producteur/"
 
 [[redirects]]
 from = "/personnes/anouck-lanot/index.html"
