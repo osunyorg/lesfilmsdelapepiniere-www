@@ -55,6 +55,10 @@ from = "/personnes/categories/ancien-membre/index.html"
 to = "/coop/categories/anciens-membres/"
 
 [[redirects]]
+from = "/la-vie-des-producteurs/index.html"
+to = "/ressources/la-vie-des-producteurs/"
+
+[[redirects]]
 from = "/personnes/categories/membre/index.html"
 to = "/coop/categories/membres/"
 
