@@ -111,6 +111,10 @@ from = "/projets/2023-une-bosse-dans-le-coeur/index.html"
 to = "/films/2022-une-bosse-dans-le-coeur/"
 
 [[redirects]]
+from = "/ressources/la-vie-des-realisateurs/index.html"
+to = "/typeressources/la-vie-des-realisateurs/"
+
+[[redirects]]
 from = "/personnes/aurelia-pfend/index.html"
 to = "/coop/aurelia-pfend/"
 
@@ -124,7 +128,7 @@ to = "/organisations/categories/diffuseur/"
 
 [[redirects]]
 from = "/ressources/realisation/la-vie-des-realisateurs/index.html"
-to = "/ressources/la-vie-des-realisateurs/"
+to = "/typeressources/la-vie-des-realisateurs/"
 
 [[redirects]]
 from = "/projets/en-diffusion/index.html"
