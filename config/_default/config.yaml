@@ -14,31 +14,125 @@ params:
   # breadcrumb:
   #   extendable: false
   #   position: hero-start # hero-start | hero-end | after-hero | after-hero-title | none
+  toc:
+    force_offcanvas: false
+    disabled: true
+
   search:
     active: true
     positions:
       - primary
       # - upper-menu
       # - fixed
-      # - footer
+      - footer
+
   share_links:
     enabled: true
     email: true
     facebook: true
     mastodon: true
     linkedin: true
+
+
   home:
     head:
       title: site
 
   # SECTIONS
   default:
+    sitemap:
+      ignore_children: false
     index:
       taxonomies:
         display: true
         layout: dropdown # dropdown | inline
         show_name: true
+    single:
+      taxonomies:
+        position: content # content | hero | none
+        layout: inline # dropdown | inline
+        show_name: true
 
+  categories:
+    index:
+      layout: grid # alternate | cards | grid | large | list
+      options:
+        image: true
+        summary: true
+    single:
+      taxonomies:
+        display: false
+  
+  pages:
+    default_image: false
+    index:
+      layout: grid # grid | list
+      options:
+        categories: true
+        image: true
+        main_summary: false
+        subtitle: true
+        summary: true
+      truncate_description: 200 # Set to 0 to disable truncate
+    single:
+      options:
+        image: false
+      taxonomies:
+        position: content # content | hero | none
+
+
+  posts:
+    default_image: false
+    date_format: ":date_long"
+    index:
+      layout: grid # grid | list
+      options:
+        author: false
+        categories: true
+        date: true
+        image: true
+        reading_time: true
+        summary: true
+        subtitle: true
+        toc: true
+      truncate_description: 200 # Set to 0 to disable truncate
+    single:
+      options:
+        authors: true
+        published_at: true
+        reading_time: true
+        signature: false
+        updated_at: true
+        image: false
+
+  projects:
+    default_image: false
+    date_format: "2006"
+    index:
+      layout: grid # alternate | grid | large | list
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: false
+        year: true
+        share_links: false
+      truncate_description: 200 # Set to 0 to disable truncate
+    single:
+      navigation:
+        reversed: false
+      summary:
+        position: content # content | hero | none
+
+  # Layout grid pour les actus
+  journals:
+    index:
+      layout: grid
+      options:
+        reading_time: false
+    single:
+      options:
+        reading_time: false
 
   # BLOCKS
   blocks:

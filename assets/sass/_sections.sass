@@ -20,10 +20,38 @@
 
     .block-class-ressources
         .page-content
-            background-color : var(--color-accent)
+            background-color : var(--color-background-alt)
             padding: 2rem
             min-width: 100%
 
         .media
             display: none
         
+.page-ressources
+    .container .categories--grid
+        display: none !important
+    .block-page-ressources
+        .top
+            display: none !important
+    .categories--list
+        display: flex
+        gap: 2rem
+        border: none
+
+        > li:where(:not(:last-child))
+            border-bottom: inherit
+
+        .category-item 
+            background-color: var(--color-background-alt)
+            padding: 8px
+            .category-content
+                display: flex
+                align-items: baseline
+                gap: 1rem
+                
+                h2
+                    font-size: 16px !important
+
+                .articles-count
+                    position: relative !important
+                    font-size: 12px !important
