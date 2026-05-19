@@ -63,6 +63,10 @@ from = "/tenk/index.html"
 to = "/organisations/tenk/"
 
 [[redirects]]
+from = "/type-ressources/index.html"
+to = "/typeressources/"
+
+[[redirects]]
 from = "/personnes/chantal-tran/index.html"
 to = "/coop/chantal-tran/"
 
@@ -88,7 +92,7 @@ to = "/coop/categories/anciens-membres/"
 
 [[redirects]]
 from = "/travail-du-producteur/index.html"
-to = "/type-ressources/"
+to = "/typeressources/"
 
 [[redirects]]
 from = "/personnes/raphaele-dumas/index.html"
