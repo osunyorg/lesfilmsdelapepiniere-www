@@ -21,13 +21,13 @@ items:
   file: content/fr/pages/accompagnements/_index.html
 - title: Ressources
   slug: ressources
-  target: "/ressources/"
-  kind: page
+  target: "/actualites/type/ressources/"
+  kind: category
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/pages/ressources"
-  file: content/fr/pages/ressources/_index.html
+  path: "/posts_categories/type/ressources"
+  file: content/fr/posts_categories/type/ressources/_index.html
 - title: Actualités
   slug: actualites
   target: "/actualites/"
