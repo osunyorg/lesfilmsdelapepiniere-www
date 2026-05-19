@@ -10,7 +10,7 @@ bodyclass: >-
 url: "/ressources/"
 slug: "ressources"
 date: 2026-03-31T14:51:27+02:00
-lastmod: 2026-05-19T12:53:12+02:00
+lastmod: 2026-05-19T14:38:24+02:00
 meta:
   hugo:
     permalink: "/ressources/"
@@ -19,7 +19,7 @@ meta:
     slug: "ressources"
   dates:
     created_at: 2026-03-31T14:51:27+02:00
-    updated_at: 2026-05-19T12:53:12+02:00
+    updated_at: 2026-05-19T14:38:24+02:00
     published_at: 2026-03-31T14:51:27+02:00
 search:
   id: "c1e139e6-98c1-4a31-aff8-509e2fe80d0d"
@@ -77,5 +77,79 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: categories
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+      layout: list
+
+      options:
+        count: true
+        image: true
+        summary: true
+
+      category_kind: pages
+      taxonomy_id: 
+      categories:
+        - permalink: "/la-vie-des-producteurs/"
+          path: "/pages_categories/la-vie-des-producteurs"
+          slug: "la-vie-des-producteurs"
+          file: "content/fr/pages_categories/la-vie-des-producteurs/_index.html"
+          name: ""
+          count: 1
+        - permalink: ""
+          path: "/pages_categories/paroles-de-cineastes"
+          slug: "paroles-de-cineastes"
+          file: "content/fr/pages_categories/paroles-de-cineastes/_index.html"
+          name: ""
+          count: 1
+
+
+  - kind: block
+    template: posts
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+      mode: all
+      layout: grid
+      options:
+        author: false
+        categories: false
+        date: false
+        image: true
+        reading_time: false
+        subtitle: true
+        summary: true
+
+      posts:
+        - permalink: "/actualites/2026-05-19-prix-du-jury-a-visions-du-reel-pour-nicole-nicole/"
+          path: "/posts/2026/2026-05-19-prix-du-jury-a-visions-du-reel-pour-nicole-nicole"
+          slug: "prix-du-jury-a-visions-du-reel-pour-nicole-nicole"
+          file: "content/fr/posts/2026/2026-05-19-prix-du-jury-a-visions-du-reel-pour-nicole-nicole.html"
+          name: >-
+            Prix du jury à Visions du Réel pour Nicole Nicole
+        - permalink: "/actualites/2026-04-01-publication-du-site-web/"
+          path: "/posts/2026/2026-04-01-publication-du-site-web"
+          slug: "publication-du-site-web"
+          file: "content/fr/posts/2026/2026-04-01-publication-du-site-web.html"
+          name: >-
+            Publication du site web
+
+      quantity: 2
+
+
 
 ---
