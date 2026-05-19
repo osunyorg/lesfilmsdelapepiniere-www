@@ -15,15 +15,29 @@ params:
   #   extendable: false
   #   position: hero-start # hero-start | hero-end | after-hero | after-hero-title | none
   search:
-    active: false
+    active: true
     positions:
       - primary
       # - upper-menu
       # - fixed
       # - footer
+  share_links:
+    enabled: true
+    email: true
+    facebook: true
+    mastodon: true
+    linkedin: true
   home:
     head:
       title: site
+
+  # SECTIONS
+  default:
+    index:
+      taxonomies:
+        display: true
+        layout: dropdown # dropdown | inline
+        show_name: true
 
 
   # BLOCKS

@@ -2,14 +2,17 @@
 $heading-font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif
 $body-font-family: $heading-font-family
 
+$grid-max-width: pxToRem(1980) !default
+$grid-gutter: 4rem !default
 
 // MAIN COLORS D8FCDE
-$color-accent: #a1a1a1 !default
-$color-danger: #AF0000 !default
-$color-text: #000000 !default
-$color-text-alt: #454545 !default
-$color-background: #FFFFFF !default
+$color-danger: #FEF6AE !default
+$color-text: #292424 !default
+$color-text-alt: rgba($color-text, .7) !default
+$color-accent: $color-text-alt !default
+$color-background: #FEFAF7 !default
 $color-background-alt: #F2F2F2 !default
+$color-background-accent: #D8FCDE !default
 $color-border: rgba(0, 0, 0, 0.30) !default
 $color-selection: $color-background !default
 $color-selection-background: rgba($color-text, .7) !default
@@ -17,9 +20,17 @@ $color-selection-background: rgba($color-text, .7) !default
 // HEADER
 $header-background: #FEFAF7
 $header-border-bottom-width: 0
-$header-logo-height: pxToRem(60)
-$header-logo-height-desktop: pxToRem(90)
+$header-logo-height: pxToRem(40)
+$header-logo-height-desktop: pxToRem(70)
 $hero-background-color: #FEFAF7
-$footer-background-color: #FEFAF7
+
+// HERO
+$hero-height: 300px !default
+$hero-height-desktop: 400px !default
+
+// FOOTER
+$footer-background-color: $color-text
+$footer-color: $color-background
 $footer-logo-height: pxToRem(60)
 $footer-logo-height-desktop: pxToRem(90)
+
