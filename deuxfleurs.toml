@@ -119,6 +119,10 @@ from = "/personnes/index.html"
 to = "/coop/"
 
 [[redirects]]
+from = "/actualites/par-film/nicole-nicole/index.html"
+to = "/actualites/film/nicole-nicole/"
+
+[[redirects]]
 from = "/personnes/anouck-lanot/index.html"
 to = "/coop/anouck-lanot/"
 
