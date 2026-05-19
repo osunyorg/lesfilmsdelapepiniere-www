@@ -10,7 +10,7 @@ bodyclass: >-
 url: "/actualites/"
 slug: "actualites"
 date: 2026-03-31T12:59:56+02:00
-lastmod: 2026-05-19T10:33:18+02:00
+lastmod: 2026-05-19T10:37:44+02:00
 meta:
   hugo:
     permalink: "/actualites/"
@@ -19,7 +19,7 @@ meta:
     slug: "actualites"
   dates:
     created_at: 2026-03-31T12:59:56+02:00
-    updated_at: 2026-05-19T10:33:18+02:00
+    updated_at: 2026-05-19T10:37:44+02:00
     published_at: 2026-03-31T12:59:56+02:00
 search:
   id: "252ff67e-fd89-4dbd-b54e-74f5395423a9"
@@ -30,7 +30,8 @@ search:
   title: >-
     Actualités
 
-
+  body: >-
+    <p>Agenda de la coopérative </p>  <p> Actualités </p>
 
 breadcrumbs:
   - title: >-
@@ -68,6 +69,13 @@ section_taxonomies:
     slug: "type"
     path: "/posts_categories/type"
     categories:
+      - permalink: "/actualites/type/actualites-des-films/"
+        path: "/posts_categories/type/actualites-des-films"
+        slug: "type/actualites-des-films"
+        file: "content/fr/posts_categories/type/actualites-des-films/_index.html"
+        name: >-
+          Actualités des films
+        count: 1
       - permalink: "/actualites/type/actualites-du-site/"
         path: "/posts_categories/type/actualites-du-site"
         slug: "type/actualites-du-site"
@@ -89,19 +97,27 @@ section_taxonomies:
         count: 1
 
 contents_reading_time:
-  seconds: 0
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
   - kind: block
     template: posts
-
-
+    title: >-
+      Agenda de la coopérative
+    slug: >-
+      agenda-de-la-cooperative
     ranks:
       base: 2
-      children: 2
+      self: 2
+      children: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Agenda de la coopérative
+        heading: 2
+        link: "/actualites/agenda/"
 
     data:
       mode: category
@@ -129,13 +145,21 @@ contents:
 
   - kind: block
     template: posts
-
-
+    title: >-
+      Actualités
+    slug: >-
+      actualites
     ranks:
       base: 2
-      children: 2
+      self: 2
+      children: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Actualités
+        heading: 2
+        link: "/actualites/type/"
 
     data:
       mode: category
@@ -151,6 +175,12 @@ contents:
         summary: true
 
       posts:
+        - permalink: "/actualites/2026-05-19-prix-du-jury-a-visions-du-reel-pour-nicole-nicole/"
+          path: "/posts/2026/2026-05-19-prix-du-jury-a-visions-du-reel-pour-nicole-nicole"
+          slug: "prix-du-jury-a-visions-du-reel-pour-nicole-nicole"
+          file: "content/fr/posts/2026/2026-05-19-prix-du-jury-a-visions-du-reel-pour-nicole-nicole.html"
+          name: >-
+            Prix du jury à Visions du Réel pour Nicole Nicole
         - permalink: "/actualites/2026-04-01-publication-du-site-web/"
           path: "/posts/2026/2026-04-01-publication-du-site-web"
           slug: "publication-du-site-web"
@@ -158,7 +188,7 @@ contents:
           name: >-
             Publication du site web
 
-      quantity: 1
+      quantity: 2
 
 
 
