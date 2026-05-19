@@ -63,16 +63,8 @@ from = "/tenk/index.html"
 to = "/organisations/tenk/"
 
 [[redirects]]
-from = "/type-ressources/index.html"
-to = "/typeressources/"
-
-[[redirects]]
 from = "/personnes/chantal-tran/index.html"
 to = "/coop/chantal-tran/"
-
-[[redirects]]
-from = "/ressources/produire/vie-de-la-structure/index.html"
-to = "/ressources/vie-de-la-structure/"
 
 [[redirects]]
 from = "/personnes/flora-jouvencel/index.html"
@@ -91,10 +83,6 @@ from = "/personnes/categories/anciens-membres/index.html"
 to = "/coop/categories/anciens-membres/"
 
 [[redirects]]
-from = "/travail-du-producteur/index.html"
-to = "/typeressources/"
-
-[[redirects]]
 from = "/personnes/raphaele-dumas/index.html"
 to = "/coop/raphaele-dumas/"
 
@@ -111,10 +99,6 @@ from = "/projets/2023-une-bosse-dans-le-coeur/index.html"
 to = "/films/2022-une-bosse-dans-le-coeur/"
 
 [[redirects]]
-from = "/ressources/la-vie-des-realisateurs/index.html"
-to = "/typeressources/la-vie-des-realisateurs/"
-
-[[redirects]]
 from = "/personnes/aurelia-pfend/index.html"
 to = "/coop/aurelia-pfend/"
 
@@ -127,20 +111,8 @@ from = "/categories/diffuseur/index.html"
 to = "/organisations/categories/diffuseur/"
 
 [[redirects]]
-from = "/ressources/realisation/la-vie-des-realisateurs/index.html"
-to = "/typeressources/la-vie-des-realisateurs/"
-
-[[redirects]]
 from = "/projets/en-diffusion/index.html"
 to = "/films/statut/en-diffusion/"
-
-[[redirects]]
-from = "/ressources/produire/strategie-de-production/index.html"
-to = "/ressources/strategie-de-production/"
-
-[[redirects]]
-from = "/ressources/produire/la-vie-du-producteur/index.html"
-to = "/ressources/la-vie-du-producteur/"
 
 [[redirects]]
 from = "/personnes/index.html"
@@ -149,10 +121,6 @@ to = "/coop/"
 [[redirects]]
 from = "/actualites/par-film/nicole-nicole/index.html"
 to = "/actualites/film/nicole-nicole/"
-
-[[redirects]]
-from = "/ressources/produire/travailler-avec-les-realisateurs/index.html"
-to = "/ressources/travailler-avec-les-realisateurs/"
 
 [[redirects]]
 from = "/personnes/anouck-lanot/index.html"
