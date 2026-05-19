@@ -19,6 +19,10 @@ from = "/films/2026-les-cedres/index.html"
 to = "/films/2026-nicole-nicole/"
 
 [[redirects]]
+from = "/la-recherche-d-un-film/index.html"
+to = "/ressources/la-recherche-d-un-film/"
+
+[[redirects]]
 from = "/personnes/alice-marsal/index.html"
 to = "/coop/alice-marsal/"
 
