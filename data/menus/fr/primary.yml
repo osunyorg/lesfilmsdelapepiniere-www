@@ -34,7 +34,17 @@ items:
     descendants_targets: []
     path: "/pages/accompagnements/la-permanence"
     file: content/fr/pages/accompagnements/la-permanence/_index.html
+  - title: Formation relation production-réalisation
+    slug: formation-relation-production-realisation
+    target: "/accompagnements/formation-la-relation-auteur-autrice-producteur-produtrice/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/accompagnements/formation-la-relation-auteur-autrice-producteur-produtrice"
+    file: content/fr/pages/accompagnements/formation-la-relation-auteur-autrice-producteur-produtrice/_index.html
   descendants_targets:
+  - "/accompagnements/formation-la-relation-auteur-autrice-producteur-produtrice/"
   - "/accompagnements/la-permanence/"
   - "/accompagnements/le-bar/"
   path: "/pages/accompagnements"
@@ -66,13 +76,4 @@ items:
   descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
-- title: Formation relation production-réalisation
-  slug: formation-relation-production-realisation
-  target: "/accompagnements/formation-la-relation-auteur-autrice-producteur-produtrice/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/accompagnements/formation-la-relation-auteur-autrice-producteur-produtrice"
-  file: content/fr/pages/accompagnements/formation-la-relation-auteur-autrice-producteur-produtrice/_index.html
 
