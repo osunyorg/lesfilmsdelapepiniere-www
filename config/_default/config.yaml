@@ -72,6 +72,19 @@ params:
       taxonomies:
         display: false
 
+  projects:
+    date_format: "2006"
+    index:
+      layout: grid # alternate | grid | large | list
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: false
+        year: true
+        share_links: false
+      truncate_description: 200 # Set to 0 to disable truncate
+
   posts:
     index:
       layout: grid # grid | list
