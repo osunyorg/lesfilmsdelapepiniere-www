@@ -135,6 +135,10 @@ from = "/actualites/par-film/nicole-nicole/index.html"
 to = "/actualites/film/nicole-nicole/"
 
 [[redirects]]
+from = "/films/2026-les-cedres-1/index.html"
+to = "/films/2026-nei/"
+
+[[redirects]]
 from = "/personnes/anouck-lanot/index.html"
 to = "/coop/anouck-lanot/"
 
