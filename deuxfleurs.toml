@@ -39,6 +39,10 @@ from = "/personnes/clothilde-bunod/index.html"
 to = "/coop/clothilde-bunod/"
 
 [[redirects]]
+from = "/agenda/2026/la-prochaine-permanence-aux-etats-generaux-du-documentaire-1/index.html"
+to = "/agenda/2025/la-prochaine-permanence-aux-etats-generaux-du-documentaire-1/"
+
+[[redirects]]
 from = "/personnes/equipe-editoriale/index.html"
 to = "/coop/equipe-editoriale/"
 
