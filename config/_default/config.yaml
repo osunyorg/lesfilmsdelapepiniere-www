@@ -15,12 +15,16 @@ params:
   logo:
     header: '/assets/images/logo.png'
     footer: '/assets/images/logo.png'
-  # breadcrumb:
-  #   extendable: false
-  #   position: hero-start # hero-start | hero-end | after-hero | after-hero-title | none
-  toc:
-    force_offcanvas: false
-    disabled: true
+  
+  
+  toc:                          # Table des matières (globale)
+    force_offcanvas: false      # N'est pas forcée en panneau latéral hors-canvas
+    disabled: false             # Activée par défaut
+  
+  # components:
+  #   hero_image:
+  #     in_hero:
+  #       disabled: true
 
   search:
     active: true
@@ -37,7 +41,6 @@ params:
     mastodon: true
     linkedin: true
 
-
   home:
     head:
       title: site
@@ -47,10 +50,12 @@ params:
     sitemap:
       ignore_children: false
     index:
+      subtitle: false
       taxonomies:
         display: true
         layout: dropdown # dropdown | inline
         show_name: true
+        
     single:
       taxonomies:
         position: content # content | hero | none
@@ -66,28 +71,8 @@ params:
     single:
       taxonomies:
         display: false
-  
-  pages:
-    default_image: false
-    index:
-      layout: grid # grid | list
-      options:
-        categories: true
-        image: true
-        main_summary: false
-        subtitle: true
-        summary: true
-      truncate_description: 200 # Set to 0 to disable truncate
-    single:
-      options:
-        image: false
-      taxonomies:
-        position: content # content | hero | none
-
 
   posts:
-    default_image: false
-    date_format: ":date_long"
     index:
       layout: grid # grid | list
       options:
@@ -95,68 +80,21 @@ params:
         categories: true
         date: true
         image: true
-        reading_time: true
-        summary: true
+        reading_time: false
+        summary: false
         subtitle: true
         toc: true
       truncate_description: 200 # Set to 0 to disable truncate
     single:
       options:
         authors: true
-        published_at: true
+        published_at: false
         reading_time: true
         signature: false
         updated_at: true
         image: false
 
-  projects:
-    default_image: false
-    date_format: "2006"
-    index:
-      layout: grid # alternate | grid | large | list
-      options:
-        categories: true
-        image: true
-        subtitle: true
-        summary: false
-        year: true
-        share_links: false
-      truncate_description: 200 # Set to 0 to disable truncate
-      taxonomies:
-        display: true
-        layout: inline # dropdown | inline
-    single:
-      navigation:
-        reversed: false
-      summary:
-        position: content # content | hero | none
-
-  # Layout grid pour les actus
-  journals:
-    index:
-      layout: grid
-      options:
-        reading_time: false
-    single:
-      options:
-        reading_time: false
-
   persons:
-    contact_details:
-      with_labels: true
     index:
-      layout: grid # grid | list
-      options:
-        summary: true
-        image: true
-        link: true
-        toc: true
-
-  # BLOCKS
-  blocks:
-    image_sizes:
-    _default:
-      carousel:
-        mobile:   360
-        tablet:   555
-        desktop:  575
+      taxonomies:
+        display: false
