@@ -3,6 +3,10 @@ _merge: deep
 services:
   rss:
     limit: 100
+
+pagination:
+  pagerSize: 36
+
 params:
   summary:
     position: hero
@@ -118,6 +122,9 @@ params:
         year: true
         share_links: false
       truncate_description: 200 # Set to 0 to disable truncate
+      taxonomies:
+        display: true
+        layout: inline # dropdown | inline
     single:
       navigation:
         reversed: false
@@ -133,6 +140,17 @@ params:
     single:
       options:
         reading_time: false
+
+  persons:
+    contact_details:
+      with_labels: true
+    index:
+      layout: grid # grid | list
+      options:
+        summary: true
+        image: true
+        link: true
+        toc: true
 
   # BLOCKS
   blocks:
