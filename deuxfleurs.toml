@@ -44,7 +44,7 @@ to = "/coop/equipe-editoriale/"
 
 [[redirects]]
 from = "/personnes/avrin-cardi/index.html"
-to = "/coop/avrin-cardi/"
+to = "/coop/anne-cardi-avrin/"
 
 [[redirects]]
 from = "/personnes/categories/membres/index.html"
@@ -125,6 +125,10 @@ to = "/actualites/film/nicole-nicole/"
 [[redirects]]
 from = "/films/2026-les-cedres-1/index.html"
 to = "/films/2026-nei/"
+
+[[redirects]]
+from = "/coop/avrin-cardi/index.html"
+to = "/coop/anne-cardi-avrin/"
 
 [[redirects]]
 from = "/personnes/anouck-lanot/index.html"
