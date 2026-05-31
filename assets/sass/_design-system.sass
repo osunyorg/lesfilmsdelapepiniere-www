@@ -1,6 +1,10 @@
 // main
 //     margin-left: 4rem !important
 //     margin-right: 4rem !important
+
+#main
+  margin-bottom: var(--spacing-6)
+
 .alerts
   .alert
     padding: 1rem
@@ -25,6 +29,23 @@
 .page-no-img
   .hero-image
     display: none
+.breadcrumb li:not(:first-child)::before
+  content: "—" /"";
+.taxonomies-list
+  .dropdown
+    button
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-size: $body-size
+      font-family: $body-font-family
+
+      &::after
+        padding: 4px
+        background: $color-background-alt
+        border-radius: 50px
+        color: $color-ui-accent
+        font-size: 32px
 
 .block-gallery--carousel
   background-color: inherit !important

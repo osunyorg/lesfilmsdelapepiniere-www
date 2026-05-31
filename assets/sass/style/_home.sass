@@ -14,29 +14,39 @@
                 p
                   font-size: pxToRem(33)
                   opacity: .75
-    
-    .block-class-films
-        .block-content
-            .pages
-                display: flex !important
-                flex-direction: column
-                align-items: start !important
+    .blocks
+        .block
+            margin-top: var(--spacing-6)
 
-                li
-                    width: 100%
-                
-                .page
-                    .media
-                        width: 100% !important
-                        
-                        img
-                            aspect-ratio: 2.35 !important
+            &:first-child
+                margin-top: var(--spacing-6)
 
-    .block-class-ressources
-        .page-content
-            background-color : var(--color-background-alt)
-            padding: 2rem
-            min-width: 100%
 
-        .media
-            display: none
+        .pages--grid
+            grid-gap: var(--spacing-5)
+
+        .block-class-films
+            .block-content
+                .pages
+                    display: flex !important
+                    flex-direction: column
+                    align-items: start !important
+
+                    li
+                        width: 100%
+                    
+                    .page
+                        .media
+                            width: 100% !important
+                            
+                            img
+                                aspect-ratio: 2.35 !important
+
+        .block-class-ressources
+            .page-content
+                background-color : var(--color-background-alt)
+                padding: 2rem
+                min-width: 100%
+
+            .media
+                display: none
