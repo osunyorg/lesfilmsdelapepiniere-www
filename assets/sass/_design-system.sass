@@ -29,8 +29,14 @@
 .page-no-img
   .hero-image
     display: none
-.breadcrumb li:not(:first-child)::before
-  content: "—" /"";
+    
+.breadcrumb li
+  &:not(:first-child)::before
+    content: "—" /""
+  &:last-child::before
+    content: "•" /""
+
+
 .taxonomies-list
   .dropdown
     button

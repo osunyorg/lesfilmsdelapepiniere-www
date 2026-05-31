@@ -1,5 +1,7 @@
+.ancestor-ressources
+    .hero, #document-header
+        background-color : $color-background-accent
 
-        
 .page-ressources
     .container .categories--grid
         display: none !important
@@ -16,11 +18,14 @@
 
         .category-item 
             background-color: var(--color-background-alt)
-            padding: 8px
+            padding: var(--spacing-1) var(--spacing-2)
+            border-radius: 18px
+
             .category-content
                 display: flex
                 align-items: baseline
-                gap: 1rem
+                flex-direction: row-reverse;
+                gap: var(--spacing-1)
                 
                 h2
                     font-size: 16px !important
@@ -28,3 +33,9 @@
                 .articles-count
                     position: relative !important
                     font-size: 12px !important
+                    margin-top: 0
+
+                    &::before
+                        content: "("
+                    &::after
+                        content: ")"
