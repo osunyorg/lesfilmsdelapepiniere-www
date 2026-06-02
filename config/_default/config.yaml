@@ -76,6 +76,7 @@ params:
     single:
       taxonomies:
         position: hero # content | hero | none
+      
 
   publications:
     index:
@@ -117,11 +118,11 @@ params:
       options:
         author: true
         categories: true
-        date: false
+        date: true
         image: true
         reading_time: false
         summary: false
-        subtitle: true
+        subtitle: false
       truncate_description: 200 # Set to 0 to disable truncate
     single:
       options:
@@ -130,7 +131,7 @@ params:
         reading_time: true
         signature: false
         updated_at: true
-        image: false
+        image: true
 
   persons:
     index:

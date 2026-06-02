@@ -2,6 +2,17 @@
 //     margin-left: 4rem !important
 //     margin-right: 4rem !important
 
+body:where(:not(.full-width))
+  #main
+
+    @include media-breakpoint-up(desktop)
+      .document-content .block .block-content
+        padding-left: 0
+        padding-right: 0
+        max-width: 68ch
+        // padding-right: calc( calc( (var(--column-width) * 4) + var(--grid-gutter) * ( 4 - 1 )) + var(--grid-gutter))
+
+
 #main
   margin-bottom: var(--spacing-6)
 
