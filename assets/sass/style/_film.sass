@@ -23,7 +23,6 @@
                 .hero-text
                     width: 100%
 
-
                     .has-lead
                         display: grid
                         grid-template-columns: 1fr 1fr
@@ -35,3 +34,21 @@
                             font-style: italic
                             span
                                 font-style: initial !important
+    .blocks
+        .block-class-fiche-film, .block-class-festivals
+            h2
+                position: absolute
+                width: 1px
+                height: 1px
+                padding: 0
+                margin: -1px
+                overflow: hidden
+                clip: rect(0, 0, 0, 0)
+                white-space: nowrap
+                border: 0
+            .text
+                font-size: var(--small-size)
+                width: 100% !important
+                color: var(--color-text-alt)
+
+                
