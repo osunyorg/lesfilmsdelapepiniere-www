@@ -16,16 +16,10 @@ params:
     header: '/assets/images/logo.png'
     footer: '/assets/images/logo.png'
   
-  
   toc:                          # Table des matières (globale)
     force_offcanvas: false      # N'est pas forcée en panneau latéral hors-canvas
     disabled: false             # Activée par défaut
   
-  # components:
-  #   hero_image:
-  #     in_hero:
-  #       disabled: true
-
   search:
     active: true
     positions:
@@ -62,28 +56,7 @@ params:
         layout: inline # dropdown | inline
         show_name: true
 
-  pages:
-    default_image: false
-    index:
-      layout: list # grid | list
-      options:
-        categories: false
-        image: true
-        main_summary: false
-        subtitle: true
-        summary: true
-      truncate_description: 200 # Set to 0 to disable truncate
-    single:
-      taxonomies:
-        position: hero # content | hero | none
-      
-
-  publications:
-    index:
-      group_by_year: true
-    filters:
-      anr: false
-
+ 
   categories:
     index:
       layout: grid # alternate | cards | grid | large | list
@@ -107,13 +80,10 @@ params:
         year: true
       share_links: false
       truncate_description: 200 # Set to 0 to disable truncate
-      navigation:
-        reversed: false
   
   # Actualités    
   posts:
     index:
-      archives: true
       layout: grid # grid | list
       options:
         author: true
