@@ -62,6 +62,27 @@ params:
         layout: inline # dropdown | inline
         show_name: true
 
+  pages:
+    default_image: false
+    index:
+      layout: list # grid | list
+      options:
+        categories: false
+        image: true
+        main_summary: false
+        subtitle: true
+        summary: true
+      truncate_description: 200 # Set to 0 to disable truncate
+    single:
+      taxonomies:
+        position: hero # content | hero | none
+
+  publications:
+    index:
+      group_by_year: true
+    filters:
+      anr: false
+
   categories:
     index:
       layout: grid # alternate | cards | grid | large | list
@@ -74,6 +95,7 @@ params:
 
   projects:
     date_format: "2006"
+    # default_image: false
     index:
       layout: grid # alternate | grid | large | list
       options:
@@ -84,30 +106,22 @@ params:
         year: true
       share_links: false
       truncate_description: 200 # Set to 0 to disable truncate
-    # single:
-    #   meta:
-    #     options:
-    #       year: false
-    #       share_links: false
-    #       toc: false
-    #   share_links:
-    #     disabled: true
-    #   toc:
-    #     disabled: true
+      navigation:
+        reversed: false
   
-
+  # Actualités    
   posts:
     index:
+      archives: true
       layout: grid # grid | list
       options:
-        author: false
+        author: true
         categories: true
-        date: true
+        date: false
         image: true
         reading_time: false
         summary: false
         subtitle: true
-        toc: true
       truncate_description: 200 # Set to 0 to disable truncate
     single:
       options:
