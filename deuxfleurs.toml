@@ -111,6 +111,10 @@ from = "/categories/diffuseur/index.html"
 to = "/organisations/categories/diffuseur/"
 
 [[redirects]]
+from = "/actualites/2026-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1-1/index.html"
+to = "/actualites/2023-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1-1/"
+
+[[redirects]]
 from = "/projets/en-diffusion/index.html"
 to = "/films/statut/en-diffusion/"
 
