@@ -5,7 +5,7 @@
 {{ if .project }}
 {{ $class := partial "projects/partials/project/helpers/GetClass" . }}
   
-  <li class="{{ range $cats }}cat-{{ replace . "/" "-" }} {{ end }}">
+<li class="{{ range $cats }}cat-{{ index (split . "/") 1 }} {{ end }}">
     <article class="{{ $class }}" itemscope itemtype="https://schema.org/CreativeWork">
       <div class="project-content">
         <div class="project-description">

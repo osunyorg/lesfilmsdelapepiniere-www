@@ -18,7 +18,7 @@ params:
   
   toc:                          # Table des matières (globale)
     force_offcanvas: false      # N'est pas forcée en panneau latéral hors-canvas
-    disabled: false             # Activée par défaut
+    disabled: true             # Activée par défaut
   
   search:
     active: true
@@ -29,7 +29,7 @@ params:
       - footer
 
   share_links:
-    enabled: true
+    enabled: false
     email: true
     facebook: true
     mastodon: true
@@ -78,8 +78,16 @@ params:
         subtitle: true
         summary: false
         year: true
-      share_links: false
       truncate_description: 200 # Set to 0 to disable truncate
+    single:
+      taxonomies:
+        position: hero # content | hero | none
+        display: true
+        # layout: dropdown # dropdown | inline
+        show_name: false
+      year: false
+      # summary:
+      #   position: hero # hero
   
   # Actualités    
   posts:

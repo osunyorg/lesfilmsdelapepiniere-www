@@ -3,43 +3,7 @@
         .cat-statut-en-developpement, .cat-statut-en-production
             .project-meta
                 display: none
-        .cat-statut-en-developpement, .cat-statut-en-production, .cat-statut-en-diffusion
-            .project-categories
-                font-size: $small-size-desktop
-                a::before
-                    content: ""
-                    display: inline-block
-                    width: .9em
-                    height: .9em
-                    background-size: contain
-                    background-repeat: no-repeat
-                    background-position: center
-                    margin-right: 0.4em
-                    background-color: var(--color-text-alt)
-                    mask-repeat: no-repeat
-                    mask-size: contain
-                    -webkit-mask-repeat: no-repeat
-                    -webkit-mask-size: contain
-                    
-        .cat-statut-en-developpement
-            .project-categories
-                a::before
-                    width: .6em;
-                    height: .7em;
-                    -webkit-mask-image: url('/assets/images/en-developpement.svg')
-                    mask-image: url('/assets/images/en-developpement.svg')
-
-
-        .cat-statut-en-production
-            .project-categories
-                a::before
-                    -webkit-mask-image: url('/assets/images/en-production.svg')
-                    mask-image: url('/assets/images/en-production.svg')
-        .cat-statut-en-diffusion
-            .project-categories
-                a::before
-                    -webkit-mask-image: url('/assets/images/en-diffusion.svg')
-                    mask-image: url('/assets/images/en-diffusion.svg')
+        
         .project
             .media
                 aspect-ratio: $img-aspect-ratio !important

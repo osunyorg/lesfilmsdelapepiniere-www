@@ -1,6 +1,9 @@
 .block
     .page-subtitle, .page-description
         font-size: var(--h4-size)
+        line-height: 120%;
+    .page-subtitle
+        margin-top: var(--spacing-1)
 
     &.block-class-ressources
         .block-content
@@ -31,3 +34,29 @@
                 color: $color-ui-accent
                 font-size: 22px
                 transition: 0.55s cubic-bezier(0, 0.65, 0.4, 1.2);
+
+// Catégories avec icones
+@mixin category-icon($icon, $width: .9em, $height: .9em)
+    &::before
+        content: ""
+        display: inline-block
+        width: $width
+        height: $height
+        margin-right: .4em
+        background-color: var(--color-text-alt)
+        mask-image: url($icon)
+        -webkit-mask-image: url($icon)
+        mask-repeat: no-repeat
+        mask-size: contain
+        -webkit-mask-repeat: no-repeat
+        -webkit-mask-size: contain
+
+.projects-taxonomies
+    .cat-en-developpement
+        @include category-icon('/assets/images/en-developpement.svg', .6em, .7em)
+
+    .cat-en-production
+        @include category-icon('/assets/images/en-production.svg')
+
+    .cat-en-diffusion
+        @include category-icon('/assets/images/en-diffusion.svg')

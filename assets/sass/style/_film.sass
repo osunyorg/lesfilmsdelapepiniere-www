@@ -1,4 +1,11 @@
 .projects__page
+    .hero
+        .project-infos
+            display: none
+        .projects-taxonomies
+            order: -1
+            margin: 0
+
     .hero--with-image
         .container
             .content
@@ -16,7 +23,15 @@
                 .hero-text
                     width: 100%
 
+
                     .has-lead
                         display: grid
                         grid-template-columns: 1fr 1fr
                         gap: var(--spacing-4)
+
+                        p
+                            margin-top: 0
+                        h1
+                            font-style: italic
+                            span
+                                font-style: initial !important
