@@ -122,3 +122,38 @@ params:
     index:
       taxonomies:
         display: false
+
+  blocks:
+    image_sizes:
+      _default:
+        hero:
+          mobile:   400
+          tablet:   800
+          desktop:  750
+        layouts:
+          alternate:
+            mobile:   360
+            tablet:   555
+            desktop:  520
+          cards:
+            mobile:   360
+            tablet:   555
+            desktop:  575
+          carousel:
+            mobile:   360
+            tablet:   555
+            desktop:  575
+          grid:
+            mobile:   360
+            tablet:   555
+            desktop:  575
+        sections:
+          projects:
+            hero:
+              mobile:   400
+              tablet:   800
+              desktop:  750
+            hero_single:
+              mobile:   400
+              tablet:   800
+              desktop:  750

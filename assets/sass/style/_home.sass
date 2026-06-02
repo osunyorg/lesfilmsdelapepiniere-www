@@ -16,14 +16,14 @@
                   opacity: .75
     .blocks
         .block
-            margin-top: var(--spacing-6)
+            @include media-breakpoint-up(desktop)
+                margin-top: var(--spacing-5)
 
-            &:first-child
-                margin-top: var(--spacing-6)
-
+                &:first-child
+                    margin-top: var(--spacing-5)
 
         .pages--grid
-            grid-gap: var(--spacing-5)
+            grid-gap: var(--spacing-3)
 
         .block-class-films
             .block-content
@@ -44,8 +44,9 @@
 
         .block-class-ressources
             .page-content
+                text-align: center
                 background-color : var(--color-background-alt)
-                padding: 2rem
+                padding: 4rem 2rem
                 min-width: 100%
 
             .media
