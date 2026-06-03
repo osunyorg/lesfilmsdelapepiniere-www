@@ -40,12 +40,12 @@ params:
       title: site
 
   # SECTIONS
-  default:
+  default: # (???) possibilité d'ajouter un auteur? cf Ressources
     sitemap:
       ignore_children: false
     index:
-      layout: list # ne fonctionne pas
-      subtitle: false # ne fonctionne pas 
+      layout: list #ne fonctionne pas cf Ressources
+      subtitle: false #ne fonctionne pas sur Accompagnements mais sur Ressources oui
       taxonomies:
         display: true
         layout: dropdown
@@ -79,16 +79,17 @@ params:
       options:
         summary: false
         year: true
+        #(???) ordre des projets par ordre chrono ? (ancien au + récent)
     single:
       taxonomies:
         display: true
         position: hero
         show_name: false
       toc:                          
-        disabled: true # ne fonctionne pas
-      year: false # ne fonctionne pas
+        disabled: true # nefonctionne pas
+      year: false #ne fonctionne pas
   # section Actualités    
-  posts:
+  posts: #(???) Possibilité d'archive/tri par année ?
     default_image: false #concerne quelle image ?
     index:
       layout: grid
@@ -113,9 +114,9 @@ params:
       toc:
         enabled: true #ne fonctionne pas
 
-  # blocks:
-  #   image_sizes:
-  #     _default:
+  blocks:
+    image_sizes:
+      _default:
   #       hero:
   #         mobile:   400
   #         tablet:   800
@@ -137,13 +138,13 @@ params:
   #           mobile:   360
   #           tablet:   555
   #           desktop:  575
-  #       sections:
-  #         projects:
-  #           hero:
-  #             mobile:   400
-  #             tablet:   800
-  #             desktop:  750
-  #           hero_single:
-  #             mobile:   400
-  #             tablet:   800
-  #             desktop:  750
+        sections:
+          projects:
+            hero:
+              mobile:   400
+              tablet:   800
+              desktop:  1400
+            hero_single:
+              mobile:   400
+              tablet:   800
+              desktop:  3000 #ne fonctionne pas?
