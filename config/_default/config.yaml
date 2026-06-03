@@ -49,6 +49,10 @@ params:
         display: true
         layout: dropdown # dropdown | inline
         show_name: true
+      options:
+        author: true
+        categories: true
+        date: true
         
     single:
       taxonomies:
@@ -56,10 +60,16 @@ params:
         layout: inline # dropdown | inline
         show_name: true
 
- 
+  pages:
+    index:
+      options:
+        author: true
+        categories: true
+        date: true
+
   categories:
     index:
-      layout: grid # alternate | cards | grid | large | list
+      layout: grid
       options:
         image: true
         summary: true
@@ -69,9 +79,8 @@ params:
 
   projects:
     date_format: "2006"
-    # default_image: false
     index:
-      layout: grid # alternate | grid | large | list
+      layout: grid
       options:
         categories: true
         image: true
@@ -83,16 +92,14 @@ params:
       taxonomies:
         position: hero # content | hero | none
         display: true
-        # layout: dropdown # dropdown | inline
         show_name: false
       year: false
-      # summary:
-      #   position: hero # hero
+
   
   # Actualités    
   posts:
     index:
-      layout: grid # grid | list
+      layout: grid
       options:
         author: true
         categories: true
@@ -101,7 +108,6 @@ params:
         reading_time: false
         summary: false
         subtitle: false
-      truncate_description: 200 # Set to 0 to disable truncate
     single:
       options:
         authors: true
@@ -110,43 +116,46 @@ params:
         signature: false
         updated_at: true
         image: true
+      share_links:
+        enabled: true #ne fonctionne pas
 
   persons:
     index:
       taxonomies:
         display: false
+      toc: true #ne fonctionne pas
 
-  blocks:
-    image_sizes:
-      _default:
-        hero:
-          mobile:   400
-          tablet:   800
-          desktop:  750
-        layouts:
-          alternate:
-            mobile:   360
-            tablet:   555
-            desktop:  520
-          cards:
-            mobile:   360
-            tablet:   555
-            desktop:  575
-          carousel:
-            mobile:   360
-            tablet:   555
-            desktop:  575
-          grid:
-            mobile:   360
-            tablet:   555
-            desktop:  575
-        sections:
-          projects:
-            hero:
-              mobile:   400
-              tablet:   800
-              desktop:  750
-            hero_single:
-              mobile:   400
-              tablet:   800
-              desktop:  750
+  # blocks:
+  #   image_sizes:
+  #     _default:
+  #       hero:
+  #         mobile:   400
+  #         tablet:   800
+  #         desktop:  750
+  #       layouts:
+  #         alternate:
+  #           mobile:   360
+  #           tablet:   555
+  #           desktop:  520
+  #         cards:
+  #           mobile:   360
+  #           tablet:   555
+  #           desktop:  575
+  #         carousel:
+  #           mobile:   360
+  #           tablet:   555
+  #           desktop:  575
+  #         grid:
+  #           mobile:   360
+  #           tablet:   555
+  #           desktop:  575
+  #       sections:
+  #         projects:
+  #           hero:
+  #             mobile:   400
+  #             tablet:   800
+  #             desktop:  750
+  #           hero_single:
+  #             mobile:   400
+  #             tablet:   800
+  #             desktop:  750
