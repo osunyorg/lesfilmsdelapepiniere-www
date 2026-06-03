@@ -104,37 +104,27 @@ params:
       toc:
         enabled: true #ne fonctionne pas
 
-  blocks:
-    image_sizes:
-      _default:
-  #       hero:
-  #         mobile:   400
-  #         tablet:   800
-  #         desktop:  750
-  #       layouts:
-  #         alternate:
-  #           mobile:   360
-  #           tablet:   555
-  #           desktop:  520
-  #         cards:
-  #           mobile:   360
-  #           tablet:   555
-  #           desktop:  575
-  #         carousel:
-  #           mobile:   360
-  #           tablet:   555
-  #           desktop:  575
-  #         grid:
-  #           mobile:   360
-  #           tablet:   555
-  #           desktop:  575
-        sections:
-          projects:
-            hero:
-              mobile:   400
-              tablet:   800
-              desktop:  1400
-            hero_single:
-              mobile:   400
-              tablet:   800
-              desktop:  3000 #ne fonctionne pas?
+  image_sizes:
+      sections:
+        projects:
+          hero_single:
+            mobile:   400
+            tablet:   800
+            desktop:  1600
+
+          alternate: 
+            mobile:   350
+            tablet:   555
+            desktop:  1019
+          grid:
+            mobile:   350
+            tablet:   555
+            desktop:  864
+          large:
+            mobile:   350
+            tablet:   555
+            desktop:  1019
+          list:
+            mobile:   90
+            tablet:   350
+            desktop:  415
