@@ -1,3 +1,26 @@
+// MIXINS
+=category-icon($icon, $width: .9em, $height: .9em)
+    &::before
+        content: ""
+        display: inline-block
+        width: $width
+        height: $height
+        margin-right: .4em
+        background-color: var(--color-text-alt)
+        mask-image: url($icon)
+        -webkit-mask-image: url($icon)
+        mask-repeat: no-repeat
+        mask-size: contain
+        -webkit-mask-repeat: no-repeat
+        -webkit-mask-size: contain
+=dropdown-btn
+  padding: 4px
+  background: $color-background-alt
+  border-radius: 50px
+  color: $color-ui-accent
+  font-size: 1.85em
+
+// LAYOUTS
 body:where(:not(.full-width))
   #main
     @include media-breakpoint-up(desktop)
@@ -10,38 +33,48 @@ body:where(:not(.full-width))
 #main
   margin-bottom: var(--spacing-6)
 
+.page-no-img
+  .hero-image
+    display: none
+
+// COMPONENTS
 .alerts
   .alert
     padding: 1rem
     .alert__title
       font-size: $body-size
 
+// Nav
 .primary-menu
   #navigation
     .nav-level-1 
       li
         a
           font-size: 1rem
-
 .meta
   text-transform: uppercase;
 
+// Images
+.avatar
+  background-color: var(--color-text)
 .media
   img
     border-radius: $border-radius
+.pages--grid article .media img
+  aspect-ratio: 1.2;
 
-// DESACTIVE HERO IMAGE
-.page-no-img
-  .hero-image
-    display: none
-    
+// Ariane
 .breadcrumb li
   &:not(:first-child)::before
     content: "—" /""
   &:last-child::before
     content: "•" /""
 
+// Bouton dropdown
+.block.block-title--collapsed::before
+  +dropdown-btn
 
+// Boutons cat
 .taxonomies-list, .agenda-filters
   .dropdown
     button
@@ -50,19 +83,5 @@ body:where(:not(.full-width))
       gap: 12px;
       font-size: $body-size
       font-family: $body-font-family
-
       &::after
-        padding: 4px
-        background: $color-background-alt
-        border-radius: 50px
-        color: $color-ui-accent
-        font-size: 32px
-
-.block-gallery--carousel
-  background-color: inherit !important
-
-.pages--grid article .media img
-  aspect-ratio: 1.2;
-
-.block-chapter--alt_background
-  background: $color-background-alt-light
+        +dropdown-btn

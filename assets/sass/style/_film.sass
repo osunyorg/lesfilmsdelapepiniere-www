@@ -63,8 +63,24 @@
                         i
                             font-style: normal !important
     .blocks
+        @include media-breakpoint-up(desktop)
+            .block-gallery--carousel .slider figure picture img
+                height: calc(50 * var(--rvh));
+
+        .block-title:not(.block-title--collapsed):not(.block-title--classic)
+            border-bottom: var(--border-width) solid var(--color-border) !important
+            padding-bottom: 1.5rem
+        
+        #galerie
+            display: none
+        
+
+        .block-gallery
+            // margin: calc(var(--grid-gutter) * 2) 0
+            margin: var(--grid-gutter) 0
+            padding-bottom: 0
+
         .block-class-festivals
-            // background: $color-background-alt-light
             padding: var(--spacing-5) var(--spacing-2)
 
             .top
@@ -80,11 +96,21 @@
                 white-space: nowrap
                 border: 0
             .text
-                font-size: var(--small-size)
+                font-size: var(--body-size)
                 width: 100% !important
                 color: var(--color-text-alt)
                 
                 .rich-text p
                     margin-top: 0
-
+        .block-datatable
+            thead
+                display: none
+            tbody
+                td
+                    border-top: var(--border-width) solid rgba($color-text-alt, 0.4)
+                tr:first-child
+                    td
+                        border-top: 0
+                td:first-child
+                    color: var(--color-text-alt)
                 
