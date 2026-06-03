@@ -16,7 +16,7 @@ meta:
     slug: "nei"
   dates:
     created_at: 2026-03-31T17:42:34+02:00
-    updated_at: 2026-06-03T19:54:45+02:00
+    updated_at: 2026-06-03T20:10:37+02:00
     published_at: 2026-03-31T17:50:16+02:00
 search:
   id: "6c59c817-8f3d-468e-b2c0-3438f12d09d8"
@@ -29,7 +29,7 @@ search:
   summary: >-
     <p> Dans l'arrière-pays niçois, je travaille dur pour ressusciter l'oliveraie de mes ancêtres maternels. J'y cultive l'état d'esprit hérité de mon autre famille, kanak : des rivages de Hienghène en Nouvelle-Calédonie aux flancs des montagnes de Vésubie, l'esprit des Vieux, ceux qui étaient là avant nous, guide mes pas. Je filme mon travail de la terre au fil des saisons. Épaulée par le clan de la montagne et inspirée par le clan de l'océan, je dialogue avec mon fils, ses papas, ses grands-mères d'ici et de là-bas. J'interroge nos rapports à la terre, à nos terres. Nos façons de nous en emparer et d'envisager leur transmission. Alors que nous échangeons à propos d'héritage et d'indépendance, de lien et d'affirmation de soi, j'explore les mille facettes du nei, ce « nous avec toi » que nous constituons.   </p><p><i> En coproduction avec <a href="https://vimeo.com/foulalaproductions" target="_blank" rel="noreferrer">Foulala Productions <span class="sr-only">(lien externe)</span></a></i>  </p>
   body: >-
-    <p>Cinéaste(s)  <br> Clémence Losserand </p>  <p> Produit par  <br>  </p>  <p>Productrice</p>  <p> Diffusion  <br>  </p>  <p>Aide à la préparation du Fonds Audiovisuel et Cinématographique</p>  <p>Aide à l’écriture du Fonds Images de la Diversité</p>  <p>Aide au développement</p>  <p>Aide au développement</p>
+    <p>Réalisation </p>  <p> Production </p>  <p>Productrice</p>  <p> Soutiens </p>  <p>Aide à la préparation du Fonds Audiovisuel et Cinématographique</p>  <p>Aide à l’écriture du Fonds Images de la Diversité</p>  <p>Aide au développement</p>  <p>Aide au développement</p>
 
 breadcrumbs:
   - title: >-
@@ -44,7 +44,7 @@ breadcrumbs:
 design:
   full_width: true
   toc:
-    present: true
+    present: false
     offcanvas: true
 
 translationKey: communication-website-portfolio-project-e045101a-0401-4137-a605-75bd4ee616bc
@@ -84,84 +84,61 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 9
+  seconds: 8
   text: >-
     moins d'une minute
 contents:
   - kind: block
-    template: title
+    template: persons
     title: >-
-      Cinéaste(s)
+      Réalisation
     slug: >-
-      cineaste-s
+      realisation
     ranks:
       base: 2
       self: 2
+      children: 3
     top:
       active: true
       title: 
         value: >-
-          Cinéaste(s)
+          Réalisation
         heading: 2
 
     data:
-      layout: collapsed
 
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: false
+        contact: false
 
-  - kind: block
-    template: chapter
-    title: >-
-      Clémence Losserand
-    slug: >-
-      clemence-losserand
-    ranks:
-      base: 3
-      self: 3
-    top:
-      active: true
-      title: 
-        value: >-
-          Clémence Losserand
-        heading: 3
+      persons:
+        - permalink: "/coop/clemence-losserand/"
+          path: "/persons/clemence-losserand"
+          slug: "clemence-losserand"
+          file: "content/fr/persons/clemence-losserand.html"
 
-    data:
-      layout: no_background
-
-
-
-
-
-
-
-  - kind: block
-    template: title
-    title: >-
-      Produit par
-    slug: >-
-      produit-par
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Produit par
-        heading: 2
-
-    data:
-      layout: collapsed
+      quantity: 1
 
 
   - kind: block
     template: persons
-
-
+    title: >-
+      Production
+    slug: >-
+      production
     ranks:
-      base: 3
+      base: 2
+      self: 2
       children: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Production
+        heading: 2
 
     data:
 
@@ -183,34 +160,21 @@ contents:
 
 
   - kind: block
-    template: title
+    template: organizations
     title: >-
-      Diffusion
+      Soutiens
     slug: >-
-      diffusion
+      soutiens
     ranks:
       base: 2
       self: 2
+      children: 3
     top:
       active: true
       title: 
         value: >-
-          Diffusion
+          Soutiens
         heading: 2
-
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: organizations
-
-
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
 
     data:
       layout: carousel
@@ -248,6 +212,74 @@ contents:
           role: >-
             Aide au développement
       quantity: 4
+
+
+  - kind: block
+    template: pages
+
+
+    ranks:
+      base: 2
+    top:
+      active: false
+
+    data:
+      options:
+        image: true
+        subtitle: true
+        categories: false
+        main_summary: true
+        summary: true
+
+      layout: grid
+      pages:
+
+      quantity: 0
+
+
+  - kind: block
+    template: posts
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+      mode: all
+      layout: grid
+      options:
+        author: false
+        categories: false
+        date: false
+        image: true
+        reading_time: false
+        subtitle: true
+        summary: true
+
+      posts:
+        - permalink: "/actualites/2026-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1/"
+          path: "/posts/2026/2026-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1"
+          slug: "prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1"
+          file: "content/fr/posts/2026/2026-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1.html"
+          name: >-
+            Copie de  Prix du jury à Visions du Réel pour Nicole Nicole
+        - permalink: "/actualites/2026-05-19-lauren-dallenbach-dans-doc-session/"
+          path: "/posts/2026/2026-05-19-lauren-dallenbach-dans-doc-session"
+          slug: "lauren-dallenbach-dans-doc-session"
+          file: "content/fr/posts/2026/2026-05-19-lauren-dallenbach-dans-doc-session.html"
+          name: >-
+            Lauren Dallenbach dans DOC SESSION
+        - permalink: "/actualites/2026-05-19-prix-du-jury-a-visions-du-reel-pour-nicole-nicole/"
+          path: "/posts/2026/2026-05-19-prix-du-jury-a-visions-du-reel-pour-nicole-nicole"
+          slug: "prix-du-jury-a-visions-du-reel-pour-nicole-nicole"
+          file: "content/fr/posts/2026/2026-05-19-prix-du-jury-a-visions-du-reel-pour-nicole-nicole.html"
+          name: >-
+            Prix du jury à Visions du Réel pour Nicole Nicole
+
+      quantity: 3
 
 
 
