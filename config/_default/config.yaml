@@ -5,7 +5,7 @@ services:
     limit: 100
 
 pagination:
-  pagerSize: 36
+  pagerSize: 12
 
 params:
   summary:
@@ -18,7 +18,7 @@ params:
   # Table des matières
   toc:                          
     force_offcanvas: false
-    disabled: true
+    disabled: false
   # Fonction recherche
   search:
     active: true
@@ -84,6 +84,8 @@ params:
         display: true
         position: hero
         show_name: false
+      toc:                          
+        disabled: true # ne fonctionne pas
       year: false # ne fonctionne pas
   # section Actualités    
   posts:
