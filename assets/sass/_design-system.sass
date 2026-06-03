@@ -30,8 +30,9 @@ body:where(:not(.full-width))
         max-width: 68ch
         // padding-right: calc( calc( (var(--column-width) * 4) + var(--grid-gutter) * ( 4 - 1 )) + var(--grid-gutter))
 
-#main
-  margin-bottom: var(--spacing-6)
+body:not(.page__home)
+  #main
+    margin-bottom: var(--spacing-6)
 
 .page-no-img
   .hero-image

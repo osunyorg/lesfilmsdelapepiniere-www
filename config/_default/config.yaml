@@ -101,8 +101,10 @@ params:
     index:
       taxonomies:
         display: false
-      toc:
-        enabled: true #ne fonctionne pas
+  # organizations:
+  #   index:
+  #     options:
+  #       link: true
 
   image_sizes:
       sections:
