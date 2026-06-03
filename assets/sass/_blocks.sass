@@ -10,6 +10,12 @@
             .page-content
                 background-color: $color-background-accent !important
 
+.taxonomies-single, .project-categories
+    a
+        color: var(--color-text-alt)
+        font-family: "Barlow Cond"
+        font-size: var(--small-size)
+
 .categories--list
     .category-item
         .category-content
@@ -20,8 +26,6 @@
             a::after
                 transform: translateX(0.625rem);
         a
-            color: var(--color-text-alt)
-
             &::after
                 content: " ";
                 font-family: 'Icon';

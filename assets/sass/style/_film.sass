@@ -1,6 +1,5 @@
 .projects__page
     .hero
-        padding-bottom: 0
         .hero-text
             padding-bottom: 0
         .project-infos
@@ -27,18 +26,49 @@
                     width: 100%
 
                     .has-lead
-                        display: grid
-                        grid-template-columns: 1fr 1fr
-                        gap: var(--spacing-4)
+                        @include media-breakpoint-up(desktop)
+                            display: grid
+                            grid-template-columns: 1fr 1.4fr
+                            gap: var(--spacing-4)
+                            row-gap: var(--spacing-1)
+
+                        h1
+                            font-style: italic
+
+                            span
+                                font-style: initial !important
+
+                        > :first-child
+                            grid-column: 1
+                            grid-row: 1
+                            padding-bottom: var(--spacing-3)
+
+                        > :not(:first-child)
+                            grid-column: 2
+
+                            &:has(> i)
+                                font-size: $small-size-desktop
+                                line-height: var(--meta-line-height)
+                                color: var(--color-text-alt)
+
+                        > p:has(> i)
+                            padding-top: var(--spacing-3)
+
+                        > p:has(> i) ~ p:has(> i)
+                            padding-top: 0
 
                         p
                             margin-top: 0
-                        h1
-                            font-style: italic
-                            span
-                                font-style: initial !important
+                        
+                        i
+                            font-style: normal !important
     .blocks
-        .block-class-fiche-film, .block-class-festivals
+        .block-class-festivals
+            // background: $color-background-alt-light
+            padding: var(--spacing-5) var(--spacing-2)
+
+            .top
+                margin-bottom: 0
             h2
                 position: absolute
                 width: 1px
