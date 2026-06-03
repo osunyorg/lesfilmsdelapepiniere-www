@@ -39,27 +39,4 @@
                         content: "("
                     &::after
                         content: ")"
-    .blocks
-        .pages
-            display: flex
-            flex-direction: column
-            li
-                width: 100%
-                padding-bottom: 4rem;
-                border-bottom: 1px solid var(--color-border)
 
-                .page
-                    flex-direction: row
-                    gap: var(--grid-gutter)
-                    justify-content: space-between;
-                   
-                    .media
-                        width: calc(var(--column-width)*2 + var(--grid-gutter)*2)
-                    .page-title
-                        width: calc(var(--column-width)*7 + var(--grid-gutter)*6)
-                    .page-categories
-                        justify-self: end;
-                        margin: 0
-                        .ancestor-ressources
-                            border: none
-                            text-align: right

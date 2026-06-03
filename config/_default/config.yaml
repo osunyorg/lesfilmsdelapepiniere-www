@@ -15,11 +15,11 @@ params:
   logo:
     header: '/assets/images/logo.png'
     footer: '/assets/images/logo.png'
-  
-  toc:                          # Table des matières (globale)
-    force_offcanvas: false      # N'est pas forcée en panneau latéral hors-canvas
-    disabled: true             # Activée par défaut
-  
+  # Table des matières
+  toc:                          
+    force_offcanvas: false
+    disabled: true
+  # Fonction recherche
   search:
     active: true
     positions:
@@ -44,29 +44,24 @@ params:
     sitemap:
       ignore_children: false
     index:
-      subtitle: false
+      layout: list # ne fonctionne pas
+      subtitle: false # ne fonctionne pas 
       taxonomies:
         display: true
-        layout: dropdown # dropdown | inline
+        layout: dropdown
         show_name: true
-      options:
-        author: true
-        categories: true
-        date: true
-        
     single:
       taxonomies:
-        position: content # content | hero | none
-        layout: inline # dropdown | inline
+        position: content
         show_name: true
-
+  # section PAGES
   pages:
     index:
       options:
         author: true
         categories: true
         date: true
-
+  # section CATEGORIES
   categories:
     index:
       layout: grid
@@ -76,36 +71,27 @@ params:
     single:
       taxonomies:
         display: false
-
+  # section PROJETS
   projects:
     date_format: "2006"
     index:
       layout: grid
       options:
-        categories: true
-        image: true
-        subtitle: true
         summary: false
         year: true
-      truncate_description: 200 # Set to 0 to disable truncate
     single:
       taxonomies:
-        position: hero # content | hero | none
         display: true
+        position: hero
         show_name: false
-      year: false
-
-  
-  # Actualités    
+      year: false # ne fonctionne pas
+  # section Actualités    
   posts:
+    default_image: false #concerne quelle image ?
     index:
       layout: grid
       options:
         author: true
-        categories: true
-        date: true
-        image: true
-        reading_time: false
         summary: false
         subtitle: false
     single:
@@ -113,17 +99,17 @@ params:
         authors: true
         published_at: false
         reading_time: true
-        signature: false
+        signature: false #qu'est-ce que c'est ?
         updated_at: true
-        image: true
       share_links:
         enabled: true #ne fonctionne pas
-
+  # section PERSONNES
   persons:
     index:
       taxonomies:
         display: false
-      toc: true #ne fonctionne pas
+      toc:
+        enabled: true #ne fonctionne pas
 
   # blocks:
   #   image_sizes:
