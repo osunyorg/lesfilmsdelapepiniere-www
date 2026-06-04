@@ -113,20 +113,9 @@ params:
             mobile:   400
             tablet:   800
             desktop:  1600
-
-          alternate: 
-            mobile:   350
-            tablet:   555
-            desktop:  1019
-          grid:
-            mobile:   350
-            tablet:   555
-            desktop:  864
-          large:
-            mobile:   350
-            tablet:   555
-            desktop:  1019
-          list:
-            mobile:   90
-            tablet:   350
-            desktop:  415
+        pages:
+          layouts:
+            grid:
+              mobile:   700
+              tablet:   1000
+              desktop:  1500
