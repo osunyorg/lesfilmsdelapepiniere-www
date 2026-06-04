@@ -103,6 +103,10 @@ from = "/actualites/2023-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole
 to = "/actualites/2020-06-02-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1-1/"
 
 [[redirects]]
+from = "/actualites/2026-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1/index.html"
+to = "/actualites/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
+
+[[redirects]]
 from = "/personnes/aurelia-pfend/index.html"
 to = "/coop/aurelia-pfend/"
 
@@ -121,6 +125,10 @@ to = "/actualites/2020-06-02-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1
 [[redirects]]
 from = "/projets/en-diffusion/index.html"
 to = "/films/statut/en-diffusion/"
+
+[[redirects]]
+from = "/actualites/2026-05-19-prix-du-jury-a-visions-du-reel-pour-nicole-nicole/index.html"
+to = "/actualites/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
 from = "/personnes/index.html"
