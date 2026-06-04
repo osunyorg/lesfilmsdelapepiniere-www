@@ -64,20 +64,48 @@
                             font-style: normal !important
     .blocks
         @include media-breakpoint-up(desktop)
+            display: grid
+            grid-template-columns: repeat(2, minmax(0, 1fr))
+            column-gap: var(--spacing-2)
+
+            > *
+                grid-column: 1 / -1
+
+            > .block-persons
+                grid-column: span 1
+                min-width: 0
+                margin-bottom: 0
+                margin-top: var(--grid-gutter)
+
+                &:first-of-type
+                    .container
+                        padding-right: 0
+
+                & + .block-persons
+                    .container
+                        padding-left: 0
+
+                .persons--large > li .person
+                    .avatar
+                        width: calc( (var(--column-width) * 2) + var(--grid-gutter) * ( 2 - 1 ))
+            
             .block-gallery--carousel .slider figure picture img
                 height: calc(50 * var(--rvh));
 
         .block-title:not(.block-title--collapsed):not(.block-title--classic)
             border-bottom: var(--border-width) solid var(--color-border) !important
             padding-bottom: 1.5rem
+            width: 100%
         
         #galerie
             display: none
 
         .block-gallery
-            // margin: calc(var(--grid-gutter) * 2) 0
-            margin: var(--grid-gutter) 0
+            margin-top: calc(var(--grid-gutter) * 2)
+            margin-bottom: var(--grid-gutter)
             padding-bottom: 0
+            background-color: inherit !important
+
 
         .block-class-festivals
             padding: var(--spacing-5) var(--spacing-2)
@@ -112,4 +140,6 @@
                         border-top: 0
                 td:first-child
                     color: var(--color-text-alt)
+
+           
                 
