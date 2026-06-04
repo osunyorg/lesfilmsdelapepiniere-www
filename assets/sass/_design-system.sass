@@ -21,7 +21,25 @@
   font-size: 1.85em
 
 // LAYOUTS
+@include media-breakpoint-up(desktop)
+    body:not(.full-width):not(.offcanvas-toc)
 
+        // reset layout gauche
+        main .document-content
+            .heading h2,
+            .block .block-content
+                padding-left: 0
+
+            padding-right: columns(4)
+
+        // move TOC
+        .toc-container
+            left: auto
+            right: 0
+        
+        main .block.block-title::after
+            width: 100%
+            margin-left: 0
 
 .page-no-img
   .hero-image
@@ -41,8 +59,8 @@
       li
         a
           font-size: 1rem
-.meta
-  text-transform: uppercase;
+// .meta
+//  text-transform: uppercase
 
 // Images
 .avatar
@@ -75,3 +93,5 @@
       font-family: $body-font-family
       &::after
         +dropdown-btn
+
+
