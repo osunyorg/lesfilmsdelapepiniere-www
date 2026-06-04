@@ -1,13 +1,12 @@
-.posts__section
-    &.full-width
-        .document-content
-            .posts--grid
-                grid-template-columns: repeat(4, 1fr) !important
-                .post
-                    img
-                        aspect-ratio: .7
-                    .post-content
-                        .post-categories
-                            margin-bottom: var(-spacing-1)
-                        .post-meta
-                            margin-top: 0
+.posts__section.full-width
+    .posts--grid
+        grid-template-columns: repeat(4, 1fr) !important
+
+    .post img
+        aspect-ratio: .7
+
+    .post-content .post-categories
+        margin-bottom: 0
+
+    .post-content .post-meta
+        margin-top: var(--spacing-1)

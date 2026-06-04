@@ -1,7 +1,9 @@
 .block
-    .page-subtitle, .page-description
+    // TYPO
+    .page-subtitle,
+    .page-description
         font-size: var(--h4-size)
-        line-height: 120%;
+        line-height: 120%
 
     .page-subtitle
         margin-top: var(--spacing-1)
@@ -11,13 +13,20 @@
         text-transform: inherit
         font-family: "Barlow Cond", "Helvetica Neue", "Helvetica", sans-serif !important
 
+    // BLOCS
     &.block-class-ressources
-        .block-content
-            .page-content
-                background-color: $color-background-accent !important
+        .block-content .page-content
+            background-color: $color-background-accent !important
 
-// Cat
-.taxonomies-single, .project-categories
+    &.block-persons
+        .description p:not([class])
+            font-size: var(--h4-size)
+            line-height: var(--h4-line-height)
+
+
+// CATEGORIES
+.taxonomies-single,
+.project-categories
     a
         color: var(--color-text-alt)
         font-family: "Barlow Cond"
@@ -27,26 +36,29 @@
     .category-item
         .category-content
             align-items: center !important
-            // gap: 8px !important
+
+        a
+            &::after
+                content: " "
+                font-family: 'Icon'
+                font-style: normal
+                font-variant: normal
+                font-weight: normal
+                speak: never
+                text-transform: none
+                display: inline
+                color: $color-ui-accent
+                font-size: 22px
+                transition: 0.55s cubic-bezier(0, 0.65, 0.4, 1.2)
 
         &:hover
             a::after
-                transform: translateX(0.625rem);
-        a
-            &::after
-                content: " ";
-                font-family: 'Icon';
-                font-style: normal;
-                font-variant: normal;
-                font-weight: normal;
-                speak: never;
-                text-transform: none;
-                display: inline;
-                color: $color-ui-accent
-                font-size: 22px
-                transition: 0.55s cubic-bezier(0, 0.65, 0.4, 1.2);
+                transform: translateX(0.625rem)
 
-.projects-taxonomies, .project-categories
+
+// ICONES STADE DEV
+.projects-taxonomies,
+.project-categories
     .cat-en-developpement
         @include category-icon('/assets/images/en-developpement.svg', .6em, .7em)
 
@@ -56,15 +68,22 @@
     .cat-en-diffusion
         @include category-icon('/assets/images/en-diffusion.svg')
 
-// Carousel
+
+// CAROUSEL
 .block-gallery--carousel
-  background-color: $color-background-alt-light !important
-  @include media-breakpoint-up(desktop)
-    .slider figure picture img
-        height: calc(38 * var(--rvh)) !important
+    background-color: $color-background-alt-light !important
 
-// Chapitre
+    @include media-breakpoint-up(desktop)
+        .slider figure picture img
+            height: calc(38 * var(--rvh)) !important
+
+
+// CHAPITRE
 .block-chapter--alt_background
-  background: $color-background-alt-light
+    background: $color-background-alt-light
 
-
+// AGENDA
+.pages__section
+    .block-agenda--list
+        background-color: $color-background-alt-light
+        padding: var(--spacing-5) var(--spacing-2)
