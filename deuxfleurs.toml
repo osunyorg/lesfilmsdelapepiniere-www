@@ -99,6 +99,10 @@ from = "/personnes/claire-marty/index.html"
 to = "/coop/claire-marty/"
 
 [[redirects]]
+from = "/films/2026-nicole-nicole-1/index.html"
+to = "/films/2026-nicolenicole/"
+
+[[redirects]]
 from = "/actualites/2023-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1-1/index.html"
 to = "/actualites/2020-06-02-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1-1/"
 
