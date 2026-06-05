@@ -39,8 +39,10 @@
                         .media
                             width: 100% !important
                             
-                            img
-                                aspect-ratio: 2.35 !important
+                            // temporaire
+                            @include media-breakpoint-up(desktop)
+                                img
+                                    aspect-ratio: 2.35 !important
         // a supprimer si cta
         .block-class-ressources
             .page-content
