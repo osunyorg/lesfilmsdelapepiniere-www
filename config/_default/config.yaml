@@ -92,10 +92,8 @@ params:
       meta:
         position: hero
         options:
-          authors: true
-          published_at: false
-          reading_time: true
-          updated_at: true
+          reading_time: false
+          with_labels: false
       options:
         signature: false #qu'est-ce que c'est ?
       share_links:

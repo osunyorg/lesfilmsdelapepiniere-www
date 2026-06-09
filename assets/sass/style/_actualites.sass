@@ -1,54 +1,26 @@
 .posts__page
     header#document-header
-      background: 0 0
+        background: 0 0
     header#document-header.is-sticky
-      background: var(--color-background)
+        background: var(--color-background)
     .hero
-      // background-color: $color-background-accent
-      .meta
-        color: var(--color-text-alt)
-        margin-top: $spacing-3
-    
-        a
-            color: var(--color-text)
-            font-size: inherit
-            font-family: "Barlow"
-        
-        &__date
-            margin-bottom: $spacing-1
-            display: inline
-            > *:nth-child(2)::before
-                content: " • "
-        &__authors
-            padding-left: 0
-            list-style: none
+        // background-color: $color-background-accent
+        .hero-meta
+            color: var(--color-text-alt)
+            margin-top: $spacing-3
+
+            a
+                color: var(--color-text)
+
             @include media-breakpoint-up(desktop)
-                display: inline
-                &::before
-                    content: " • "
-            li
-                display: inline  
-        &__categories
-            display: block
-            list-style: none
-            padding-left: 0
-            margin: 0
-            .posts-taxonomies
-                margin: 0 !important
-            .taxonomies-single
-                &, ul
-                    @include list-reset
-            li
-                display: flex
-                justify-content: unset
-                gap: $spacing-2
-                align-items: baseline
-                margin-right: $spacing-2
-                list-style: none
-                &.taxonomy-type
-                    a
-                    .taxonomy-title
-                        display: none
+                column-gap: 0
+
+                .authors
+                    display: inline-flex
+                    &::before
+                        content: " • "
+                        margin-left: space()
+                        margin-right: space()
 
 
 .posts__section.full-width,
