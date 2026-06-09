@@ -71,13 +71,14 @@ params:
         year: true
         #(???) ordre des projets par ordre chrono ? (ancien au + récent)
     single:
-      taxonomies:
-        display: true
+      meta:
         position: hero
-        show_name: false
+        options:
+          reading_time: false
+          with_labels: false
+          year: false
       toc:                          
         disabled: true # nefonctionne pas
-      year: false #ne fonctionne pas
   # section Actualités    
   posts: #(???) Possibilité d'archive/tri par année ?
     default_image: false #concerne quelle image ?
@@ -88,12 +89,13 @@ params:
         summary: false
         subtitle: false
     single:
+      meta:
+        position: hero
+        options:
+          reading_time: false
+          with_labels: false
       options:
-        authors: true
-        published_at: false
-        reading_time: true
         signature: false #qu'est-ce que c'est ?
-        updated_at: true
       share_links:
         enabled: true #ne fonctionne pas
   # section PERSONNES
