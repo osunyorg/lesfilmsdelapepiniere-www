@@ -48,7 +48,7 @@ to = "/coop/equipe-editoriale/"
 
 [[redirects]]
 from = "/actualites/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
-to = "/actualites-v01/2026-05-19-lauren-dallenbach-dans-doc-session/"
+to = "/posts/2026-05-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/actualites/type/actualites-des-films/index.html"
@@ -81,6 +81,10 @@ to = "/coop/jean-charles-leyris/"
 [[redirects]]
 from = "/personnes/categories/ancien-membre/index.html"
 to = "/coop/categories/anciens-membres/"
+
+[[redirects]]
+from = "/actualites/ressources-1/paroles-de-cineastes/index.html"
+to = "/posts/ressources/paroles-de-cineastes/"
 
 [[redirects]]
 from = "/personnes/categories/membre/index.html"
@@ -128,7 +132,7 @@ to = "/coop/raphaele-dumas/"
 
 [[redirects]]
 from = "/actualites-v01/actus/index.html"
-to = "/actualites/actus/"
+to = "/posts/actus/"
 
 [[redirects]]
 from = "/personnes/claire-marty/index.html"
@@ -164,7 +168,7 @@ to = "/coop/aurelia-pfend/"
 
 [[redirects]]
 from = "/actualites/type/index.html"
-to = "/actualites/actus/"
+to = "/posts/actus/"
 
 [[redirects]]
 from = "/projets/en-developpement/index.html"
@@ -173,6 +177,10 @@ to = "/films/statut/en-developpement/"
 [[redirects]]
 from = "/actualites/film/nicole-nicole/index.html"
 to = "/actualites-v01/film/nicole-nicole/"
+
+[[redirects]]
+from = "/actualites/actus/index.html"
+to = "/posts/actus/"
 
 [[redirects]]
 from = "/categories/diffuseur/index.html"
@@ -197,6 +205,10 @@ to = "/actualites-v01/film/4801-nuits/"
 [[redirects]]
 from = "/personnes/index.html"
 to = "/coop/"
+
+[[redirects]]
+from = "/actualites-v01/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
+to = "/posts/2026-05-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/actualites/type/actualites-du-site/index.html"
