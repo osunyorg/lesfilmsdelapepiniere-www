@@ -60,7 +60,7 @@ to = "/coop/anne-cardi-avrin/"
 
 [[redirects]]
 from = "/actualites/2026-06-10-journal-de-cuisine/index.html"
-to = "/actualites-v01/2026-06-10-journal-de-cuisine/"
+to = "/posts/2026-06-10-journal-de-cuisine/"
 
 [[redirects]]
 from = "/personnes/categories/membres/index.html"
@@ -79,6 +79,10 @@ from = "/personnes/jean-charles-leyris/index.html"
 to = "/coop/jean-charles-leyris/"
 
 [[redirects]]
+from = "/actualites-v01/2026-06-10-journal-de-cuisine/index.html"
+to = "/posts/2026-06-10-journal-de-cuisine/"
+
+[[redirects]]
 from = "/personnes/categories/ancien-membre/index.html"
 to = "/coop/categories/anciens-membres/"
 
@@ -87,12 +91,16 @@ from = "/actualites/ressources-1/paroles-de-cineastes/index.html"
 to = "/posts/ressources/paroles-de-cineastes/"
 
 [[redirects]]
+from = "/coop/alice-marsal/actualites-v01/index.html"
+to = "/coop/alice-marsal/posts/"
+
+[[redirects]]
 from = "/personnes/categories/membre/index.html"
 to = "/coop/categories/membres/"
 
 [[redirects]]
 from = "/actualites/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/index.html"
-to = "/actualites-v01/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
+to = "/posts/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
 from = "/tenk/index.html"
@@ -116,11 +124,15 @@ to = "/expositions/archives-expositions/"
 
 [[redirects]]
 from = "/actualites/ressources-1/index.html"
-to = "/actualites-v01/ressources/"
+to = "/posts/ressources/"
 
 [[redirects]]
 from = "/actualites/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
-to = "/actualites-v01/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
+to = "/posts/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
+
+[[redirects]]
+from = "/actualites-v01/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
+to = "/posts/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
 [[redirects]]
 from = "/actualites/ressources-1/la-vie-des-producteurs/index.html"
@@ -151,8 +163,8 @@ from = "/actualites/index.html"
 to = "/posts/"
 
 [[redirects]]
-from = "/actualites/2023-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1-1/index.html"
-to = "/actualites/2020-06-02-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1-1/"
+from = "/actualites/2026-04-01-publication-du-site-web/index.html"
+to = "/posts/2026-04-01-publication-du-site-web/"
 
 [[redirects]]
 from = "/actualites-v01/index.html"
@@ -160,7 +172,7 @@ to = "/posts/"
 
 [[redirects]]
 from = "/actualites/2026-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1/index.html"
-to = "/actualites-v01/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
+to = "/posts/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
 [[redirects]]
 from = "/actualites/type/actualites-de-la-scic/index.html"
@@ -169,6 +181,10 @@ to = "/actualites/actus/actualites-de-la-scic/"
 [[redirects]]
 from = "/personnes/aurelia-pfend/index.html"
 to = "/coop/aurelia-pfend/"
+
+[[redirects]]
+from = "/actualites-v01/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/index.html"
+to = "/posts/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
 from = "/actualites/type/index.html"
@@ -191,8 +207,12 @@ from = "/categories/diffuseur/index.html"
 to = "/organisations/categories/diffuseur/"
 
 [[redirects]]
-from = "/actualites/2026-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1-1/index.html"
-to = "/actualites/2020-06-02-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1-1/"
+from = "/actualites-v01/film/index.html"
+to = "/posts/film/"
+
+[[redirects]]
+from = "/coop/elodie-boin-zanchi/actualites/index.html"
+to = "/coop/elodie-boin-zanchi/posts/"
 
 [[redirects]]
 from = "/projets/en-diffusion/index.html"
@@ -200,7 +220,11 @@ to = "/films/statut/en-diffusion/"
 
 [[redirects]]
 from = "/actualites/2026-05-19-prix-du-jury-a-visions-du-reel-pour-nicole-nicole/index.html"
-to = "/actualites-v01/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
+to = "/posts/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
+
+[[redirects]]
+from = "/actualites-v01/ressources/index.html"
+to = "/posts/ressources/"
 
 [[redirects]]
 from = "/actualites-v01/actus/actualites-des-films/4801-nuits/index.html"
