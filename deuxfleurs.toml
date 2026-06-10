@@ -15,6 +15,10 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/actualites-v01/film/ressource-par-film/nicole-nicole/index.html"
+to = "/actualites-v01/film/nicole-nicole/"
+
+[[redirects]]
 from = "/la-recherche-d-un-film/index.html"
 to = "/ressources/la-recherche-d-un-film/"
 
@@ -25,6 +29,10 @@ to = "/coop/alice-marsal/"
 [[redirects]]
 from = "/personnes/romane-martin/index.html"
 to = "/coop/romane-martin/"
+
+[[redirects]]
+from = "/actualites-v01/actus/actualites-des-films/nicole-nicole/index.html"
+to = "/actualites-v01/film/nicole-nicole/"
 
 [[redirects]]
 from = "/actualites/type/actualite-des-films/index.html"
@@ -160,7 +168,7 @@ to = "/films/statut/en-developpement/"
 
 [[redirects]]
 from = "/actualites/film/nicole-nicole/index.html"
-to = "/actualites-v01/actus/actualites-des-films/nicole-nicole/"
+to = "/actualites-v01/film/nicole-nicole/"
 
 [[redirects]]
 from = "/categories/diffuseur/index.html"
@@ -183,6 +191,10 @@ from = "/actualites/2026-05-19-prix-du-jury-a-visions-du-reel-pour-nicole-nicole
 to = "/actualites-v01/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
+from = "/actualites-v01/actus/actualites-des-films/4801-nuits/index.html"
+to = "/actualites-v01/film/4801-nuits/"
+
+[[redirects]]
 from = "/personnes/index.html"
 to = "/coop/"
 
@@ -192,7 +204,7 @@ to = "/actualites/actus/actualites-du-site/"
 
 [[redirects]]
 from = "/actualites/par-film/nicole-nicole/index.html"
-to = "/actualites-v01/actus/actualites-des-films/nicole-nicole/"
+to = "/actualites-v01/film/nicole-nicole/"
 
 [[redirects]]
 from = "/films/2026-les-cedres-1/index.html"
