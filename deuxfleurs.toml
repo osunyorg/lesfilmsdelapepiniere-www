@@ -127,6 +127,10 @@ from = "/actualites/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-vi
 to = "/actualites-v01/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
 [[redirects]]
+from = "/actualites/ressources-1/la-vie-des-producteurs/index.html"
+to = "/actualites-v01/ressources/la-vie-des-producteurs/"
+
+[[redirects]]
 from = "/personnes/categories/anciens-membres/index.html"
 to = "/coop/categories/anciens-membres/"
 
