@@ -1,17 +1,16 @@
 ---
 title: >-
-  Actualités
+  Posts
 breadcrumb_title: >-
-  Actualités
-subtitle: >-
-  Agenda, nouvelles de nos films et de la coopérative, c’est par ici.
+  Posts
+
 
 bodyclass: >-
   page-no-img
 url: "/posts/"
 slug: "posts"
 date: 2026-03-31T12:59:56+02:00
-lastmod: 2026-06-10T12:44:20+02:00
+lastmod: 2026-06-10T12:50:32+02:00
 meta:
   hugo:
     permalink: "/posts/"
@@ -20,7 +19,7 @@ meta:
     slug: "posts"
   dates:
     created_at: 2026-03-31T12:59:56+02:00
-    updated_at: 2026-06-10T12:44:20+02:00
+    updated_at: 2026-06-10T12:50:32+02:00
     published_at: 2026-03-31T12:59:56+02:00
 search:
   id: "252ff67e-fd89-4dbd-b54e-74f5395423a9"
@@ -29,15 +28,16 @@ search:
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
   title: >-
-    Actualités Agenda, nouvelles de nos films et de la coopérative, c’est par ici.
+    Posts
 
-  body: >-
-    <p>Événements à venir </p>
+
 
 breadcrumbs:
   - title: >-
       Accueil
     path: "/"
+  - title: >-
+      Posts
 
 design:
   full_width: true
@@ -46,10 +46,6 @@ design:
     offcanvas: true
 
 
-build:
-  list: always
-  publishResources: true
-  render: never
 
 position: 4
 weight: 4
@@ -133,55 +129,31 @@ section_taxonomies:
         count: 1
 
 contents_reading_time:
-  seconds: 1
+  seconds: 0
   text: >-
     moins d'une minute
 contents:
   - kind: block
-    template: agenda
-    title: >-
-      Événements à venir
-    slug: >-
-      evenements-a-venir
+    template: categories
+
+
     ranks:
       base: 2
-      self: 2
-      children: 3
     top:
-      active: true
-      title: 
-        value: >-
-          Événements à venir
-        heading: 2
-        link: "/agenda/"
+      active: false
 
     data:
-      mode: all
-      kinds:
-        parent: false
-        child: true
-        recurring: true
+      layout: grid
+
       options:
-        categories: false
-        dates: true
+        count: true
         image: true
-        subtitle: true
         summary: true
-        status: false
 
-      layout: large
+      category_kind: posts
+      taxonomy_id: 
+      categories:
 
-
-      title_link: "/agenda/"
-      events:
-        - permalink: "/agenda/2026/la-prochaine-permanence-aux-etats-generaux-du-documentaire/"
-          path: "/events/2026/08/16-la-prochaine-permanence-aux-etats-generaux-du-documentaire"
-          slug: "la-prochaine-permanence-aux-etats-generaux-du-documentaire"
-          file: "content/fr/events/2026/08/16-la-prochaine-permanence-aux-etats-generaux-du-documentaire.html"
-          name: >-
-            La prochaine Permanence aux États généraux du documentaire
-
-      quantity: 1
 
 
 ---
