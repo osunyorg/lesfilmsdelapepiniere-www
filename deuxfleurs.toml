@@ -115,6 +115,10 @@ from = "/personnes/aurelia-pfend/index.html"
 to = "/coop/aurelia-pfend/"
 
 [[redirects]]
+from = "/actualites/type/index.html"
+to = "/actualites/actus/"
+
+[[redirects]]
 from = "/projets/en-developpement/index.html"
 to = "/films/statut/en-developpement/"
 
