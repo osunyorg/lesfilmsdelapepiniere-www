@@ -1,19 +1,26 @@
+// Images
+.block-agenda--large, .block-pages--large
+    .page .media img
+        aspect-ratio: $page-aspect-ratio !important
+
 .block
     // TYPO
     .page-subtitle,
     .page-description
-        font-size: var(--h4-size)
+        font-family: $body-font-family !important
         line-height: 120%
+
+    .block-title
+        text-transform: inherit !important
 
     .page-subtitle
         margin-top: var(--spacing-1)
+        font-weight: 400
 
-    .block-title
-        font-size: var(--h2-size) !important
-        text-transform: inherit
-        font-family: "Barlow Cond", "Helvetica Neue", "Helvetica", sans-serif !important
 
     // BLOCS
+
+
     &.block-class-ressources
         .block-content .page-content
             background-color: $color-background-accent !important
@@ -88,3 +95,8 @@
     .block-agenda--list
         background-color: $color-background-alt-light
         padding: var(--spacing-5) var(--spacing-2)
+
+
+// PERSONS
+.persons__page .hero--with-image figure picture
+    border-radius: $border-radius

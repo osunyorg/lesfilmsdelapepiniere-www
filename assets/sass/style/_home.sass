@@ -1,10 +1,10 @@
 .page__home
     .hero
-        padding-bottom: 1rem
-        min-height: 160px
+        padding-bottom: var(--spacing-3)
+        min-height: inherit
 
         .hero-text
-            margin-top: 2rem
+            margin-top: calc(var(--grid-gutter) * 1)
 
             hgroup
                 h1
@@ -13,19 +13,26 @@
                 
                 p
                   font-size: pxToRem(33)
-                  opacity: .75
+                  color: var(--color-text-alt)
     .blocks
         .block
+            .page-title
+                font-size: $small-size-desktop
+                text-transform: uppercase
+                margin-top: var(--space-unit)
+
+        .block-pages--grid:not(.block-class-films)
             @include media-breakpoint-up(desktop)
-                margin-top: var(--spacing-5)
+                margin-top: calc(var(--grid-gutter) * 1.5)
+                margin-bottom: calc(var(--grid-gutter) * 2)
 
-                &:first-child
-                    margin-top: var(--spacing-5)
-
-        .pages--grid
-            grid-gap: var(--spacing-5)
+                .pages--grid
+                    grid-gap: var(--spacing-3)
+                    .page-subtitle
+                        padding-right: var(--spacing-3)
 
         .block-class-films
+                        
             .block-content
                 .pages
                     display: flex !important
@@ -34,16 +41,31 @@
 
                     li
                         width: 100%
-                    
-                    .page
-                        .media
-                            width: 100% !important
-                            
-                            // temporaire
-                            @include media-breakpoint-up(desktop)
-                                img
-                                    aspect-ratio: 2.35 !important
-        // a supprimer si cta
+
+                    .media img
+                        aspect-ratio: $page-aspect-ratio
+            
+            @include media-breakpoint-up(desktop)
+                .container
+                    padding-left: var(--spacing-1)
+                    padding-right: var(--spacing-1)
+                    hgroup
+                        padding-left: var(--grid-gutter)
+                        padding-right: var(--grid-gutter)
+                    .media img
+                        aspect-ratio: $img-aspect-ratio !important
+
+                  
+                                    
+        .block-call_to_action
+            .block-title
+                font-size: $small-size-desktop
+            .description p
+                font-size: $h3-size-desktop
+                font-family: $body-font-family
+                
+
+        // a supprimer si CTA
         .block-class-ressources
             .page-content
                 text-align: center
@@ -53,6 +75,3 @@
 
             .media
                 display: none
-
-        .block-call_to_action
-            margin-top: calc(var(--grid-gutter) * 2)

@@ -1,12 +1,24 @@
 #document-header
+    @include media-breakpoint-up(desktop)
+        .logo img
+            height: 80px !important
+
+    a
+        font-family: $body-font-family
+        font-size: 17px !important
+        // text-transform: lowercase
+        
     .primary-menu
         .menu
             .nav-search
                 margin-left: 3rem
-                .search-button
-                    &::after
+                .search-button::after
                         font-size: 22px
                         opacity: .6
 
-.footer-logo
-    display: none !important
+
+#document-footer
+    .container
+        padding-bottom: 0 !important
+    .footer-logo
+        display: none !important
