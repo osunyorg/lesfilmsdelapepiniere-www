@@ -25,6 +25,8 @@
             @include media-breakpoint-up(desktop)
                 margin-top: calc(var(--grid-gutter) * 1.5)
                 margin-bottom: calc(var(--grid-gutter) * 2)
+                .pages--grid
+                    grid-template-columns: repeat(2, 1fr)
 
                 .pages--grid
                     grid-gap: var(--spacing-3)
