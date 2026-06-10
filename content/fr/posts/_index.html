@@ -11,7 +11,7 @@ bodyclass: >-
 url: "/actualites-v01/"
 slug: "actualites-v01"
 date: 2026-03-31T12:59:56+02:00
-lastmod: 2026-06-10T12:05:10+02:00
+lastmod: 2026-06-10T12:25:39+02:00
 meta:
   hugo:
     permalink: "/actualites-v01/"
@@ -20,7 +20,7 @@ meta:
     slug: "actualites-v01"
   dates:
     created_at: 2026-03-31T12:59:56+02:00
-    updated_at: 2026-06-10T12:05:10+02:00
+    updated_at: 2026-06-10T12:25:39+02:00
     published_at: 2026-03-31T12:59:56+02:00
 search:
   id: "252ff67e-fd89-4dbd-b54e-74f5395423a9"
@@ -38,8 +38,6 @@ breadcrumbs:
   - title: >-
       Accueil
     path: "/"
-  - title: >-
-      Actualités
 
 design:
   full_width: true
@@ -48,6 +46,10 @@ design:
     offcanvas: true
 
 
+build:
+  list: always
+  publishResources: true
+  render: never
 
 position: 4
 weight: 4
@@ -92,35 +94,42 @@ section_taxonomies:
           Actualités du site
         count: 1
   - name: >-
+      Ressources
+    slug: "ressources"
+    path: "/posts_categories/ressources"
+    categories:
+      - permalink: "/actualites/ressources-1/la-vie-des-producteurs/"
+        path: "/posts_categories/ressources/la-vie-des-producteurs"
+        slug: "ressources/la-vie-des-producteurs"
+        file: "content/fr/posts_categories/ressources/la-vie-des-producteurs/_index.html"
+        name: >-
+          La vie des producteurs
+        count: 1
+      - permalink: "/actualites/ressources-1/paroles-de-cineastes/"
+        path: "/posts_categories/ressources/paroles-de-cineastes"
+        slug: "ressources/paroles-de-cineastes"
+        file: "content/fr/posts_categories/ressources/paroles-de-cineastes/_index.html"
+        name: >-
+          Paroles de cinéastes
+        count: 1
+  - name: >-
       Film
     slug: "film"
     path: "/posts_categories/film"
     categories:
-      - permalink: "/actualites/film/nicole-nicole/"
+      - permalink: "/actualites-v01/film/4801-nuits/"
+        path: "/posts_categories/film/4801-nuits"
+        slug: "film/4801-nuits"
+        file: "content/fr/posts_categories/film/4801-nuits/_index.html"
+        name: >-
+          4801 nuits
+        count: 1
+      - permalink: "/actualites-v01/film/nicole-nicole/"
         path: "/posts_categories/film/nicole-nicole"
         slug: "film/nicole-nicole"
         file: "content/fr/posts_categories/film/nicole-nicole/_index.html"
         name: >-
           Nicole Nicole
-        count: 1
-  - name: >-
-      Ressources
-    slug: "ressources-1"
-    path: "/posts_categories/ressources-1"
-    categories:
-      - permalink: "/actualites/ressources-1/la-vie-des-producteurs/"
-        path: "/posts_categories/ressources-1/la-vie-des-producteurs"
-        slug: "ressources-1/la-vie-des-producteurs"
-        file: "content/fr/posts_categories/ressources-1/la-vie-des-producteurs/_index.html"
-        name: >-
-          La vie des producteurs
-        count: 1
-      - permalink: "/actualites/ressources-1/paroles-de-cineastes/"
-        path: "/posts_categories/ressources-1/paroles-de-cineastes"
-        slug: "ressources-1/paroles-de-cineastes"
-        file: "content/fr/posts_categories/ressources-1/paroles-de-cineastes/_index.html"
-        name: >-
-          Paroles de cinéastes
         count: 1
 
 contents_reading_time:
