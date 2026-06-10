@@ -69,8 +69,8 @@ header_cta:
     Palmares 2026 du festival
 
 posts_categories:
-  - "actus"
-  - "actus/actualites-des-films"
+  - "type/actus"
+  - "type/actus/actualites-des-films"
   - "film/nicole-nicole"
 taxonomies:
   - permalink: ""
@@ -80,24 +80,32 @@ taxonomies:
     name: >-
       Catégories
     categories:
-      - permalink: "/posts/actus/"
-        path: "/posts_categories/actus"
-        slug: "actus"
-        file: "content/fr/posts_categories/actus/_index.html"
-        name: >-
-          Actualités
-      - permalink: "/actualites/actus/actualites-des-films/"
-        path: "/posts_categories/actus/actualites-des-films"
-        slug: "actus/actualites-des-films"
-        file: "content/fr/posts_categories/actus/actualites-des-films/_index.html"
-        name: >-
-          Actualités des films
       - permalink: "/actualites-v01/film/nicole-nicole/"
         path: "/posts_categories/film/nicole-nicole"
         slug: "film/nicole-nicole"
         file: "content/fr/posts_categories/film/nicole-nicole/_index.html"
         name: >-
           Nicole Nicole
+
+  - permalink: "/posts/type/"
+    path: "/posts_categories/type"
+    slug: "type"
+    file: "content/fr/posts_categories/type/_index.html"
+    name: >-
+      Type
+    categories:
+      - permalink: "/posts/type/actus/"
+        path: "/posts_categories/type/actus"
+        slug: "type/actus"
+        file: "content/fr/posts_categories/type/actus/_index.html"
+        name: >-
+          Actualités
+      - permalink: "/actualites/actus/actualites-des-films/"
+        path: "/posts_categories/type/actus/actualites-des-films"
+        slug: "type/actus/actualites-des-films"
+        file: "content/fr/posts_categories/type/actus/actualites-des-films/_index.html"
+        name: >-
+          Actualités des films
 
 
 contents_reading_time:

@@ -63,8 +63,8 @@ image:
 header_cta:
 
 posts_categories:
-  - "ressources"
-  - "ressources/paroles-de-cineastes"
+  - "type/ressources"
+  - "type/ressources/paroles-de-cineastes"
   - "film/nicole-nicole"
 taxonomies:
   - permalink: ""
@@ -74,24 +74,32 @@ taxonomies:
     name: >-
       Catégories
     categories:
-      - permalink: "/posts/ressources/"
-        path: "/posts_categories/ressources"
-        slug: "ressources"
-        file: "content/fr/posts_categories/ressources/_index.html"
-        name: >-
-          Ressources
-      - permalink: "/posts/ressources/paroles-de-cineastes/"
-        path: "/posts_categories/ressources/paroles-de-cineastes"
-        slug: "ressources/paroles-de-cineastes"
-        file: "content/fr/posts_categories/ressources/paroles-de-cineastes/_index.html"
-        name: >-
-          Paroles de cinéastes
       - permalink: "/actualites-v01/film/nicole-nicole/"
         path: "/posts_categories/film/nicole-nicole"
         slug: "film/nicole-nicole"
         file: "content/fr/posts_categories/film/nicole-nicole/_index.html"
         name: >-
           Nicole Nicole
+
+  - permalink: "/posts/type/"
+    path: "/posts_categories/type"
+    slug: "type"
+    file: "content/fr/posts_categories/type/_index.html"
+    name: >-
+      Type
+    categories:
+      - permalink: "/posts/ressources/paroles-de-cineastes/"
+        path: "/posts_categories/type/ressources/paroles-de-cineastes"
+        slug: "type/ressources/paroles-de-cineastes"
+        file: "content/fr/posts_categories/type/ressources/paroles-de-cineastes/_index.html"
+        name: >-
+          Paroles de cinéastes
+      - permalink: "/posts/type/ressources/"
+        path: "/posts_categories/type/ressources"
+        slug: "type/ressources"
+        file: "content/fr/posts_categories/type/ressources/_index.html"
+        name: >-
+          Ressources
 
 
 contents_reading_time:

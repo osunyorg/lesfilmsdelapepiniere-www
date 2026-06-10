@@ -64,8 +64,8 @@ image:
 header_cta:
 
 posts_categories:
-  - "ressources"
-  - "ressources/la-vie-des-producteurs"
+  - "type/ressources"
+  - "type/ressources/la-vie-des-producteurs"
   - "film/4801-nuits"
 taxonomies:
   - permalink: ""
@@ -75,24 +75,32 @@ taxonomies:
     name: >-
       Catégories
     categories:
-      - permalink: "/posts/ressources/"
-        path: "/posts_categories/ressources"
-        slug: "ressources"
-        file: "content/fr/posts_categories/ressources/_index.html"
-        name: >-
-          Ressources
-      - permalink: "/actualites-v01/ressources/la-vie-des-producteurs/"
-        path: "/posts_categories/ressources/la-vie-des-producteurs"
-        slug: "ressources/la-vie-des-producteurs"
-        file: "content/fr/posts_categories/ressources/la-vie-des-producteurs/_index.html"
-        name: >-
-          La vie des producteurs
       - permalink: "/actualites-v01/film/4801-nuits/"
         path: "/posts_categories/film/4801-nuits"
         slug: "film/4801-nuits"
         file: "content/fr/posts_categories/film/4801-nuits/_index.html"
         name: >-
           4801 nuits
+
+  - permalink: "/posts/type/"
+    path: "/posts_categories/type"
+    slug: "type"
+    file: "content/fr/posts_categories/type/_index.html"
+    name: >-
+      Type
+    categories:
+      - permalink: "/actualites-v01/ressources/la-vie-des-producteurs/"
+        path: "/posts_categories/type/ressources/la-vie-des-producteurs"
+        slug: "type/ressources/la-vie-des-producteurs"
+        file: "content/fr/posts_categories/type/ressources/la-vie-des-producteurs/_index.html"
+        name: >-
+          La vie des producteurs
+      - permalink: "/posts/type/ressources/"
+        path: "/posts_categories/type/ressources"
+        slug: "type/ressources"
+        file: "content/fr/posts_categories/type/ressources/_index.html"
+        name: >-
+          Ressources
 
 
 contents_reading_time:
