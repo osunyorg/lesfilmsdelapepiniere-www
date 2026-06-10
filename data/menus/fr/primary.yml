@@ -51,13 +51,13 @@ items:
   file: content/fr/pages/accompagnements/_index.html
 - title: Ressources
   slug: ressources
-  target: "/actualites-v01/ressources-1/"
+  target: "/actualites-v01/ressources/"
   kind: category
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/posts_categories/ressources-1"
-  file: content/fr/posts_categories/ressources-1/_index.html
+  path: "/posts_categories/ressources"
+  file: content/fr/posts_categories/ressources/_index.html
 - title: Actualités
   slug: actualites
   target: "/actualites-v01/actus/"
