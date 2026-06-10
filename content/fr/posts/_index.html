@@ -1,34 +1,35 @@
 ---
 title: >-
-  Posts
+  Articles
 breadcrumb_title: >-
-  Posts
+  Articles
 
-
+header_text: >-
+  Tous les articles
 bodyclass: >-
   page-no-img
-url: "/posts/"
-slug: "posts"
+url: "/articles/"
+slug: "articles"
 date: 2026-03-31T12:59:56+02:00
-lastmod: 2026-06-10T13:04:06+02:00
+lastmod: 2026-06-10T15:52:57+02:00
 meta:
   hugo:
-    permalink: "/posts/"
+    permalink: "/articles/"
     path: "/posts"
     file: "content/fr/posts/_index.html"
-    slug: "posts"
+    slug: "articles"
   dates:
     created_at: 2026-03-31T12:59:56+02:00
-    updated_at: 2026-06-10T13:04:06+02:00
+    updated_at: 2026-06-10T15:52:57+02:00
     published_at: 2026-03-31T12:59:56+02:00
 search:
   id: "252ff67e-fd89-4dbd-b54e-74f5395423a9"
   about_id: "d48eea2e-97a3-43c1-95fc-41a2f829a5d7"
-  url: "/posts/"
+  url: "/articles/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
   title: >-
-    Posts
+    Articles
 
 
 
@@ -37,7 +38,7 @@ breadcrumbs:
       Accueil
     path: "/"
   - title: >-
-      Posts
+      Articles
 
 design:
   full_width: true
@@ -52,10 +53,6 @@ weight: 4
 
 translationKey: communication-website-page-d48eea2e-97a3-43c1-95fc-41a2f829a5d7
 
-image:
-  id: "0cc78037-8613-40d2-b6f2-bde44a91f2a5"
-  alt: ""
-
 
 
 
@@ -64,137 +61,83 @@ header_cta:
 
 section_taxonomies:
   - name: >-
-      Catégories
-    slug: ""
-    path: ""
+      Type
+    slug: "type"
+    path: "/posts_categories/type"
     categories:
-      - permalink: "/posts/actus/"
-        path: "/posts_categories/actus"
-        slug: "actus"
-        file: "content/fr/posts_categories/actus/_index.html"
+      - permalink: "/articles/type/actualites/"
+        path: "/posts_categories/type/actualites"
+        slug: "type/actualites"
+        file: "content/fr/posts_categories/type/actualites/_index.html"
         name: >-
           Actualités
         count: 3
         children:
-          - permalink: "/actualites/actus/actualites-de-la-scic/"
-            path: "/posts_categories/actus/actualites-de-la-scic"
-            slug: "actus/actualites-de-la-scic"
-            file: "content/fr/posts_categories/actus/actualites-de-la-scic/_index.html"
+          - permalink: "/articles/type/actualites/la-scic/"
+            path: "/posts_categories/type/actualites/la-scic"
+            slug: "type/actualites/la-scic"
+            file: "content/fr/posts_categories/type/actualites/la-scic/_index.html"
             name: >-
               Actualités de la SCIC
             count: 1
 
-          - permalink: "/actualites/actus/actualites-du-site/"
-            path: "/posts_categories/actus/actualites-du-site"
-            slug: "actus/actualites-du-site"
-            file: "content/fr/posts_categories/actus/actualites-du-site/_index.html"
+          - permalink: "/articles/type/actualites/site/"
+            path: "/posts_categories/type/actualites/site"
+            slug: "type/actualites/site"
+            file: "content/fr/posts_categories/type/actualites/site/_index.html"
             name: >-
               Actualités du site
             count: 1
 
-          - permalink: "/actualites/actus/actualites-des-films/"
-            path: "/posts_categories/actus/actualites-des-films"
-            slug: "actus/actualites-des-films"
-            file: "content/fr/posts_categories/actus/actualites-des-films/_index.html"
+          - permalink: "/articles/type/actualites/films/"
+            path: "/posts_categories/type/actualites/films"
+            slug: "type/actualites/films"
+            file: "content/fr/posts_categories/type/actualites/films/_index.html"
             name: >-
               Actualités des films
             count: 1
 
-      - permalink: "/posts/ressources/"
-        path: "/posts_categories/ressources"
-        slug: "ressources"
-        file: "content/fr/posts_categories/ressources/_index.html"
+      - permalink: "/articles/type/ressources/"
+        path: "/posts_categories/type/ressources"
+        slug: "type/ressources"
+        file: "content/fr/posts_categories/type/ressources/_index.html"
         name: >-
           Ressources
-        count: 2
+        count: 1
         children:
-          - permalink: "/actualites-v01/ressources/la-vie-des-producteurs/"
-            path: "/posts_categories/ressources/la-vie-des-producteurs"
-            slug: "ressources/la-vie-des-producteurs"
-            file: "content/fr/posts_categories/ressources/la-vie-des-producteurs/_index.html"
-            name: >-
-              La vie des producteurs
-            count: 1
 
-          - permalink: "/posts/ressources/paroles-de-cineastes/"
-            path: "/posts_categories/ressources/paroles-de-cineastes"
-            slug: "ressources/paroles-de-cineastes"
-            file: "content/fr/posts_categories/ressources/paroles-de-cineastes/_index.html"
+          - permalink: "/articles/type/ressources/paroles-de-cineastes/"
+            path: "/posts_categories/type/ressources/paroles-de-cineastes"
+            slug: "type/ressources/paroles-de-cineastes"
+            file: "content/fr/posts_categories/type/ressources/paroles-de-cineastes/_index.html"
             name: >-
               Paroles de cinéastes
             count: 1
 
-      - permalink: "/posts/film/"
-        path: "/posts_categories/film"
-        slug: "film"
-        file: "content/fr/posts_categories/film/_index.html"
+  - name: >-
+      Film lié
+    slug: "film-lie"
+    path: "/posts_categories/film-lie"
+    categories:
+      - permalink: ""
+        path: "/posts_categories/film-lie/nicole-nicole"
+        slug: "film-lie/nicole-nicole"
+        file: "content/fr/posts_categories/film-lie/nicole-nicole/_index.html"
         name: >-
-          Film
-        count: 3
-        children:
-          - permalink: "/actualites-v01/film/4801-nuits/"
-            path: "/posts_categories/film/4801-nuits"
-            slug: "film/4801-nuits"
-            file: "content/fr/posts_categories/film/4801-nuits/_index.html"
-            name: >-
-              4801 nuits
-            count: 1
-
-          - permalink: "/actualites-v01/film/nicole-nicole/"
-            path: "/posts_categories/film/nicole-nicole"
-            slug: "film/nicole-nicole"
-            file: "content/fr/posts_categories/film/nicole-nicole/_index.html"
-            name: >-
-              Nicole Nicole
-            count: 2
-
-
+          Nicole Nicole
+        count: 2
+      - permalink: ""
+        path: "/posts_categories/film-lie/4801-nuits"
+        slug: "film-lie/4801-nuits"
+        file: "content/fr/posts_categories/film-lie/4801-nuits/_index.html"
+        name: >-
+          4801 nuits
+        count: 1
 
 contents_reading_time:
   seconds: 0
   text: >-
     moins d'une minute
 contents:
-  - kind: block
-    template: categories
-
-
-    ranks:
-      base: 2
-      children: 2
-    top:
-      active: false
-
-    data:
-      layout: grid
-
-      options:
-        count: true
-        image: true
-        summary: true
-
-      category_kind: posts
-      taxonomy_id: 
-      categories:
-        - permalink: "/posts/actus/"
-          path: "/posts_categories/actus"
-          slug: "actus"
-          file: "content/fr/posts_categories/actus/_index.html"
-          name: ""
-          count: 3
-        - permalink: "/posts/ressources/"
-          path: "/posts_categories/ressources"
-          slug: "ressources"
-          file: "content/fr/posts_categories/ressources/_index.html"
-          name: ""
-          count: 2
-        - permalink: "/posts/film/"
-          path: "/posts_categories/film"
-          slug: "film"
-          file: "content/fr/posts_categories/film/_index.html"
-          name: ""
-          count: 3
-
-
 
 ---

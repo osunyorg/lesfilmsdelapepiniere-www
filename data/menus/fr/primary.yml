@@ -51,22 +51,22 @@ items:
   file: content/fr/pages/accompagnements/_index.html
 - title: Ressources
   slug: ressources
-  target: "/posts/ressources/"
+  target: "/articles/type/ressources/"
   kind: category
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/posts_categories/ressources"
-  file: content/fr/posts_categories/ressources/_index.html
+  path: "/posts_categories/type/ressources"
+  file: content/fr/posts_categories/type/ressources/_index.html
 - title: Actualités
   slug: actualites
-  target: "/posts/actus/"
+  target: "/articles/type/actualites/"
   kind: category
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/posts_categories/actus"
-  file: content/fr/posts_categories/actus/_index.html
+  path: "/posts_categories/type/actualites"
+  file: content/fr/posts_categories/type/actualites/_index.html
 - title: La coopérative
   slug: la-cooperative
   target: "/coop/"
