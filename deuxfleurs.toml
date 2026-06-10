@@ -127,8 +127,12 @@ from = "/archives-expositions/index.html"
 to = "/expositions/archives-expositions/"
 
 [[redirects]]
+from = "/posts/index.html"
+to = "/articles/"
+
+[[redirects]]
 from = "/actualites/ressources-1/index.html"
-to = "/posts/ressources/"
+to = "/posts/type/ressources/"
 
 [[redirects]]
 from = "/actualites/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
@@ -164,7 +168,7 @@ to = "/films/2026-nicolenicole/"
 
 [[redirects]]
 from = "/actualites/index.html"
-to = "/posts/"
+to = "/articles/"
 
 [[redirects]]
 from = "/actualites/2026-04-01-publication-du-site-web/index.html"
@@ -172,11 +176,15 @@ to = "/posts/2026-04-01-publication-du-site-web/"
 
 [[redirects]]
 from = "/actualites-v01/index.html"
-to = "/posts/"
+to = "/articles/"
 
 [[redirects]]
 from = "/actualites/2026-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1/index.html"
 to = "/posts/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
+
+[[redirects]]
+from = "/posts/ressources/index.html"
+to = "/posts/type/ressources/"
 
 [[redirects]]
 from = "/actualites/type/actualites-de-la-scic/index.html"
@@ -228,7 +236,7 @@ to = "/posts/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
 from = "/actualites-v01/ressources/index.html"
-to = "/posts/ressources/"
+to = "/posts/type/ressources/"
 
 [[redirects]]
 from = "/actualites-v01/actus/actualites-des-films/4801-nuits/index.html"
