@@ -28,7 +28,7 @@ to = "/coop/romane-martin/"
 
 [[redirects]]
 from = "/actualites/type/actualite-des-films/index.html"
-to = "/actualites/type/actualites-des-films/"
+to = "/actualites/actus/actualites-des-films/"
 
 [[redirects]]
 from = "/personnes/clothilde-bunod/index.html"
@@ -41,6 +41,10 @@ to = "/agenda/2025/la-prochaine-permanence-aux-etats-generaux-du-documentaire-1/
 [[redirects]]
 from = "/personnes/equipe-editoriale/index.html"
 to = "/coop/equipe-editoriale/"
+
+[[redirects]]
+from = "/actualites/type/actualites-des-films/index.html"
+to = "/actualites/actus/actualites-des-films/"
 
 [[redirects]]
 from = "/personnes/avrin-cardi/index.html"
@@ -111,6 +115,10 @@ from = "/actualites/2026-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole
 to = "/actualites/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
 [[redirects]]
+from = "/actualites/type/actualites-de-la-scic/index.html"
+to = "/actualites/actus/actualites-de-la-scic/"
+
+[[redirects]]
 from = "/personnes/aurelia-pfend/index.html"
 to = "/coop/aurelia-pfend/"
 
@@ -141,6 +149,10 @@ to = "/actualites/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 [[redirects]]
 from = "/personnes/index.html"
 to = "/coop/"
+
+[[redirects]]
+from = "/actualites/type/actualites-du-site/index.html"
+to = "/actualites/actus/actualites-du-site/"
 
 [[redirects]]
 from = "/actualites/par-film/nicole-nicole/index.html"
