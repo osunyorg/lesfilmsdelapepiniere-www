@@ -68,7 +68,7 @@ to = "/coop/categories/membres/"
 
 [[redirects]]
 from = "/coop/jean-charles-leyris/actualites/index.html"
-to = "/coop/jean-charles-leyris/actualites-v01/"
+to = "/coop/jean-charles-leyris/posts/"
 
 [[redirects]]
 from = "/personnes/sylvie-plunian/index.html"
@@ -101,6 +101,10 @@ to = "/organisations/tenk/"
 [[redirects]]
 from = "/personnes/chantal-tran/index.html"
 to = "/coop/chantal-tran/"
+
+[[redirects]]
+from = "/coop/jean-charles-leyris/actualites-v01/index.html"
+to = "/coop/jean-charles-leyris/posts/"
 
 [[redirects]]
 from = "/personnes/flora-jouvencel/index.html"
