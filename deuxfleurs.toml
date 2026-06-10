@@ -19,8 +19,16 @@ from = "/personnes/alice-marsal/index.html"
 to = "/coop/alice-marsal/"
 
 [[redirects]]
+from = "/actualites-v01/ressources/la-vie-des-producteurs/index.html"
+to = "/articles/type/ressources/la-vie-des-prods/"
+
+[[redirects]]
 from = "/personnes/romane-martin/index.html"
 to = "/coop/romane-martin/"
+
+[[redirects]]
+from = "/articles/nicole-nicole/index.html"
+to = "/articles/film/nicole-nicole/"
 
 [[redirects]]
 from = "/actualites/type/actualite-des-films/index.html"
@@ -68,7 +76,7 @@ to = "/coop/categories/membres/"
 
 [[redirects]]
 from = "/posts/actus/index.html"
-to = "/posts/type/actus/"
+to = "/articles/type/actualites/"
 
 [[redirects]]
 from = "/coop/jean-charles-leyris/actualites/index.html"
@@ -81,6 +89,10 @@ to = "/articles/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-vision
 [[redirects]]
 from = "/personnes/sylvie-plunian/index.html"
 to = "/coop/sylvie-plunian/"
+
+[[redirects]]
+from = "/articles/type/ressources/paroles-de-cineaste/index.html"
+to = "/articles/type/ressources/paroles-de-cineastes/"
 
 [[redirects]]
 from = "/personnes/jean-charles-leyris/index.html"
@@ -100,7 +112,7 @@ to = "/coop/elodie-boin-zanchi/articles/"
 
 [[redirects]]
 from = "/actualites/ressources-1/paroles-de-cineastes/index.html"
-to = "/posts/ressources/paroles-de-cineastes/"
+to = "/articles/type/ressources/paroles-de-cineastes/"
 
 [[redirects]]
 from = "/coop/alice-marsal/actualites-v01/index.html"
@@ -147,12 +159,16 @@ from = "/archives-expositions/index.html"
 to = "/expositions/archives-expositions/"
 
 [[redirects]]
+from = "/posts/type/actus/index.html"
+to = "/articles/type/actualites/"
+
+[[redirects]]
 from = "/posts/index.html"
 to = "/articles/"
 
 [[redirects]]
 from = "/actualites/ressources-1/index.html"
-to = "/posts/type/ressources/"
+to = "/articles/type/ressources/"
 
 [[redirects]]
 from = "/actualites/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
@@ -164,7 +180,7 @@ to = "/articles/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-vision
 
 [[redirects]]
 from = "/actualites/ressources-1/la-vie-des-producteurs/index.html"
-to = "/actualites-v01/ressources/la-vie-des-producteurs/"
+to = "/articles/type/ressources/la-vie-des-prods/"
 
 [[redirects]]
 from = "/personnes/categories/anciens-membres/index.html"
@@ -176,7 +192,11 @@ to = "/coop/raphaele-dumas/"
 
 [[redirects]]
 from = "/actualites-v01/actus/index.html"
-to = "/posts/type/actus/"
+to = "/articles/type/actualites/"
+
+[[redirects]]
+from = "/posts/ressources/paroles-de-cineastes/index.html"
+to = "/articles/type/ressources/paroles-de-cineastes/"
 
 [[redirects]]
 from = "/personnes/claire-marty/index.html"
@@ -204,7 +224,7 @@ to = "/articles/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-vision
 
 [[redirects]]
 from = "/posts/ressources/index.html"
-to = "/posts/type/ressources/"
+to = "/articles/type/ressources/"
 
 [[redirects]]
 from = "/actualites/type/actualites-de-la-scic/index.html"
@@ -220,7 +240,7 @@ to = "/articles/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
 from = "/actualites/type/index.html"
-to = "/posts/type/actus/"
+to = "/articles/type/actualites/"
 
 [[redirects]]
 from = "/projets/en-developpement/index.html"
@@ -228,7 +248,7 @@ to = "/films/statut/en-developpement/"
 
 [[redirects]]
 from = "/actualites/actus/index.html"
-to = "/posts/type/actus/"
+to = "/articles/type/actualites/"
 
 [[redirects]]
 from = "/categories/diffuseur/index.html"
@@ -243,6 +263,10 @@ from = "/coop/elodie-boin-zanchi/actualites/index.html"
 to = "/coop/elodie-boin-zanchi/articles/"
 
 [[redirects]]
+from = "/articles/type/ressource/index.html"
+to = "/articles/type/ressources/"
+
+[[redirects]]
 from = "/projets/en-diffusion/index.html"
 to = "/films/statut/en-diffusion/"
 
@@ -252,7 +276,7 @@ to = "/articles/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
 from = "/actualites-v01/ressources/index.html"
-to = "/posts/type/ressources/"
+to = "/articles/type/ressources/"
 
 [[redirects]]
 from = "/personnes/index.html"
@@ -273,6 +297,10 @@ to = "/films/2026-nei/"
 [[redirects]]
 from = "/coop/alice-marsal/posts/index.html"
 to = "/coop/alice-marsal/articles/"
+
+[[redirects]]
+from = "/posts/type/ressources/index.html"
+to = "/articles/type/ressources/"
 
 [[redirects]]
 from = "/coop/avrin-cardi/index.html"
