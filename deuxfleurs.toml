@@ -83,10 +83,6 @@ from = "/personnes/categories/ancien-membre/index.html"
 to = "/coop/categories/anciens-membres/"
 
 [[redirects]]
-from = "/ressources/journal-de-la-cuisine/index.html"
-to = "/ressources-v01/journal-de-la-cuisine/"
-
-[[redirects]]
 from = "/personnes/categories/membre/index.html"
 to = "/coop/categories/membres/"
 
