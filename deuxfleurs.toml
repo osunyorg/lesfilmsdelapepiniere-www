@@ -15,20 +15,12 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/actualites-v01/film/ressource-par-film/nicole-nicole/index.html"
-to = "/actualites-v01/film/nicole-nicole/"
-
-[[redirects]]
 from = "/personnes/alice-marsal/index.html"
 to = "/coop/alice-marsal/"
 
 [[redirects]]
 from = "/personnes/romane-martin/index.html"
 to = "/coop/romane-martin/"
-
-[[redirects]]
-from = "/actualites-v01/actus/actualites-des-films/nicole-nicole/index.html"
-to = "/actualites-v01/film/nicole-nicole/"
 
 [[redirects]]
 from = "/actualites/type/actualite-des-films/index.html"
@@ -235,10 +227,6 @@ from = "/projets/en-developpement/index.html"
 to = "/films/statut/en-developpement/"
 
 [[redirects]]
-from = "/actualites/film/nicole-nicole/index.html"
-to = "/actualites-v01/film/nicole-nicole/"
-
-[[redirects]]
 from = "/actualites/actus/index.html"
 to = "/posts/type/actus/"
 
@@ -267,10 +255,6 @@ from = "/actualites-v01/ressources/index.html"
 to = "/posts/type/ressources/"
 
 [[redirects]]
-from = "/actualites-v01/actus/actualites-des-films/4801-nuits/index.html"
-to = "/actualites-v01/film/4801-nuits/"
-
-[[redirects]]
 from = "/personnes/index.html"
 to = "/coop/"
 
@@ -281,10 +265,6 @@ to = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/"
 [[redirects]]
 from = "/actualites/type/actualites-du-site/index.html"
 to = "/actualites/actus/actualites-du-site/"
-
-[[redirects]]
-from = "/actualites/par-film/nicole-nicole/index.html"
-to = "/actualites-v01/film/nicole-nicole/"
 
 [[redirects]]
 from = "/films/2026-les-cedres-1/index.html"
