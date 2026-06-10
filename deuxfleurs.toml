@@ -79,6 +79,10 @@ from = "/coop/jean-charles-leyris/actualites/index.html"
 to = "/coop/jean-charles-leyris/articles/"
 
 [[redirects]]
+from = "/posts/type/index.html"
+to = "/articles/type/"
+
+[[redirects]]
 from = "/posts/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
 to = "/articles/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
