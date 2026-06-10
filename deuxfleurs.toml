@@ -27,10 +27,6 @@ from = "/personnes/romane-martin/index.html"
 to = "/coop/romane-martin/"
 
 [[redirects]]
-from = "/articles/nicole-nicole/index.html"
-to = "/articles/film/nicole-nicole/"
-
-[[redirects]]
 from = "/actualites/type/actualite-des-films/index.html"
 to = "/articles/type/actualites/films/"
 
@@ -141,10 +137,6 @@ to = "/articles/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 [[redirects]]
 from = "/personnes/chantal-tran/index.html"
 to = "/coop/chantal-tran/"
-
-[[redirects]]
-from = "/posts/film/index.html"
-to = "/articles/film/"
 
 [[redirects]]
 from = "/coop/jean-charles-leyris/actualites-v01/index.html"
@@ -265,10 +257,6 @@ to = "/articles/type/actualites/"
 [[redirects]]
 from = "/categories/diffuseur/index.html"
 to = "/organisations/categories/diffuseur/"
-
-[[redirects]]
-from = "/actualites-v01/film/index.html"
-to = "/articles/film/"
 
 [[redirects]]
 from = "/coop/elodie-boin-zanchi/actualites/index.html"
