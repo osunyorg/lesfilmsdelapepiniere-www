@@ -32,7 +32,7 @@ to = "/articles/film/nicole-nicole/"
 
 [[redirects]]
 from = "/actualites/type/actualite-des-films/index.html"
-to = "/actualites/actus/actualites-des-films/"
+to = "/articles/type/actualites/films/"
 
 [[redirects]]
 from = "/personnes/clothilde-bunod/index.html"
@@ -60,7 +60,7 @@ to = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/actualites/type/actualites-des-films/index.html"
-to = "/actualites/actus/actualites-des-films/"
+to = "/articles/type/actualites/films/"
 
 [[redirects]]
 from = "/personnes/avrin-cardi/index.html"
@@ -187,6 +187,10 @@ from = "/personnes/categories/anciens-membres/index.html"
 to = "/coop/categories/anciens-membres/"
 
 [[redirects]]
+from = "/actualites/actus/actualites-de-la-scic/index.html"
+to = "/articles/type/actualites/la-scic/"
+
+[[redirects]]
 from = "/personnes/raphaele-dumas/index.html"
 to = "/coop/raphaele-dumas/"
 
@@ -201,6 +205,10 @@ to = "/articles/type/ressources/paroles-de-cineastes/"
 [[redirects]]
 from = "/personnes/claire-marty/index.html"
 to = "/coop/claire-marty/"
+
+[[redirects]]
+from = "/actualites/actus/actualites-des-films/index.html"
+to = "/articles/type/actualites/films/"
 
 [[redirects]]
 from = "/films/2026-nicole-nicole-1/index.html"
@@ -227,8 +235,12 @@ from = "/posts/ressources/index.html"
 to = "/articles/type/ressources/"
 
 [[redirects]]
+from = "/actualites/actus/actualites-du-site/index.html"
+to = "/articles/type/actualites/site/"
+
+[[redirects]]
 from = "/actualites/type/actualites-de-la-scic/index.html"
-to = "/actualites/actus/actualites-de-la-scic/"
+to = "/articles/type/actualites/la-scic/"
 
 [[redirects]]
 from = "/personnes/aurelia-pfend/index.html"
@@ -288,7 +300,7 @@ to = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/actualites/type/actualites-du-site/index.html"
-to = "/actualites/actus/actualites-du-site/"
+to = "/articles/type/actualites/site/"
 
 [[redirects]]
 from = "/films/2026-les-cedres-1/index.html"
