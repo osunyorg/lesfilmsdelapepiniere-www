@@ -19,11 +19,9 @@ params:
       - footer
 
   share_links:
-    enabled: false
+    enabled: true
     email: true
-    facebook: true
     mastodon: true
-    linkedin: true
 
   home:
     head:
@@ -71,17 +69,16 @@ params:
         year: true
         #(???) ordre des projets par ordre chrono ? (ancien au + récent)
     single:
+      share_links: false
       meta:
         position: hero
         options:
           reading_time: false
           with_labels: false
           year: false
-      toc:                          
-        disabled: true # nefonctionne pas
+
   # section Actualités    
-  posts: #(???) Possibilité d'archive/tri par année ?
-    default_image: false #concerne quelle image ?
+  posts: #(???) Pas possibe d'archive/tri par année 
     index:
       layout: grid
       options:
@@ -95,18 +92,13 @@ params:
           reading_time: false
           with_labels: false
       options:
-        signature: false #qu'est-ce que c'est ?
-      share_links:
-        enabled: true #ne fonctionne pas
+        signature: false
   # section PERSONNES
   persons:
     index:
       taxonomies:
         display: false
-  # organizations:
-  #   index:
-  #     options:
-  #       link: true
+
 
   image_sizes:
       sections:

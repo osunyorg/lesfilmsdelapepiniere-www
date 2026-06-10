@@ -2,6 +2,34 @@
 .block-agenda--large, .block-pages--large
     .page .media img
         aspect-ratio: $page-aspect-ratio !important
+// Hero
+.page-ressources
+    .hero
+        @include media-breakpoint-up(desktop)
+            min-height: 0
+
+body:not(.page-ressources)
+    .hero
+        @include media-breakpoint-up(desktop)
+            min-height: var(--hero-height-desktop)
+
+body:not(.posts__page):not(.projects__page):not(.events__page)
+    .hero-text
+        @include media-breakpoint-up(desktop)
+            margin-top: .5rem !important
+        p
+            color: var(--color-text-alt)
+        span
+            display: none
+
+.single-meta .social-share ul.share 
+    align-items: baseline
+
+    a
+        opacity: .4
+        transition: $default-duration
+    a:hover
+        opacity: 1
 
 .block
     // TYPO

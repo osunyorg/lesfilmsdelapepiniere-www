@@ -1,10 +1,14 @@
+.posts__section.full-width,
+.posts_categories__term
+    .posts--grid
+        grid-template-columns: repeat(4, 1fr) !important
+    .post img
+        aspect-ratio: .75
+    .post-content .post-meta
+        margin-top: var(--spacing-1)
+
 .posts__page
-    header#document-header
-        background: 0 0
-    header#document-header.is-sticky
-        background: var(--color-background)
     .hero
-        // background-color: $color-background-accent
         .hero-meta
             color: var(--color-text-alt)
             margin-top: $spacing-3
@@ -22,18 +26,17 @@
                         margin-left: space()
                         margin-right: space()
 
+.page-actualites
+    .block-agenda
+        margin-bottom: 6rem
+        &.block-agenda--large
+            img
+                aspect-ratio: $page-aspect-ratio
+        
+    .children-categories
+        li:not(:last-child)::after
+            content: "/"
+            margin-left: .75rem
 
-.posts__section.full-width,
-.posts_categories__term
-    .posts--grid
-        grid-template-columns: repeat(4, 1fr) !important
-
-    .post img
-        aspect-ratio: .7
-
-    .post-content .post-categories
-        margin-bottom: 0
-
-    .post-content .post-meta
-        margin-top: var(--spacing-1)
-
+        a
+            font-size: var(--h5-size)

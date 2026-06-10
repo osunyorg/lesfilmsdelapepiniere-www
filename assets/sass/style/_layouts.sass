@@ -2,7 +2,7 @@
     @include media-breakpoint-up(desktop)
         .logo img
             height: 80px !important
-
+        
     a
         font-family: $body-font-family
         font-size: 17px !important
@@ -16,9 +16,13 @@
                         font-size: 22px
                         opacity: .6
 
-
 #document-footer
     .container
         padding-bottom: 0 !important
     .footer-logo
         display: none !important
+
+.taxonomies-list--dropdown, .section-taxonomies-container
+    @include media-breakpoint-up(desktop)
+        margin-top: 0 !important
+        margin-bottom: 4rem
