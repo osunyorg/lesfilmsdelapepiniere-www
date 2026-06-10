@@ -107,10 +107,6 @@ from = "/personnes/chantal-tran/index.html"
 to = "/coop/chantal-tran/"
 
 [[redirects]]
-from = "/actualites/index.html"
-to = "/actualites-v01/"
-
-[[redirects]]
 from = "/personnes/flora-jouvencel/index.html"
 to = "/coop/flora-jouvencel/"
 
@@ -149,6 +145,10 @@ to = "/films/2026-nicolenicole/"
 [[redirects]]
 from = "/actualites/2023-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1-1/index.html"
 to = "/actualites/2020-06-02-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1-1/"
+
+[[redirects]]
+from = "/actualites-v01/index.html"
+to = "/actualites/"
 
 [[redirects]]
 from = "/actualites/2026-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1/index.html"
