@@ -55,6 +55,10 @@ from = "/personnes/categories/membres/index.html"
 to = "/coop/categories/membres/"
 
 [[redirects]]
+from = "/coop/jean-charles-leyris/actualites/index.html"
+to = "/coop/jean-charles-leyris/actualites-v01/"
+
+[[redirects]]
 from = "/personnes/sylvie-plunian/index.html"
 to = "/coop/sylvie-plunian/"
 
@@ -83,12 +87,20 @@ from = "/personnes/chantal-tran/index.html"
 to = "/coop/chantal-tran/"
 
 [[redirects]]
+from = "/actualites/index.html"
+to = "/actualites-v01/"
+
+[[redirects]]
 from = "/personnes/flora-jouvencel/index.html"
 to = "/coop/flora-jouvencel/"
 
 [[redirects]]
 from = "/archives-expositions/index.html"
 to = "/expositions/archives-expositions/"
+
+[[redirects]]
+from = "/actualites/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
+to = "/actualites-v01/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
 [[redirects]]
 from = "/personnes/categories/anciens-membres/index.html"
@@ -112,7 +124,7 @@ to = "/actualites/2020-06-02-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1
 
 [[redirects]]
 from = "/actualites/2026-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1/index.html"
-to = "/actualites/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
+to = "/actualites-v01/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
 [[redirects]]
 from = "/actualites/type/actualites-de-la-scic/index.html"
@@ -124,7 +136,7 @@ to = "/coop/aurelia-pfend/"
 
 [[redirects]]
 from = "/actualites/type/index.html"
-to = "/actualites/actus/"
+to = "/actualites-v01/actus/"
 
 [[redirects]]
 from = "/projets/en-developpement/index.html"
@@ -141,6 +153,10 @@ to = "/actualites/2020-06-02-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1
 [[redirects]]
 from = "/projets/en-diffusion/index.html"
 to = "/films/statut/en-diffusion/"
+
+[[redirects]]
+from = "/actualites/actus/index.html"
+to = "/actualites-v01/actus/"
 
 [[redirects]]
 from = "/actualites/2026-05-19-prix-du-jury-a-visions-du-reel-pour-nicole-nicole/index.html"
