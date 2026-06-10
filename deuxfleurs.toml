@@ -39,6 +39,10 @@ from = "/personnes/clothilde-bunod/index.html"
 to = "/coop/clothilde-bunod/"
 
 [[redirects]]
+from = "/coop/jean-charles-leyris/posts/index.html"
+to = "/coop/jean-charles-leyris/articles/"
+
+[[redirects]]
 from = "/agenda/2026/la-prochaine-permanence-aux-etats-generaux-du-documentaire-1/index.html"
 to = "/agenda/2025/la-prochaine-permanence-aux-etats-generaux-du-documentaire-1/"
 
@@ -47,8 +51,12 @@ from = "/personnes/equipe-editoriale/index.html"
 to = "/coop/equipe-editoriale/"
 
 [[redirects]]
+from = "/posts/2026-04-01-publication-du-site-web/index.html"
+to = "/articles/2026-04-01-publication-du-site-web/"
+
+[[redirects]]
 from = "/actualites/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
-to = "/posts/2026-05-19-lauren-dallenbach-dans-doc-session/"
+to = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/actualites/type/actualites-des-films/index.html"
@@ -60,7 +68,7 @@ to = "/coop/anne-cardi-avrin/"
 
 [[redirects]]
 from = "/actualites/2026-06-10-journal-de-cuisine/index.html"
-to = "/posts/2026-06-10-journal-de-cuisine/"
+to = "/articles/2026-06-10-journal-de-cuisine/"
 
 [[redirects]]
 from = "/personnes/categories/membres/index.html"
@@ -72,7 +80,11 @@ to = "/posts/type/actus/"
 
 [[redirects]]
 from = "/coop/jean-charles-leyris/actualites/index.html"
-to = "/coop/jean-charles-leyris/posts/"
+to = "/coop/jean-charles-leyris/articles/"
+
+[[redirects]]
+from = "/posts/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
+to = "/articles/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
 [[redirects]]
 from = "/personnes/sylvie-plunian/index.html"
@@ -84,11 +96,15 @@ to = "/coop/jean-charles-leyris/"
 
 [[redirects]]
 from = "/actualites-v01/2026-06-10-journal-de-cuisine/index.html"
-to = "/posts/2026-06-10-journal-de-cuisine/"
+to = "/articles/2026-06-10-journal-de-cuisine/"
 
 [[redirects]]
 from = "/personnes/categories/ancien-membre/index.html"
 to = "/coop/categories/anciens-membres/"
+
+[[redirects]]
+from = "/coop/elodie-boin-zanchi/posts/index.html"
+to = "/coop/elodie-boin-zanchi/articles/"
 
 [[redirects]]
 from = "/actualites/ressources-1/paroles-de-cineastes/index.html"
@@ -96,7 +112,11 @@ to = "/posts/ressources/paroles-de-cineastes/"
 
 [[redirects]]
 from = "/coop/alice-marsal/actualites-v01/index.html"
-to = "/coop/alice-marsal/posts/"
+to = "/coop/alice-marsal/articles/"
+
+[[redirects]]
+from = "/posts/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
+to = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/personnes/categories/membre/index.html"
@@ -104,19 +124,27 @@ to = "/coop/categories/membres/"
 
 [[redirects]]
 from = "/actualites/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/index.html"
-to = "/posts/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
+to = "/articles/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
 from = "/tenk/index.html"
 to = "/organisations/tenk/"
 
 [[redirects]]
+from = "/posts/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/index.html"
+to = "/articles/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
+
+[[redirects]]
 from = "/personnes/chantal-tran/index.html"
 to = "/coop/chantal-tran/"
 
 [[redirects]]
+from = "/posts/film/index.html"
+to = "/articles/film/"
+
+[[redirects]]
 from = "/coop/jean-charles-leyris/actualites-v01/index.html"
-to = "/coop/jean-charles-leyris/posts/"
+to = "/coop/jean-charles-leyris/articles/"
 
 [[redirects]]
 from = "/personnes/flora-jouvencel/index.html"
@@ -136,11 +164,11 @@ to = "/posts/type/ressources/"
 
 [[redirects]]
 from = "/actualites/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
-to = "/posts/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
+to = "/articles/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
 [[redirects]]
 from = "/actualites-v01/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
-to = "/posts/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
+to = "/articles/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
 [[redirects]]
 from = "/actualites/ressources-1/la-vie-des-producteurs/index.html"
@@ -172,7 +200,7 @@ to = "/articles/"
 
 [[redirects]]
 from = "/actualites/2026-04-01-publication-du-site-web/index.html"
-to = "/posts/2026-04-01-publication-du-site-web/"
+to = "/articles/2026-04-01-publication-du-site-web/"
 
 [[redirects]]
 from = "/actualites-v01/index.html"
@@ -180,7 +208,7 @@ to = "/articles/"
 
 [[redirects]]
 from = "/actualites/2026-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1/index.html"
-to = "/posts/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
+to = "/articles/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
 [[redirects]]
 from = "/posts/ressources/index.html"
@@ -196,7 +224,7 @@ to = "/coop/aurelia-pfend/"
 
 [[redirects]]
 from = "/actualites-v01/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/index.html"
-to = "/posts/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
+to = "/articles/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
 from = "/actualites/type/index.html"
@@ -220,11 +248,11 @@ to = "/organisations/categories/diffuseur/"
 
 [[redirects]]
 from = "/actualites-v01/film/index.html"
-to = "/posts/film/"
+to = "/articles/film/"
 
 [[redirects]]
 from = "/coop/elodie-boin-zanchi/actualites/index.html"
-to = "/coop/elodie-boin-zanchi/posts/"
+to = "/coop/elodie-boin-zanchi/articles/"
 
 [[redirects]]
 from = "/projets/en-diffusion/index.html"
@@ -232,7 +260,7 @@ to = "/films/statut/en-diffusion/"
 
 [[redirects]]
 from = "/actualites/2026-05-19-prix-du-jury-a-visions-du-reel-pour-nicole-nicole/index.html"
-to = "/posts/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
+to = "/articles/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
 from = "/actualites-v01/ressources/index.html"
@@ -248,7 +276,7 @@ to = "/coop/"
 
 [[redirects]]
 from = "/actualites-v01/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
-to = "/posts/2026-05-19-lauren-dallenbach-dans-doc-session/"
+to = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/actualites/type/actualites-du-site/index.html"
@@ -263,12 +291,20 @@ from = "/films/2026-les-cedres-1/index.html"
 to = "/films/2026-nei/"
 
 [[redirects]]
+from = "/coop/alice-marsal/posts/index.html"
+to = "/coop/alice-marsal/articles/"
+
+[[redirects]]
 from = "/coop/avrin-cardi/index.html"
 to = "/coop/anne-cardi-avrin/"
 
 [[redirects]]
 from = "/personnes/anouck-lanot/index.html"
 to = "/coop/anouck-lanot/"
+
+[[redirects]]
+from = "/posts/2026-06-10-journal-de-cuisine/index.html"
+to = "/articles/2026-06-10-journal-de-cuisine/"
 
 [[redirects]]
 from = "/projets/index.html"
