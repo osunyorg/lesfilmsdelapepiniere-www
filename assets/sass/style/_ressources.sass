@@ -10,29 +10,42 @@
         display: flex
         flex-flow: column
 
-        > .container:not(.children-categories)
+    .document-content
+        > .container
             display: none
-
-    .container .categories--grid
-        display: none !important
-
+    
     .block-page-ressources
         .top
             display: none !important
 
-    .children-categories
+    .block-categories
         order: -1
         display: flex
         gap: 2rem
         background: $color-background-accent
         margin-top: 0 !important
+        padding-bottom: var(--grid-gutter)
+
+        .articles-count
+            &::before
+                content: "("
+            &::after
+                content: ")"
+
+        .categories
+            display: flex
+
+        .category-content
+            display: flex
+            gap: 5px
+            align-items: baseline
+
+        .posts_category-title
+            font-size: var(--meta-size) !important
+
+            a::after
+                display: none !important
         
-        li a
-            background-color: var(--color-background)
-            padding: var(--spacing-1) var(--spacing-2)
-            border-radius: 18px
-            text-decoration: none
-            
 
             
 
