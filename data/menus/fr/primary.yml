@@ -16,13 +16,15 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Accompagnements
-    slug: accompagnements
-    target: ''
-    kind: blank
+  - title: Tous
+    slug: tous
+    target: "/accompagnements/"
+    kind: page
     new_tab: false
     children: []
     descendants_targets: []
+    path: "/pages/accompagnements"
+    file: content/fr/pages/accompagnements/_index.html
   - title: Le BAR
     slug: le-bar
     target: "/accompagnements/le-bar/"
@@ -51,7 +53,7 @@ items:
     path: "/pages/accompagnements/formation-la-relation-auteur-autrice-producteur-produtrice"
     file: content/fr/pages/accompagnements/formation-la-relation-auteur-autrice-producteur-produtrice/_index.html
   descendants_targets:
-  - ''
+  - "/accompagnements/"
   - "/accompagnements/formation-la-relation-auteur-autrice-producteur-produtrice/"
   - "/accompagnements/la-permanence/"
   - "/accompagnements/le-bar/"
