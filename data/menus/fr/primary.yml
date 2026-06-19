@@ -16,8 +16,8 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Tous les accompagnements
-    slug: tous-les-accompagnements
+  - title: Tous
+    slug: tous
     target: "/accompagnements/"
     kind: page
     new_tab: false
