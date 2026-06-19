@@ -231,10 +231,6 @@ from = "/posts/ressources/index.html"
 to = "/articles/type/ressources/"
 
 [[redirects]]
-from = "/actualites/actus/actualites-du-site/index.html"
-to = "/articles/type/actualites/site/"
-
-[[redirects]]
 from = "/actualites/type/actualites-de-la-scic/index.html"
 to = "/articles/type/actualites/la-scic/"
 
@@ -293,10 +289,6 @@ to = "/coop/"
 [[redirects]]
 from = "/actualites-v01/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
 to = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/"
-
-[[redirects]]
-from = "/actualites/type/actualites-du-site/index.html"
-to = "/articles/type/actualites/site/"
 
 [[redirects]]
 from = "/films/2026-les-cedres-1/index.html"
