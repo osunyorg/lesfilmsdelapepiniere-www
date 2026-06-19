@@ -163,10 +163,6 @@ from = "/posts/type/actus/index.html"
 to = "/articles/type/infos/"
 
 [[redirects]]
-from = "/posts/index.html"
-to = "/articles/"
-
-[[redirects]]
 from = "/actualites/ressources-1/index.html"
 to = "/articles/type/ressources/"
 
@@ -215,16 +211,8 @@ from = "/films/2026-nicole-nicole-1/index.html"
 to = "/films/2026-nicolenicole/"
 
 [[redirects]]
-from = "/actualites/index.html"
-to = "/articles/"
-
-[[redirects]]
 from = "/actualites/2026-04-01-publication-du-site-web/index.html"
 to = "/articles/2026-04-01-publication-du-site-web/"
-
-[[redirects]]
-from = "/actualites-v01/index.html"
-to = "/articles/"
 
 [[redirects]]
 from = "/actualites/2026-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1/index.html"
@@ -293,6 +281,10 @@ to = "/coop/"
 [[redirects]]
 from = "/actualites-v01/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
 to = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/"
+
+[[redirects]]
+from = "/articles/index.html"
+to = "/actualites/"
 
 [[redirects]]
 from = "/films/2026-les-cedres-1/index.html"
