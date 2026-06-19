@@ -1,0 +1,30 @@
+{{ $personSlug := .Slug }}
+
+{{ $projects := where site.RegularPages "Section" "projects" }}
+{{ $filtered := slice }}
+
+{{ range $projects }}
+  {{ $project := . }}
+  {{ $match := false }}
+
+  {{ range $project.Params.contents }}
+
+    {{ if eq .template "persons" }}
+
+      {{ range .data.persons }}
+        {{ if eq .slug $personSlug }}
+          {{ $match = true }}
+        {{ end }}
+      {{ end }}
+
+    {{ end }}
+
+  {{ end }}
+
+  {{ if $match }}
+    {{ $filtered = $filtered | append $project }}
+  {{ end }}
+
+{{ end }}
+
+{{ return $filtered }}

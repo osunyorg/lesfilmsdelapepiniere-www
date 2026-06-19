@@ -1,0 +1,29 @@
+{{ $author := site.GetPage (printf "/authors/%s" .Slug) }}
+{{ $layout := site.Params.projects.index.layout }}
+{{ $options := site.Params.projects.index.options }}
+
+{{ $projects := partial "persons/single/helpers/GetProjects.html" . }}
+
+{{ if $projects }}
+  <section class="person-posts">
+
+    <div class="top">
+      <h2 class="h5">
+        Films produits
+      </h2>
+    </div>
+
+    <ul class="posts posts--{{ $layout }}">
+
+      {{ range $projects }}
+        {{ partial "projects/partials/project.html" (dict
+          "project" .
+          "layout" $layout
+          "options" $options
+        ) }}
+      {{ end }}
+
+    </ul>
+
+  </section>
+{{ end }}
