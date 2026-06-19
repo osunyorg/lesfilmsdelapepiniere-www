@@ -72,7 +72,7 @@ to = "/coop/categories/membres/"
 
 [[redirects]]
 from = "/posts/actus/index.html"
-to = "/articles/type/actualites/"
+to = "/articles/type/infos/"
 
 [[redirects]]
 from = "/coop/jean-charles-leyris/actualites/index.html"
@@ -123,6 +123,10 @@ from = "/posts/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
 to = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
+from = "/articles/type/actualites/index.html"
+to = "/articles/type/infos/"
+
+[[redirects]]
 from = "/personnes/categories/membre/index.html"
 to = "/coop/categories/membres/"
 
@@ -156,7 +160,7 @@ to = "/expositions/archives-expositions/"
 
 [[redirects]]
 from = "/posts/type/actus/index.html"
-to = "/articles/type/actualites/"
+to = "/articles/type/infos/"
 
 [[redirects]]
 from = "/posts/index.html"
@@ -192,7 +196,7 @@ to = "/coop/raphaele-dumas/"
 
 [[redirects]]
 from = "/actualites-v01/actus/index.html"
-to = "/articles/type/actualites/"
+to = "/articles/type/infos/"
 
 [[redirects]]
 from = "/posts/ressources/paroles-de-cineastes/index.html"
@@ -244,7 +248,7 @@ to = "/articles/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
 from = "/actualites/type/index.html"
-to = "/articles/type/actualites/"
+to = "/articles/type/infos/"
 
 [[redirects]]
 from = "/projets/en-developpement/index.html"
@@ -252,7 +256,7 @@ to = "/films/statut/en-developpement/"
 
 [[redirects]]
 from = "/actualites/actus/index.html"
-to = "/articles/type/actualites/"
+to = "/articles/type/infos/"
 
 [[redirects]]
 from = "/categories/diffuseur/index.html"
