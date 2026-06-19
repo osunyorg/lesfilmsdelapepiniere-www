@@ -19,6 +19,10 @@ from = "/personnes/alice-marsal/index.html"
 to = "/coop/alice-marsal/"
 
 [[redirects]]
+from = "/articles/thematique/index.html"
+to = "/actualites/thematique/"
+
+[[redirects]]
 from = "/personnes/romane-martin/index.html"
 to = "/coop/romane-martin/"
 
@@ -55,6 +59,10 @@ from = "/personnes/avrin-cardi/index.html"
 to = "/coop/anne-cardi-avrin/"
 
 [[redirects]]
+from = "/coop/elodie-boin-zanchi/articles/index.html"
+to = "/coop/elodie-boin-zanchi/actualites/"
+
+[[redirects]]
 from = "/personnes/categories/membres/index.html"
 to = "/coop/categories/membres/"
 
@@ -80,7 +88,7 @@ to = "/coop/categories/anciens-membres/"
 
 [[redirects]]
 from = "/coop/elodie-boin-zanchi/posts/index.html"
-to = "/coop/elodie-boin-zanchi/articles/"
+to = "/coop/elodie-boin-zanchi/actualites/"
 
 [[redirects]]
 from = "/coop/alice-marsal/actualites-v01/index.html"
@@ -127,6 +135,10 @@ from = "/actualites-v01/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-
 to = "/actualites/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
 [[redirects]]
+from = "/articles/film-lie/index.html"
+to = "/actualites/film-lie/"
+
+[[redirects]]
 from = "/personnes/categories/anciens-membres/index.html"
 to = "/coop/categories/anciens-membres/"
 
@@ -165,10 +177,6 @@ to = "/films/statut/en-developpement/"
 [[redirects]]
 from = "/categories/diffuseur/index.html"
 to = "/organisations/categories/diffuseur/"
-
-[[redirects]]
-from = "/coop/elodie-boin-zanchi/actualites/index.html"
-to = "/coop/elodie-boin-zanchi/articles/"
 
 [[redirects]]
 from = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
