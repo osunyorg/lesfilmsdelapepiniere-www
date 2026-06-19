@@ -23,20 +23,12 @@ from = "/personnes/romane-martin/index.html"
 to = "/coop/romane-martin/"
 
 [[redirects]]
-from = "/articles/2026-04-01-publication-du-site-web/index.html"
-to = "/actualites/2026-04-01-publication-du-site-web/"
-
-[[redirects]]
 from = "/personnes/clothilde-bunod/index.html"
 to = "/coop/clothilde-bunod/"
 
 [[redirects]]
 from = "/coop/jean-charles-leyris/posts/index.html"
 to = "/coop/jean-charles-leyris/actualites/"
-
-[[redirects]]
-from = "/articles/2026-06-10-journal-de-cuisine/index.html"
-to = "/actualites/2026-06-10-journal-de-cuisine/"
 
 [[redirects]]
 from = "/agenda/2026/la-prochaine-permanence-aux-etats-generaux-du-documentaire-1/index.html"
@@ -47,16 +39,8 @@ from = "/personnes/equipe-editoriale/index.html"
 to = "/coop/equipe-editoriale/"
 
 [[redirects]]
-from = "/posts/2026-04-01-publication-du-site-web/index.html"
-to = "/actualites/2026-04-01-publication-du-site-web/"
-
-[[redirects]]
 from = "/personnes/avrin-cardi/index.html"
 to = "/coop/anne-cardi-avrin/"
-
-[[redirects]]
-from = "/actualites/infos-test/index.html"
-to = "/actualites/infos/"
 
 [[redirects]]
 from = "/coop/elodie-boin-zanchi/articles/index.html"
@@ -83,10 +67,6 @@ from = "/personnes/jean-charles-leyris/index.html"
 to = "/coop/jean-charles-leyris/"
 
 [[redirects]]
-from = "/actualites-v01/2026-06-10-journal-de-cuisine/index.html"
-to = "/actualites/2026-06-10-journal-de-cuisine/"
-
-[[redirects]]
 from = "/personnes/categories/ancien-membre/index.html"
 to = "/coop/categories/anciens-membres/"
 
@@ -100,7 +80,7 @@ to = "/coop/alice-marsal/actualites/"
 
 [[redirects]]
 from = "/posts/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
-to = "/actualites/2026-05-19-lauren-dallenbach-dans-doc-session/"
+to = "/actualites/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/personnes/categories/membre/index.html"
@@ -163,6 +143,10 @@ from = "/films/2026-nicole-nicole-1/index.html"
 to = "/films/2026-nicolenicole/"
 
 [[redirects]]
+from = "/actualites/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
+to = "/actualites/2026-06-19-lauren-dallenbach-dans-doc-session/"
+
+[[redirects]]
 from = "/coop/jean-charles-leyris/articles/index.html"
 to = "/coop/jean-charles-leyris/actualites/"
 
@@ -192,11 +176,15 @@ to = "/actualites/ressources/la-scic-1/"
 
 [[redirects]]
 from = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
-to = "/actualites/2026-05-19-lauren-dallenbach-dans-doc-session/"
+to = "/actualites/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/actualites/thematique/paroles-de-cineastes/index.html"
 to = "/actualites/ressources/paroles-de-cineastes/"
+
+[[redirects]]
+from = "/actualites/2026-06-19-journal-de-cuisine-1/index.html"
+to = "/actualites/2026-06-19-journal-de-cuisine-4801/"
 
 [[redirects]]
 from = "/projets/en-diffusion/index.html"
@@ -212,7 +200,7 @@ to = "/coop/"
 
 [[redirects]]
 from = "/actualites-v01/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
-to = "/actualites/2026-05-19-lauren-dallenbach-dans-doc-session/"
+to = "/actualites/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/articles/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/index.html"
@@ -241,10 +229,6 @@ to = "/coop/anne-cardi-avrin/"
 [[redirects]]
 from = "/personnes/anouck-lanot/index.html"
 to = "/coop/anouck-lanot/"
-
-[[redirects]]
-from = "/posts/2026-06-10-journal-de-cuisine/index.html"
-to = "/actualites/2026-06-10-journal-de-cuisine/"
 
 [[redirects]]
 from = "/projets/index.html"
