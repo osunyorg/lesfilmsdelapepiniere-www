@@ -3,6 +3,11 @@
     .hero, #document-header
         background-color : $color-background-accent
 
+.page-ressources:not(.ancestor-ressources)
+    .document-content
+        > .container
+            display: none
+
 .ancestor-ressources
 .page-ressources,
 
@@ -10,9 +15,6 @@
         display: flex
         flex-flow: column
 
-    .document-content
-        > .container
-            display: none
     
     .block-page-ressources
         .top
