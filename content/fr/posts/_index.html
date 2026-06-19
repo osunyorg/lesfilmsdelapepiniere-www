@@ -11,7 +11,7 @@ bodyclass: >-
 url: "/articles/"
 slug: "articles"
 date: 2026-03-31T12:59:56+02:00
-lastmod: 2026-06-19T15:45:52+02:00
+lastmod: 2026-06-19T15:54:07+02:00
 meta:
   hugo:
     permalink: "/articles/"
@@ -20,7 +20,7 @@ meta:
     slug: "articles"
   dates:
     created_at: 2026-03-31T12:59:56+02:00
-    updated_at: 2026-06-19T15:45:52+02:00
+    updated_at: 2026-06-19T15:54:07+02:00
     published_at: 2026-03-31T12:59:56+02:00
 search:
   id: "252ff67e-fd89-4dbd-b54e-74f5395423a9"
@@ -31,7 +31,8 @@ search:
   title: >-
     Actualités
 
-
+  body: >-
+    <p>Événements à venir </p>
 
 breadcrumbs:
   - title: >-
@@ -65,26 +66,26 @@ section_taxonomies:
     slug: "type"
     path: "/posts_categories/type"
     categories:
-      - permalink: "/articles/type/actualites/"
-        path: "/posts_categories/type/actualites"
-        slug: "type/actualites"
-        file: "content/fr/posts_categories/type/actualites/_index.html"
+      - permalink: "/articles/type/infos/"
+        path: "/posts_categories/type/infos"
+        slug: "type/infos"
+        file: "content/fr/posts_categories/type/infos/_index.html"
         name: >-
-          Actualités
+          Infos
         count: 3
         children:
           - permalink: "/articles/type/actualites/la-scic/"
-            path: "/posts_categories/type/actualites/la-scic"
-            slug: "type/actualites/la-scic"
-            file: "content/fr/posts_categories/type/actualites/la-scic/_index.html"
+            path: "/posts_categories/type/infos/la-scic"
+            slug: "type/infos/la-scic"
+            file: "content/fr/posts_categories/type/infos/la-scic/_index.html"
             name: >-
               Actualités de la SCIC
             count: 1
 
           - permalink: "/articles/type/actualites/films/"
-            path: "/posts_categories/type/actualites/films"
-            slug: "type/actualites/films"
-            file: "content/fr/posts_categories/type/actualites/films/_index.html"
+            path: "/posts_categories/type/infos/films"
+            slug: "type/infos/films"
+            file: "content/fr/posts_categories/type/infos/films/_index.html"
             name: >-
               Actualités des films
             count: 1
@@ -135,9 +136,55 @@ section_taxonomies:
         count: 1
 
 contents_reading_time:
-  seconds: 0
+  seconds: 1
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: agenda
+    title: >-
+      Événements à venir
+    slug: >-
+      evenements-a-venir
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Événements à venir
+        heading: 2
+        link: "/agenda/"
+
+    data:
+      mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: large
+
+
+      title_link: "/agenda/"
+      events:
+        - permalink: "/agenda/2026/la-prochaine-permanence-aux-etats-generaux-du-documentaire/"
+          path: "/events/2026/08/16-la-prochaine-permanence-aux-etats-generaux-du-documentaire"
+          slug: "la-prochaine-permanence-aux-etats-generaux-du-documentaire"
+          file: "content/fr/events/2026/08/16-la-prochaine-permanence-aux-etats-generaux-du-documentaire.html"
+          name: >-
+            La prochaine Permanence aux États généraux du documentaire
+
+      quantity: 1
+
 
 ---
