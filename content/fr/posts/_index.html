@@ -66,24 +66,36 @@ header_cta:
 
 section_taxonomies:
   - name: >-
-      Ressources
-    slug: "ressources"
-    path: "/posts_categories/ressources"
+      Catégories
+    slug: ""
+    path: ""
     categories:
-      - permalink: "/actualites/ressources/paroles-de-cineastes/"
-        path: "/posts_categories/ressources/paroles-de-cineastes"
-        slug: "ressources/paroles-de-cineastes"
-        file: "content/fr/posts_categories/ressources/paroles-de-cineastes/_index.html"
+      - permalink: "/actualites/ressources/"
+        path: "/posts_categories/ressources"
+        slug: "ressources"
+        file: "content/fr/posts_categories/ressources/_index.html"
         name: >-
-          Paroles de cinéastes
-        count: 1
-      - permalink: "/actualites/ressources/la-vie-des-producteurs/"
-        path: "/posts_categories/ressources/la-vie-des-producteurs"
-        slug: "ressources/la-vie-des-producteurs"
-        file: "content/fr/posts_categories/ressources/la-vie-des-producteurs/_index.html"
-        name: >-
-          La vie des producteurs
-        count: 1
+          Ressources
+        count: 2
+        children:
+          - permalink: "/actualites/ressources/la-vie-des-producteurs/"
+            path: "/posts_categories/ressources/la-vie-des-producteurs"
+            slug: "ressources/la-vie-des-producteurs"
+            file: "content/fr/posts_categories/ressources/la-vie-des-producteurs/_index.html"
+            name: >-
+              La vie des producteurs
+            count: 1
+
+          - permalink: "/actualites/ressources/paroles-de-cineastes/"
+            path: "/posts_categories/ressources/paroles-de-cineastes"
+            slug: "ressources/paroles-de-cineastes"
+            file: "content/fr/posts_categories/ressources/paroles-de-cineastes/_index.html"
+            name: >-
+              Paroles de cinéastes
+            count: 1
+
+
+
   - name: >-
       Film lié
     slug: "film-lie"
