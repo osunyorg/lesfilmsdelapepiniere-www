@@ -80,7 +80,7 @@ to = "/coop/alice-marsal/actualites/"
 
 [[redirects]]
 from = "/posts/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
-to = "/actualites/2026-05-19-lauren-dallenbach-dans-doc-session/"
+to = "/actualites/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/personnes/categories/membre/index.html"
@@ -143,6 +143,10 @@ from = "/films/2026-nicole-nicole-1/index.html"
 to = "/films/2026-nicolenicole/"
 
 [[redirects]]
+from = "/actualites/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
+to = "/actualites/2026-06-19-lauren-dallenbach-dans-doc-session/"
+
+[[redirects]]
 from = "/coop/jean-charles-leyris/articles/index.html"
 to = "/coop/jean-charles-leyris/actualites/"
 
@@ -172,7 +176,7 @@ to = "/actualites/ressources/la-scic-1/"
 
 [[redirects]]
 from = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
-to = "/actualites/2026-05-19-lauren-dallenbach-dans-doc-session/"
+to = "/actualites/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/actualites/thematique/paroles-de-cineastes/index.html"
@@ -196,7 +200,7 @@ to = "/coop/"
 
 [[redirects]]
 from = "/actualites-v01/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
-to = "/actualites/2026-05-19-lauren-dallenbach-dans-doc-session/"
+to = "/actualites/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/articles/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/index.html"
