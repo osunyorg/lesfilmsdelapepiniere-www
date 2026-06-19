@@ -19,10 +19,6 @@ from = "/personnes/alice-marsal/index.html"
 to = "/coop/alice-marsal/"
 
 [[redirects]]
-from = "/articles/thematique/index.html"
-to = "/actualites/thematique/"
-
-[[redirects]]
 from = "/personnes/romane-martin/index.html"
 to = "/coop/romane-martin/"
 
@@ -59,6 +55,10 @@ from = "/personnes/avrin-cardi/index.html"
 to = "/coop/anne-cardi-avrin/"
 
 [[redirects]]
+from = "/actualites/infos-test/index.html"
+to = "/actualites/infos/"
+
+[[redirects]]
 from = "/coop/elodie-boin-zanchi/articles/index.html"
 to = "/coop/elodie-boin-zanchi/actualites/"
 
@@ -73,6 +73,10 @@ to = "/actualites/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visi
 [[redirects]]
 from = "/personnes/sylvie-plunian/index.html"
 to = "/coop/sylvie-plunian/"
+
+[[redirects]]
+from = "/actualites/thematique/la-vie-des-producteurs/index.html"
+to = "/actualites/ressources/la-vie-des-producteurs/"
 
 [[redirects]]
 from = "/personnes/jean-charles-leyris/index.html"
@@ -131,6 +135,10 @@ from = "/archives-expositions/index.html"
 to = "/expositions/archives-expositions/"
 
 [[redirects]]
+from = "/actualites/ressources-test/index.html"
+to = "/actualites/ressources/"
+
+[[redirects]]
 from = "/actualites-v01/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
 to = "/actualites/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
@@ -179,8 +187,16 @@ from = "/categories/diffuseur/index.html"
 to = "/organisations/categories/diffuseur/"
 
 [[redirects]]
+from = "/articles/thematique/la-scic-1/index.html"
+to = "/actualites/ressources/la-scic-1/"
+
+[[redirects]]
 from = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
 to = "/actualites/2026-05-19-lauren-dallenbach-dans-doc-session/"
+
+[[redirects]]
+from = "/actualites/thematique/paroles-de-cineastes/index.html"
+to = "/actualites/ressources/paroles-de-cineastes/"
 
 [[redirects]]
 from = "/projets/en-diffusion/index.html"
