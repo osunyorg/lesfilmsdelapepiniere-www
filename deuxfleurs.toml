@@ -147,6 +147,10 @@ from = "/actualites/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
 to = "/actualites/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
+from = "/articles/film-lie/4801-nuits/index.html"
+to = "/actualites/film-lie/4801-nuits/"
+
+[[redirects]]
 from = "/coop/jean-charles-leyris/articles/index.html"
 to = "/coop/jean-charles-leyris/actualites/"
 
@@ -201,6 +205,10 @@ to = "/coop/"
 [[redirects]]
 from = "/actualites-v01/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
 to = "/actualites/2026-06-19-lauren-dallenbach-dans-doc-session/"
+
+[[redirects]]
+from = "/articles/film-lie/nicole-nicole/index.html"
+to = "/actualites/film-lie/nicole-nicole/"
 
 [[redirects]]
 from = "/articles/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/index.html"
