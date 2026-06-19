@@ -35,10 +35,6 @@ from = "/coop/jean-charles-leyris/posts/index.html"
 to = "/coop/jean-charles-leyris/actualites/"
 
 [[redirects]]
-from = "/articles/2026-06-10-journal-de-cuisine/index.html"
-to = "/actualites/2026-06-10-journal-de-cuisine/"
-
-[[redirects]]
 from = "/agenda/2026/la-prochaine-permanence-aux-etats-generaux-du-documentaire-1/index.html"
 to = "/agenda/2025/la-prochaine-permanence-aux-etats-generaux-du-documentaire-1/"
 
@@ -77,10 +73,6 @@ to = "/actualites/ressources/la-vie-des-producteurs/"
 [[redirects]]
 from = "/personnes/jean-charles-leyris/index.html"
 to = "/coop/jean-charles-leyris/"
-
-[[redirects]]
-from = "/actualites-v01/2026-06-10-journal-de-cuisine/index.html"
-to = "/actualites/2026-06-10-journal-de-cuisine/"
 
 [[redirects]]
 from = "/personnes/categories/ancien-membre/index.html"
@@ -237,10 +229,6 @@ to = "/coop/anne-cardi-avrin/"
 [[redirects]]
 from = "/personnes/anouck-lanot/index.html"
 to = "/coop/anouck-lanot/"
-
-[[redirects]]
-from = "/posts/2026-06-10-journal-de-cuisine/index.html"
-to = "/actualites/2026-06-10-journal-de-cuisine/"
 
 [[redirects]]
 from = "/projets/index.html"
