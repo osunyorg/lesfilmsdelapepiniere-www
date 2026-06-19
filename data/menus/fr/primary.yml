@@ -51,7 +51,7 @@ items:
   file: content/fr/pages/accompagnements/_index.html
 - title: Ressources
   slug: ressources
-  target: "/articles/type/ressources/"
+  target: "/actualites/type/ressources/"
   kind: category
   new_tab: false
   children: []
@@ -60,13 +60,13 @@ items:
   file: content/fr/posts_categories/type/ressources/_index.html
 - title: Actualités
   slug: actualites
-  target: "/articles/type/actualites/"
-  kind: category
+  target: "/actualites/"
+  kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/posts_categories/type/actualites"
-  file: content/fr/posts_categories/type/actualites/_index.html
+  path: "/posts"
+  file: content/fr/posts/_index.html
 - title: La coopérative
   slug: la-cooperative
   target: "/coop/"

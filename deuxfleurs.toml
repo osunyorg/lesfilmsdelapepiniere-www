@@ -72,7 +72,7 @@ to = "/coop/categories/membres/"
 
 [[redirects]]
 from = "/posts/actus/index.html"
-to = "/articles/type/actualites/"
+to = "/articles/type/infos/"
 
 [[redirects]]
 from = "/coop/jean-charles-leyris/actualites/index.html"
@@ -123,6 +123,10 @@ from = "/posts/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
 to = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
+from = "/articles/type/actualites/index.html"
+to = "/articles/type/infos/"
+
+[[redirects]]
 from = "/personnes/categories/membre/index.html"
 to = "/coop/categories/membres/"
 
@@ -156,11 +160,7 @@ to = "/expositions/archives-expositions/"
 
 [[redirects]]
 from = "/posts/type/actus/index.html"
-to = "/articles/type/actualites/"
-
-[[redirects]]
-from = "/posts/index.html"
-to = "/articles/"
+to = "/articles/type/infos/"
 
 [[redirects]]
 from = "/actualites/ressources-1/index.html"
@@ -192,7 +192,7 @@ to = "/coop/raphaele-dumas/"
 
 [[redirects]]
 from = "/actualites-v01/actus/index.html"
-to = "/articles/type/actualites/"
+to = "/articles/type/infos/"
 
 [[redirects]]
 from = "/posts/ressources/paroles-de-cineastes/index.html"
@@ -211,16 +211,8 @@ from = "/films/2026-nicole-nicole-1/index.html"
 to = "/films/2026-nicolenicole/"
 
 [[redirects]]
-from = "/actualites/index.html"
-to = "/articles/"
-
-[[redirects]]
 from = "/actualites/2026-04-01-publication-du-site-web/index.html"
 to = "/articles/2026-04-01-publication-du-site-web/"
-
-[[redirects]]
-from = "/actualites-v01/index.html"
-to = "/articles/"
 
 [[redirects]]
 from = "/actualites/2026-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1/index.html"
@@ -229,10 +221,6 @@ to = "/articles/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-vision
 [[redirects]]
 from = "/posts/ressources/index.html"
 to = "/articles/type/ressources/"
-
-[[redirects]]
-from = "/actualites/actus/actualites-du-site/index.html"
-to = "/articles/type/actualites/site/"
 
 [[redirects]]
 from = "/actualites/type/actualites-de-la-scic/index.html"
@@ -248,7 +236,7 @@ to = "/articles/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
 from = "/actualites/type/index.html"
-to = "/articles/type/actualites/"
+to = "/articles/type/infos/"
 
 [[redirects]]
 from = "/projets/en-developpement/index.html"
@@ -256,7 +244,7 @@ to = "/films/statut/en-developpement/"
 
 [[redirects]]
 from = "/actualites/actus/index.html"
-to = "/articles/type/actualites/"
+to = "/articles/type/infos/"
 
 [[redirects]]
 from = "/categories/diffuseur/index.html"
@@ -295,8 +283,8 @@ from = "/actualites-v01/2026-05-19-lauren-dallenbach-dans-doc-session/index.html
 to = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
-from = "/actualites/type/actualites-du-site/index.html"
-to = "/articles/type/actualites/site/"
+from = "/articles/index.html"
+to = "/actualites/"
 
 [[redirects]]
 from = "/films/2026-les-cedres-1/index.html"
