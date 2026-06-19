@@ -179,6 +179,10 @@ from = "/actualites/thematique/paroles-de-cineastes/index.html"
 to = "/actualites/ressources/paroles-de-cineastes/"
 
 [[redirects]]
+from = "/actualites/2026-06-19-journal-de-cuisine-1/index.html"
+to = "/actualites/2026-06-19-journal-de-cuisine-4801/"
+
+[[redirects]]
 from = "/projets/en-diffusion/index.html"
 to = "/films/statut/en-diffusion/"
 
