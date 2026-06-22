@@ -219,6 +219,10 @@ from = "/articles/index.html"
 to = "/actualites/"
 
 [[redirects]]
+from = "/actualites/2026-06-19-publication-du-site-web-1/index.html"
+to = "/actualites/2026-05-19-publication-du-site-web-1/"
+
+[[redirects]]
 from = "/films/2026-les-cedres-1/index.html"
 to = "/films/2026-nei/"
 
