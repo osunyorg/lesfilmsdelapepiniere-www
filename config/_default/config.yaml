@@ -14,42 +14,22 @@ params:
     active: true
     positions:
       - primary
-      # - upper-menu
-      # - fixed
-      - footer
+  menu:
+    primary:
+      level_1:
+        dropdown: true
+        title:
+          active: true
+          source: "Summary" # "Summary" | "meta_description"
+          truncate: 125
+          summary:
+            active: true
 
   share_links:
     enabled: true
     email: true
     mastodon: true
 
-  home:
-    head:
-      title: site
-
-  # SECTIONS
-  # default: # (???) possibilité d'ajouter un auteur? cf Ressources
-  #   sitemap:
-  #     ignore_children: false
-  #   index:
-  #     layout: list #ne fonctionne pas cf Ressources
-  #     subtitle: false #ne fonctionne pas sur Accompagnements mais sur Ressources oui
-  #     taxonomies:
-  #       display: true
-  #       layout: dropdown
-  #       show_name: true
-  #   single:
-  #     taxonomies:
-  #       position: content
-  #       show_name: true
-  # section PAGES
-  # pages:
-  #   index:
-  #     options:
-  #       author: true
-  #       categories: true
-  #       date: true
-  # section CATEGORIES
   categories:
     index:
       layout: grid

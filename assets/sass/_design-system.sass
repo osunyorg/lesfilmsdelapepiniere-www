@@ -19,7 +19,7 @@
   background: $color-background-alt
   border-radius: 50px
   color: $color-ui-accent
-  font-size: 1.85em
+  font-size: 1.65em
 
 
 // LAYOUTS
@@ -63,7 +63,11 @@
       li
         a
           font-size: 1rem
-// .meta
+.siblings-navigation ul a
+  &:hover
+    color: var(--color-text-alt)
+.meta
+  color: var(--color-text-alt)
 //  text-transform: uppercase
 
 // Images
@@ -100,5 +104,13 @@ img
       font-family: $body-font-family
       &::after
         +dropdown-btn
+
+
+.project, .post, .posts__page, .projects__page
+  &-title a, [class$="-categories"] a, .hero-meta a, .single-meta a
+    color: var(--color-text-alt) !important
+    text-decoration-color: color-mix(in srgb, var(--color-text) 30%, transparent)
+    &:hover
+        text-decoration-color: color-mix(in srgb, var(--color-text) 80%, transparent)
 
 

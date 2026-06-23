@@ -14,14 +14,11 @@
                 p
                   font-size: pxToRem(33)
                   color: var(--color-text-alt)
-    .blocks
-        .block
-            .page-title
-                font-size: $small-size-desktop
-                text-transform: uppercase
-                margin-top: var(--space-unit)
+    .block
+        &.block .page-title
+            margin-top: var(--space-unit)
 
-        .block-pages--grid:not(.block-class-films)
+        &.block-pages--grid:not(.block-class-films)
             @include media-breakpoint-up(desktop)
                 margin-top: calc(var(--grid-gutter) * 1.5)
                 margin-bottom: calc(var(--grid-gutter) * 2)
@@ -33,8 +30,7 @@
                     .page-subtitle
                         padding-right: var(--spacing-3)
 
-        .block-class-films
-                        
+        &.block-class-films    
             .block-content
                 .pages
                     display: flex !important
@@ -57,18 +53,12 @@
                     .media img
                         aspect-ratio: $img-aspect-ratio !important
 
-                  
-                                    
-        .block-call_to_action
-            .block-title
-                font-size: $small-size-desktop
-            .description p
-                font-size: $h3-size-desktop
-                font-family: $body-font-family
-                
+        &.block-call_to_action
+            background: var(--color-accent)        
+                            
 
         // a supprimer si CTA
-        .block-class-ressources
+        &.block-class-ressources
             .page-content
                 text-align: center
                 background-color : var(--color-background-alt)

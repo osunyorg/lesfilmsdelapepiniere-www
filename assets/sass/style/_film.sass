@@ -1,4 +1,6 @@
 .projects__page
+    .toc-cta
+        display: none !important
     .share, .hero-actions
         display: none
     .hero
@@ -9,6 +11,10 @@
         .projects-taxonomies
             order: -1
             margin: 0
+        .projects-meta
+            order: -1
+            margin-top: 0
+            
 
     .hero--with-image
         .container
@@ -21,7 +27,7 @@
                     align-self: center
                     
                     img
-                        aspect-ratio: 2.44 !important
+                        aspect-ratio: $img-aspect-ratio !important
                         object-fit: cover
 
                 .hero-text
@@ -90,25 +96,23 @@
 
                 .persons--large > li .person
                     .avatar
-                        width: calc( (var(--column-width) * 2) + var(--grid-gutter) * ( 2 - 1 ))
+                        width: calc( (var(--column-width) * 1.5) + var(--grid-gutter) * ( 2 - 1 ))
             
-            .block-gallery--carousel .slider figure picture img
-                height: calc(50 * var(--rvh));
-
+        
         .block-title:not(.block-title--collapsed):not(.block-title--classic)
             border-bottom: var(--border-width) solid var(--color-border) !important
             padding-bottom: 1.5rem
             width: 100%
         
         #galerie
-            display: none
+            visibility: hidden
+            position: absolute
 
         .block-gallery
             margin-top: calc(var(--grid-gutter) * 1)
-            margin-bottom: var(--grid-gutter)
+            margin-bottom: 0
             padding-bottom: 0
             background-color: inherit !important
-
 
         .block-class-festivals
             padding: var(--spacing-5) var(--spacing-2)
@@ -116,23 +120,31 @@
 
             .top
                 margin-bottom: 0
+
             h2
+                visibility: hidden
                 position: absolute
-                width: 1px
-                height: 1px
-                padding: 0
-                margin: -1px
-                overflow: hidden
-                clip: rect(0, 0, 0, 0)
-                white-space: nowrap
-                border: 0
+
             .text
                 font-size: var(--body-size)
                 width: 100% !important
                 color: var(--color-text-alt)
                 
-                .rich-text p
+                p
                     margin-top: 0
+                    font-size: var(--small-size) !important
+                    line-height: var(--small-line-height)
+
+        
+
+        .block-video--player
+            background: inherit
+            margin: 0
+            
+            .block-title
+                visibility: hidden
+                position: absolute
+                
         .block-datatable
             thead
                 display: none
@@ -145,6 +157,6 @@
                 td:first-child
                     color: var(--color-text-alt)
         .block-posts
-            background-color : $color-background-accent
+            background-color : $color-accent
            
                 

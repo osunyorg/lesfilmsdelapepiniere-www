@@ -38,8 +38,11 @@ body:not(.posts__page):not(.projects__page):not(.events__page)
         font-family: $body-font-family !important
         line-height: 120%
 
-    .block-title
+    &.block-title, .block-title
         text-transform: inherit !important
+
+        h2
+            font-size: var(--h5-size) !important
 
     .page-subtitle
         margin-top: var(--spacing-1)
@@ -51,12 +54,31 @@ body:not(.posts__page):not(.projects__page):not(.events__page)
 
     &.block-class-ressources
         .block-content .page-content
-            background-color: $color-background-accent !important
+            background-color: $color-accent !important
 
     &.block-persons
         .description p:not([class])
             font-size: var(--h4-size)
             line-height: var(--h4-line-height)
+        
+        .person-name
+            font-size: var(--body-size) !important
+
+    &.block-call_to_action
+        .block-title
+            font-size: $small-size-desktop !important
+            text-transform: uppercase !important
+        .description p
+            font-size: $h3-size-desktop
+            font-family: $body-font-family
+    
+    &.block-pages--grid
+        .page-title
+            font-size: $small-size-desktop 
+            text-transform: uppercase 
+    &.block-gallery--carousel .slider figure picture img
+
+        height: calc(50 * var(--rvh))
 
 
 // CATEGORIES
@@ -95,13 +117,13 @@ body:not(.posts__page):not(.projects__page):not(.events__page)
 .projects-taxonomies,
 .project-categories
     .cat-en-developpement
-        @include category-icon('/assets/images/en-developpement.svg', .6em, .7em)
+        @include category-icon('/assets/images/en-developpement.svg', .8em, .7em)
 
     .cat-en-production
-        @include category-icon('/assets/images/en-production.svg')
+        @include category-icon('/assets/images/en-production.svg', 1.1em, 1.1em)
 
     .cat-en-diffusion
-        @include category-icon('/assets/images/en-diffusion.svg')
+        @include category-icon('/assets/images/en-diffusion.svg', 1.1em, 1.1em)
 
 
 // CAROUSEL
@@ -114,9 +136,6 @@ body:not(.posts__page):not(.projects__page):not(.events__page)
 
 
 // CHAPITRE
-.block-chapter--alt_background
-    background: $color-background-alt-light
-// max-width: 68ch
 
 // AGENDA
 .pages__section

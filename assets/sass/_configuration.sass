@@ -2,23 +2,21 @@
 // $grid-breakpoints: (xs: 0, sm: 576px, md: 768px, desktop: 992px, lg: 992px, xl: 1200px, xxl: 1440px, xxxl: 1600px) !default
 
 /* COLORS */
-$color-danger: #FEF6AE !default
-$color-text: #49413e !default
-// #3A1210 #403e49
-$color-text-alt: rgba($color-text, .8) !default
-$color-accent: $color-text-alt !default
-$color-border: $color-text-alt !default
-$color-background: #fffff5 !default
-// #eef1ea #f6f6ee #fffff5
-// $color-background: #FEFAF7 #fefffa #f9f1de #fefaee #f7f7ef #fff9fb #f9f2e8 #eef1ea
-$color-background-alt: #e0d7d5 !default
-// #e0d7d5 #e0e0d5
-$color-background-alt-light: #F6F9E1 !default
+// AJOUTS
 $color-ui-accent: #89FF9C !default
-$color-background-accent: #7ad99e  !default
+$color-background-alt-light: #F6F9E1 !default
+
+// BASES
+$color-background: #fffff5 !default    // #eef1ea #f6f6ee #fffff5
+// #FEFAF7 #fefffa #f9f1de #fefaee #f7f7ef #fff9fb #f9f2e8 #eef1ea
+$color-text: #49413e !default   // #3A1210 #403e49
+$color-text-alt: rgba($color-text, .8) !default
+$color-accent: #7ad99e !default
+// #92C8A0 #D8FCDE 
+$color-background-alt: #E0D7D5 !default
+// #e0d7d5 #e0e0d5
+$color-border: $color-text-alt !default
 // #eaf5cb #c3d2a9 #bcecc6  #fff4d7 #ecf9ef #b0d3b5 #b2d0c4 #a0d8ac #def299 #ebf698 #F6F9E1 #d3f996
-// $color-background-accent: #92C8A0 !default
-// $color-background-accent: #D8FCDE !default
 $color-selection: $color-text !default
 $color-selection-background: rgba($color-ui-accent, .7) !default
 
@@ -36,8 +34,13 @@ $h1-weight: normal
 $h2-weight: normal
 $h3-weight: 500
 
+$toc-active-color: var(--color-text-alt) !default
+$block-chapter-layout-alt-background: $color-background-alt-light !default
 
 /* STYLES */
+// body
+$body-size-desktop: pxToRem(20) !default
+
 // Lead
 $hero-height: 300px !default
 $hero-height-desktop: 400px !default
@@ -48,14 +51,14 @@ $lead-hero-size-desktop: pxToRem(28) !default
 // h1
 $h1-size-desktop: pxToRem(40) !default
 
-// h2
-// $h2-size-desktop: pxToRem(25) !default
 
 // h3
 $h3-size-desktop: pxToRem(23) !default
 
 // h4
 $h4-size-desktop: pxToRem(20) !default
+
+$h5-size-desktop: pxToRem(25) !default
 
 // Small
 $small-size-desktop: pxToRem(16) !default
@@ -70,6 +73,7 @@ $grid-max-width: pxToRem(1980) !default
 $border-radius: 2px !default
 $img-aspect-ratio: 2.24 !default
 $page-aspect-ratio: 1.35 !default
+$article-media-aspect-ratio: 16 / 9 !default
 
 // Header
 $header-background: $color-background
@@ -85,6 +89,8 @@ $footer-color: $color-background
 $header-logo-height: 50px
 $header-logo-height-desktop: 60px
 
+// projects
+$project-infos-color-text-alt: $color-text !default
 
 /* COMPONENTS */
 // Hero
@@ -93,9 +99,10 @@ $hero-height-desktop: 250px !default
 
 // Call to action
 $block-call-to-action-accent-color: var(--color-text)
-$block-call-to-action-accent-background: $color-background-accent
 
 // Boutons
 $btn-hover-background: $color-text !default
 $btn-hover-color: $color-background !default
 
+// Links
+$block-links-card-hover-background: var(--color-text-alt) !default

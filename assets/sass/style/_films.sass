@@ -1,32 +1,21 @@
-.projects__section, .projects_categories__term,
-.persons__page
-    .projects, .posts
-        .cat-en-diffusion
-            order: -1
+.projects, .posts--grid
+    .cat-en-diffusion
+        order: -1
 
-        .cat-en-developpement, .cat-en-production
-            .project-meta
-                display: none
-        
-        .project
-            .media
-                aspect-ratio: $img-aspect-ratio !important
+    .cat-en-developpement, .cat-en-production
+        .project-meta
+            display: none
+    
+    .project
+        .media
+            aspect-ratio: $img-aspect-ratio !important
 
-            .project-description
-                .project-title, .project-subtitle
-                    font-family: $body-font-family
-                    font-size: $h3-size-desktop
-                    font-weight: 400
-                    font-style: italic
-                .project-subtitle
-                    font-style: normal
-                    color: $color-text
+        .project-description
+            .project-title a, .project-subtitle
+                font-family: $body-font-family
+                font-weight: 400
+                font-style: italic
+                color: $color-text !important
+            .project-subtitle
+                font-style: normal
 
-.projects__page,
-    .hero
-        .projects-meta
-            order: -1
-            margin-top: 0
-
-    .toc-cta
-        display: none !important
