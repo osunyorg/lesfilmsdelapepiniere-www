@@ -167,6 +167,10 @@ from = "/actualites-v01/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/i
 to = "/actualites/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
+from = "/actualites/actus/index.html"
+to = "/actualites/nouvelles/"
+
+[[redirects]]
 from = "/projets/en-developpement/index.html"
 to = "/films/statut/en-developpement/"
 
