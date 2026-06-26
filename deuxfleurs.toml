@@ -47,10 +47,6 @@ from = "/personnes/avrin-cardi/index.html"
 to = "/coop/anne-cardi-avrin/"
 
 [[redirects]]
-from = "/actualites/ressources-1/index.html"
-to = "/actualites/type/ressources-1/"
-
-[[redirects]]
 from = "/coop/elodie-boin-zanchi/articles/index.html"
 to = "/coop/elodie-boin-zanchi/actualites/"
 
