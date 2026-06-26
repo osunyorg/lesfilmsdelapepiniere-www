@@ -83,6 +83,10 @@ from = "/coop/alice-marsal/actualites-v01/index.html"
 to = "/coop/alice-marsal/actualites/"
 
 [[redirects]]
+from = "/actualites/ressources/la-scic-1/index.html"
+to = "/actualites/ressources-taxo/ressources-tests/la-scic/"
+
+[[redirects]]
 from = "/posts/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
 to = "/actualites/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
@@ -184,7 +188,7 @@ to = "/organisations/categories/diffuseur/"
 
 [[redirects]]
 from = "/articles/thematique/la-scic-1/index.html"
-to = "/actualites/ressources/la-scic-1/"
+to = "/actualites/ressources-taxo/ressources-tests/la-scic/"
 
 [[redirects]]
 from = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
