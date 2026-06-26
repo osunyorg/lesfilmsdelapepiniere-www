@@ -39,6 +39,10 @@ from = "/personnes/equipe-editoriale/index.html"
 to = "/coop/equipe-editoriale/"
 
 [[redirects]]
+from = "/actualites/ressources-taxo/paroles-tests/sous-paroles/index.html"
+to = "/actualites/ressources-taxo/ressources-tests/sous-paroles/"
+
+[[redirects]]
 from = "/personnes/avrin-cardi/index.html"
 to = "/coop/anne-cardi-avrin/"
 
@@ -113,6 +117,10 @@ to = "/coop/flora-jouvencel/"
 [[redirects]]
 from = "/archives-expositions/index.html"
 to = "/expositions/archives-expositions/"
+
+[[redirects]]
+from = "/actualites/ressources-taxo/paroles-tests/index.html"
+to = "/actualites/ressources-taxo/ressources-tests/"
 
 [[redirects]]
 from = "/actualites/ressources-test/index.html"
