@@ -27,6 +27,10 @@ from = "/personnes/clothilde-bunod/index.html"
 to = "/coop/clothilde-bunod/"
 
 [[redirects]]
+from = "/actualites/ressources-taxo/ressources-tests/la-scic/index.html"
+to = "/actualites/ressources/la-scic/"
+
+[[redirects]]
 from = "/coop/jean-charles-leyris/posts/index.html"
 to = "/coop/jean-charles-leyris/actualites/"
 
@@ -37,10 +41,6 @@ to = "/agenda/2025/la-prochaine-permanence-aux-etats-generaux-du-documentaire-1/
 [[redirects]]
 from = "/personnes/equipe-editoriale/index.html"
 to = "/coop/equipe-editoriale/"
-
-[[redirects]]
-from = "/actualites/ressources-taxo/paroles-tests/sous-paroles/index.html"
-to = "/actualites/ressources-taxo/ressources-tests/sous-paroles/"
 
 [[redirects]]
 from = "/personnes/avrin-cardi/index.html"
@@ -84,7 +84,7 @@ to = "/coop/alice-marsal/actualites/"
 
 [[redirects]]
 from = "/actualites/ressources/la-scic-1/index.html"
-to = "/actualites/ressources-taxo/ressources-tests/la-scic/"
+to = "/actualites/ressources/la-scic/"
 
 [[redirects]]
 from = "/posts/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
@@ -121,10 +121,6 @@ to = "/coop/flora-jouvencel/"
 [[redirects]]
 from = "/archives-expositions/index.html"
 to = "/expositions/archives-expositions/"
-
-[[redirects]]
-from = "/actualites/ressources-taxo/paroles-tests/index.html"
-to = "/actualites/ressources-taxo/ressources-tests/"
 
 [[redirects]]
 from = "/actualites/ressources-test/index.html"
@@ -188,7 +184,7 @@ to = "/organisations/categories/diffuseur/"
 
 [[redirects]]
 from = "/articles/thematique/la-scic-1/index.html"
-to = "/actualites/ressources-taxo/ressources-tests/la-scic/"
+to = "/actualites/ressources/la-scic/"
 
 [[redirects]]
 from = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
