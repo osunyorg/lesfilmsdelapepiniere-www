@@ -183,6 +183,10 @@ from = "/categories/diffuseur/index.html"
 to = "/organisations/categories/diffuseur/"
 
 [[redirects]]
+from = "/actualites/index.html"
+to = "/journal/"
+
+[[redirects]]
 from = "/articles/thematique/la-scic-1/index.html"
 to = "/actualites/ressources/la-scic/"
 
@@ -224,7 +228,7 @@ to = "/actualites/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
 from = "/articles/index.html"
-to = "/actualites/"
+to = "/journal/"
 
 [[redirects]]
 from = "/actualites/2026-06-19-publication-du-site-web-1/index.html"

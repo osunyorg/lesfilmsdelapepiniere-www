@@ -21,7 +21,7 @@ items:
   file: content/fr/pages/accompagnements/_index.html
 - title: Journal de bord
   slug: journal-de-bord
-  target: "/actualites/"
+  target: "/journal/"
   kind: page
   new_tab: false
   children:
@@ -36,7 +36,7 @@ items:
     file: content/fr/events/_index.html
   - title: Actualités
     slug: actualites
-    target: "/actualites/actualites/"
+    target: "/journal/actualites/"
     kind: category
     new_tab: false
     children: []
@@ -45,7 +45,7 @@ items:
     file: content/fr/posts_categories/actualites/_index.html
   - title: Ressources
     slug: ressources
-    target: "/actualites/ressources/"
+    target: "/journal/ressources/"
     kind: category
     new_tab: false
     children: []
@@ -53,9 +53,9 @@ items:
     path: "/posts_categories/ressources"
     file: content/fr/posts_categories/ressources/_index.html
   descendants_targets:
-  - "/actualites/actualites/"
-  - "/actualites/ressources/"
   - "/agenda/"
+  - "/journal/actualites/"
+  - "/journal/ressources/"
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: La coopérative
