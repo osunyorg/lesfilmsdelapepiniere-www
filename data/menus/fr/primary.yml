@@ -74,6 +74,15 @@ items:
     descendants_targets: []
     path: "/events"
     file: content/fr/events/_index.html
+  - title: Actualités
+    slug: actualites
+    target: "/actualites/actualites/"
+    kind: category
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/posts_categories/actualites"
+    file: content/fr/posts_categories/actualites/_index.html
   - title: Ressources
     slug: ressources
     target: "/actualites/ressources/"
@@ -84,6 +93,7 @@ items:
     path: "/posts_categories/ressources"
     file: content/fr/posts_categories/ressources/_index.html
   descendants_targets:
+  - "/actualites/actualites/"
   - "/actualites/ressources/"
   - "/agenda/"
   path: "/posts"
