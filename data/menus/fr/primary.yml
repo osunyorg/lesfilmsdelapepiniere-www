@@ -25,15 +25,6 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Agenda
-    slug: agenda
-    target: "/agenda/"
-    kind: page
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/events"
-    file: content/fr/events/_index.html
   - title: Actualités
     slug: actualites
     target: "/journal/actualites/"
@@ -53,7 +44,6 @@ items:
     path: "/posts_categories/ressources"
     file: content/fr/posts_categories/ressources/_index.html
   descendants_targets:
-  - "/agenda/"
   - "/journal/actualites/"
   - "/journal/ressources/"
   path: "/posts"
