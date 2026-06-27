@@ -107,6 +107,10 @@ from = "/personnes/chantal-tran/index.html"
 to = "/coop/chantal-tran/"
 
 [[redirects]]
+from = "/actualites/actualites/index.html"
+to = "/journal/actualites/"
+
+[[redirects]]
 from = "/coop/elodie-boin-zanchi/actualites/index.html"
 to = "/coop/elodie-boin-zanchi/journal/"
 
@@ -119,6 +123,10 @@ from = "/coop/jean-charles-leyris/actualites-v01/index.html"
 to = "/coop/jean-charles-leyris/journal/"
 
 [[redirects]]
+from = "/actualites/ressources/index.html"
+to = "/journal/ressources/"
+
+[[redirects]]
 from = "/personnes/flora-jouvencel/index.html"
 to = "/coop/flora-jouvencel/"
 
@@ -128,7 +136,7 @@ to = "/expositions/archives-expositions/"
 
 [[redirects]]
 from = "/actualites/ressources-test/index.html"
-to = "/actualites/ressources/"
+to = "/journal/ressources/"
 
 [[redirects]]
 from = "/actualites-v01/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
@@ -136,7 +144,7 @@ to = "/actualites/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visi
 
 [[redirects]]
 from = "/articles/film-lie/index.html"
-to = "/actualites/film-lie/"
+to = "/journal/film-lie/"
 
 [[redirects]]
 from = "/personnes/categories/anciens-membres/index.html"
@@ -167,6 +175,10 @@ from = "/coop/jean-charles-leyris/articles/index.html"
 to = "/coop/jean-charles-leyris/journal/"
 
 [[redirects]]
+from = "/actualites/2026-06-19-journal-de-cuisine-4801/index.html"
+to = "/journal/2026-06-19-journal-de-cuisine-4801/"
+
+[[redirects]]
 from = "/actualites/2026-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1/index.html"
 to = "/actualites/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
@@ -187,6 +199,10 @@ from = "/categories/diffuseur/index.html"
 to = "/organisations/categories/diffuseur/"
 
 [[redirects]]
+from = "/actualites/film-lie/index.html"
+to = "/journal/film-lie/"
+
+[[redirects]]
 from = "/actualites/index.html"
 to = "/journal/"
 
@@ -204,7 +220,7 @@ to = "/actualites/ressources/paroles-de-cineastes/"
 
 [[redirects]]
 from = "/actualites/2026-06-19-journal-de-cuisine-1/index.html"
-to = "/actualites/2026-06-19-journal-de-cuisine-4801/"
+to = "/journal/2026-06-19-journal-de-cuisine-4801/"
 
 [[redirects]]
 from = "/projets/en-diffusion/index.html"
@@ -227,6 +243,10 @@ from = "/articles/film-lie/nicole-nicole/index.html"
 to = "/actualites/film-lie/nicole-nicole/"
 
 [[redirects]]
+from = "/actualites/2026-05-19-publication-du-site-web-1/index.html"
+to = "/journal/2026-05-19-publication-du-site-web-1/"
+
+[[redirects]]
 from = "/articles/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/index.html"
 to = "/actualites/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
@@ -240,7 +260,7 @@ to = "/journal/"
 
 [[redirects]]
 from = "/actualites/2026-06-19-publication-du-site-web-1/index.html"
-to = "/actualites/2026-05-19-publication-du-site-web-1/"
+to = "/journal/2026-05-19-publication-du-site-web-1/"
 
 [[redirects]]
 from = "/films/2026-les-cedres-1/index.html"
