@@ -1,0 +1,49 @@
+---
+title: Menu-alt
+items:
+- title: Films
+  slug: films
+  target: "/films/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/projects"
+  file: content/fr/projects/_index.html
+- title: Accompagnements
+  slug: accompagnements
+  target: "/accompagnements/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/accompagnements"
+  file: content/fr/pages/accompagnements/_index.html
+- title: Actualités
+  slug: actualites
+  target: ''
+  kind: blank
+  new_tab: false
+  children:
+  - title: Agenda
+    slug: agenda
+    target: "/agenda/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/events"
+    file: content/fr/events/_index.html
+  - title: Journal de bord
+    slug: journal-de-bord
+    target: "/actualites/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/posts"
+    file: content/fr/posts/_index.html
+  descendants_targets:
+  - "/actualites/"
+  - "/agenda/"
+
