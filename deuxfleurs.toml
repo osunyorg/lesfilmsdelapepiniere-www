@@ -28,11 +28,15 @@ to = "/coop/clothilde-bunod/"
 
 [[redirects]]
 from = "/actualites/ressources-taxo/ressources-tests/la-scic/index.html"
-to = "/actualites/ressources/la-scic/"
+to = "/journal/ressources/la-scic/"
 
 [[redirects]]
 from = "/coop/jean-charles-leyris/posts/index.html"
 to = "/coop/jean-charles-leyris/journal/"
+
+[[redirects]]
+from = "/actualites/ressources/la-scic/index.html"
+to = "/journal/ressources/la-scic/"
 
 [[redirects]]
 from = "/agenda/2026/la-prochaine-permanence-aux-etats-generaux-du-documentaire-1/index.html"
@@ -41,6 +45,10 @@ to = "/agenda/2025/la-prochaine-permanence-aux-etats-generaux-du-documentaire-1/
 [[redirects]]
 from = "/personnes/equipe-editoriale/index.html"
 to = "/coop/equipe-editoriale/"
+
+[[redirects]]
+from = "/actualites/film-lie/nicole-nicole/index.html"
+to = "/journal/film-lie/nicole-nicole/"
 
 [[redirects]]
 from = "/personnes/avrin-cardi/index.html"
@@ -64,11 +72,19 @@ to = "/coop/sylvie-plunian/"
 
 [[redirects]]
 from = "/actualites/thematique/la-vie-des-producteurs/index.html"
-to = "/actualites/ressources/la-vie-des-producteurs/"
+to = "/journal/ressources/la-vie-des-producteurs/"
+
+[[redirects]]
+from = "/actualites/ressources/la-vie-des-producteurs/index.html"
+to = "/journal/ressources/la-vie-des-producteurs/"
 
 [[redirects]]
 from = "/personnes/jean-charles-leyris/index.html"
 to = "/coop/jean-charles-leyris/"
+
+[[redirects]]
+from = "/actualites/ressources/paroles-de-cineastes/index.html"
+to = "/journal/ressources/paroles-de-cineastes/"
 
 [[redirects]]
 from = "/personnes/categories/ancien-membre/index.html"
@@ -84,7 +100,7 @@ to = "/coop/alice-marsal/actualites/"
 
 [[redirects]]
 from = "/actualites/ressources/la-scic-1/index.html"
-to = "/actualites/ressources/la-scic/"
+to = "/journal/ressources/la-scic/"
 
 [[redirects]]
 from = "/posts/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
@@ -176,11 +192,15 @@ to = "/journal/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/articles/film-lie/4801-nuits/index.html"
-to = "/actualites/film-lie/4801-nuits/"
+to = "/journal/film-lie/4801-nuits/"
 
 [[redirects]]
 from = "/coop/jean-charles-leyris/articles/index.html"
 to = "/coop/jean-charles-leyris/journal/"
+
+[[redirects]]
+from = "/actualites/film-lie/4801-nuits/index.html"
+to = "/journal/film-lie/4801-nuits/"
 
 [[redirects]]
 from = "/actualites/2026-06-19-journal-de-cuisine-4801/index.html"
@@ -220,7 +240,7 @@ to = "/journal/"
 
 [[redirects]]
 from = "/articles/thematique/la-scic-1/index.html"
-to = "/actualites/ressources/la-scic/"
+to = "/journal/ressources/la-scic/"
 
 [[redirects]]
 from = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
@@ -228,7 +248,7 @@ to = "/journal/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/actualites/thematique/paroles-de-cineastes/index.html"
-to = "/actualites/ressources/paroles-de-cineastes/"
+to = "/journal/ressources/paroles-de-cineastes/"
 
 [[redirects]]
 from = "/actualites/2026-06-19-journal-de-cuisine-1/index.html"
@@ -252,7 +272,7 @@ to = "/journal/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/articles/film-lie/nicole-nicole/index.html"
-to = "/actualites/film-lie/nicole-nicole/"
+to = "/journal/film-lie/nicole-nicole/"
 
 [[redirects]]
 from = "/actualites/2026-05-19-publication-du-site-web-1/index.html"
