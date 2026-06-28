@@ -23,6 +23,10 @@ from = "/personnes/romane-martin/index.html"
 to = "/coop/romane-martin/"
 
 [[redirects]]
+from = "/actualites-de-la-scic/index.html"
+to = "/thematique/actualites-de-la-scic/"
+
+[[redirects]]
 from = "/personnes/clothilde-bunod/index.html"
 to = "/coop/clothilde-bunod/"
 
@@ -121,6 +125,10 @@ to = "/organisations/tenk/"
 [[redirects]]
 from = "/posts/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/index.html"
 to = "/journal/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
+
+[[redirects]]
+from = "/actualite-des-films/index.html"
+to = "/thematique/actualite-des-films/"
 
 [[redirects]]
 from = "/personnes/chantal-tran/index.html"
