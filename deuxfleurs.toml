@@ -219,6 +219,10 @@ from = "/actualites/film-lie/4801-nuits/index.html"
 to = "/journal/film-lie/4801-nuits/"
 
 [[redirects]]
+from = "/thematique/index.html"
+to = "/actualites/"
+
+[[redirects]]
 from = "/actualites/2026-06-19-journal-de-cuisine-4801/index.html"
 to = "/journal/2026-06-19-journal-de-cuisine-4801/"
 
@@ -249,10 +253,6 @@ to = "/organisations/categories/diffuseur/"
 [[redirects]]
 from = "/actualites/film-lie/index.html"
 to = "/journal/film-lie/"
-
-[[redirects]]
-from = "/actualites/index.html"
-to = "/journal/"
 
 [[redirects]]
 from = "/articles/thematique/la-scic-1/index.html"
