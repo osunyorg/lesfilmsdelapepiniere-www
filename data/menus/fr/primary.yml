@@ -19,33 +19,13 @@ items:
   descendants_targets: []
   path: "/pages/accompagnements"
   file: content/fr/pages/accompagnements/_index.html
-- title: Journal de bord
-  slug: journal-de-bord
+- title: Actualités
+  slug: actualites
   target: "/journal/"
   kind: page
   new_tab: false
-  children:
-  - title: Actualités
-    slug: actualites
-    target: "/journal/actualites/"
-    kind: category
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/posts_categories/actualites"
-    file: content/fr/posts_categories/actualites/_index.html
-  - title: Ressources
-    slug: ressources
-    target: "/journal/ressources/"
-    kind: category
-    new_tab: false
-    children: []
-    descendants_targets: []
-    path: "/posts_categories/ressources"
-    file: content/fr/posts_categories/ressources/_index.html
-  descendants_targets:
-  - "/journal/actualites/"
-  - "/journal/ressources/"
+  children: []
+  descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: La coopérative
