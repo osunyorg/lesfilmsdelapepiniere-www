@@ -28,7 +28,7 @@ to = "/coop/romane-martin/"
 
 [[redirects]]
 from = "/actualites-de-la-scic/index.html"
-to = "/thematique/actualites-de-la-scic/"
+to = "/actualites/actualites-de-la-scic/"
 
 [[redirects]]
 from = "/personnes/clothilde-bunod/index.html"
@@ -313,6 +313,10 @@ to = "/journal/"
 [[redirects]]
 from = "/actualites/2026-06-19-publication-du-site-web-1/index.html"
 to = "/journal/2026-05-19-publication-du-site-web-1/"
+
+[[redirects]]
+from = "/thematique/actualites-de-la-scic/index.html"
+to = "/actualites/actualites-de-la-scic/"
 
 [[redirects]]
 from = "/films/2026-les-cedres-1/index.html"
