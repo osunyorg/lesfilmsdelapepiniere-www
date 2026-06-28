@@ -63,6 +63,10 @@ from = "/personnes/categories/membres/index.html"
 to = "/coop/categories/membres/"
 
 [[redirects]]
+from = "/accompagnements/nicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
+to = "/actualites-independantes/nicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
+
+[[redirects]]
 from = "/posts/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
 to = "/journal/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
