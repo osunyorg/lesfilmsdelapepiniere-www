@@ -75,6 +75,10 @@ from = "/accompagnements/nicole-nicole-remporte-le-prix-du-jury-a-visions-du-ree
 to = "/actualites-independantes/nicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
 [[redirects]]
+from = "/thematique/actualite-des-films/index.html"
+to = "/actualites/actualite-des-films/"
+
+[[redirects]]
 from = "/posts/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
 to = "/journal/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
@@ -132,7 +136,7 @@ to = "/journal/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
 from = "/actualite-des-films/index.html"
-to = "/thematique/actualite-des-films/"
+to = "/actualites/actualite-des-films/"
 
 [[redirects]]
 from = "/personnes/chantal-tran/index.html"
