@@ -16,7 +16,7 @@ Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
 from = "/date/2026/index.html"
-to = "/2026/"
+to = "/actualites-2026/"
 
 [[redirects]]
 from = "/personnes/alice-marsal/index.html"
@@ -289,6 +289,10 @@ to = "/journal/2026-06-19-lauren-dallenbach-dans-doc-session/"
 [[redirects]]
 from = "/articles/film-lie/nicole-nicole/index.html"
 to = "/journal/film-lie/nicole-nicole/"
+
+[[redirects]]
+from = "/2026/index.html"
+to = "/actualites-2026/"
 
 [[redirects]]
 from = "/actualites/2026-05-19-publication-du-site-web-1/index.html"
