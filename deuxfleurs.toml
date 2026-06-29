@@ -36,7 +36,7 @@ to = "/actualites/publication-du-site-web/"
 
 [[redirects]]
 from = "/actualites-de-la-scic/index.html"
-to = "/actualites/actualites-de-la-scic/"
+to = "/actus-type/actualites-de-la-scic/"
 
 [[redirects]]
 from = "/coop/elodie-boin-zanchi/journal/index.html"
@@ -108,7 +108,7 @@ to = "/coop/categories/membres/"
 
 [[redirects]]
 from = "/thematique/actualite-des-films/index.html"
-to = "/actualites/actualite-des-films/"
+to = "/actus-type/actualites-des-films/"
 
 [[redirects]]
 from = "/personnes/sylvie-plunian/index.html"
@@ -164,7 +164,7 @@ to = "/actus-type/"
 
 [[redirects]]
 from = "/actualite-des-films/index.html"
-to = "/actualites/actualite-des-films/"
+to = "/actus-type/actualites-des-films/"
 
 [[redirects]]
 from = "/personnes/chantal-tran/index.html"
@@ -299,6 +299,10 @@ from = "/2026/index.html"
 to = "/date-de-publication/actualites-2026/"
 
 [[redirects]]
+from = "/actualites/actualites-de-la-scic/index.html"
+to = "/actus-type/actualites-de-la-scic/"
+
+[[redirects]]
 from = "/coop/jean-charles-leyris/actualites/index.html"
 to = "/coop/jean-charles-leyris/ressources/"
 
@@ -307,8 +311,12 @@ from = "/articles/index.html"
 to = "/ressources/"
 
 [[redirects]]
+from = "/actualites/actualite-des-films/index.html"
+to = "/actus-type/actualites-des-films/"
+
+[[redirects]]
 from = "/thematique/actualites-de-la-scic/index.html"
-to = "/actualites/actualites-de-la-scic/"
+to = "/actus-type/actualites-de-la-scic/"
 
 [[redirects]]
 from = "/films/2026-les-cedres-1/index.html"
