@@ -34,8 +34,8 @@ items:
     descendants_targets: []
     path: "/pages/accompagnements/la-permanence"
     file: content/fr/pages/accompagnements/la-permanence/_index.html
-  - title: Formation La relation auteur-autrice / producteur-produtrice
-    slug: formation-la-relation-auteur-autrice-producteur-produtrice
+  - title: Formation La relation auteur-producteur
+    slug: formation-la-relation-auteur-producteur
     target: "/accompagnements/formation-la-relation-auteur-autrice-producteur-produtrice/"
     kind: page
     new_tab: false
