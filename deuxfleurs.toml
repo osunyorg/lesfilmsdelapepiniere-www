@@ -83,6 +83,10 @@ from = "/journal/film-lie/index.html"
 to = "/ressources/film-lie/"
 
 [[redirects]]
+from = "/actus-1/index.html"
+to = "/actualites/"
+
+[[redirects]]
 from = "/actualites/film-lie/nicole-nicole/index.html"
 to = "/journal/film-lie/nicole-nicole/"
 
@@ -221,10 +225,6 @@ to = "/coop/jean-charles-leyris/ressources/"
 [[redirects]]
 from = "/actualites/film-lie/4801-nuits/index.html"
 to = "/journal/film-lie/4801-nuits/"
-
-[[redirects]]
-from = "/actualites-independantes/index.html"
-to = "/actus-1/"
 
 [[redirects]]
 from = "/thematique/index.html"
