@@ -27,6 +27,10 @@ from = "/personnes/alice-marsal/index.html"
 to = "/coop/alice-marsal/"
 
 [[redirects]]
+from = "/journal/film-lie/nicole-nicole/index.html"
+to = "/ressources/film-lie/nicole-nicole/"
+
+[[redirects]]
 from = "/personnes/romane-martin/index.html"
 to = "/coop/romane-martin/"
 
@@ -79,6 +83,10 @@ from = "/personnes/equipe-editoriale/index.html"
 to = "/coop/equipe-editoriale/"
 
 [[redirects]]
+from = "/journal/film-lie/4801-nuits/index.html"
+to = "/ressources/film-lie/4801-nuits/"
+
+[[redirects]]
 from = "/journal/film-lie/index.html"
 to = "/ressources/film-lie/"
 
@@ -88,7 +96,7 @@ to = "/actualites/"
 
 [[redirects]]
 from = "/actualites/film-lie/nicole-nicole/index.html"
-to = "/journal/film-lie/nicole-nicole/"
+to = "/ressources/film-lie/nicole-nicole/"
 
 [[redirects]]
 from = "/journal/index.html"
@@ -220,7 +228,7 @@ to = "/ressources/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/articles/film-lie/4801-nuits/index.html"
-to = "/journal/film-lie/4801-nuits/"
+to = "/ressources/film-lie/4801-nuits/"
 
 [[redirects]]
 from = "/coop/jean-charles-leyris/articles/index.html"
@@ -228,7 +236,7 @@ to = "/coop/jean-charles-leyris/ressources/"
 
 [[redirects]]
 from = "/actualites/film-lie/4801-nuits/index.html"
-to = "/journal/film-lie/4801-nuits/"
+to = "/ressources/film-lie/4801-nuits/"
 
 [[redirects]]
 from = "/actualites/2026-06-19-journal-de-cuisine-4801/index.html"
@@ -292,7 +300,7 @@ to = "/ressources/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/articles/film-lie/nicole-nicole/index.html"
-to = "/journal/film-lie/nicole-nicole/"
+to = "/ressources/film-lie/nicole-nicole/"
 
 [[redirects]]
 from = "/2026/index.html"
