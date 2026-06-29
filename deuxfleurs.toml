@@ -227,10 +227,6 @@ from = "/actualites/film-lie/4801-nuits/index.html"
 to = "/journal/film-lie/4801-nuits/"
 
 [[redirects]]
-from = "/thematique/index.html"
-to = "/actualites/"
-
-[[redirects]]
 from = "/actualites/2026-06-19-journal-de-cuisine-4801/index.html"
 to = "/ressources/2026-06-19-journal-de-cuisine-4801/"
 
