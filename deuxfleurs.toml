@@ -16,7 +16,7 @@ Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
 from = "/date/2026/index.html"
-to = "/actualites-2026/"
+to = "/date-de-publication/actualites-2026/"
 
 [[redirects]]
 from = "/personnes/alice-marsal/index.html"
@@ -31,6 +31,22 @@ from = "/actualites-de-la-scic/index.html"
 to = "/actualites/actualites-de-la-scic/"
 
 [[redirects]]
+from = "/actualites-independantes/nicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
+to = "/actus-1/nicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
+
+[[redirects]]
+from = "/coop/elodie-boin-zanchi/journal/index.html"
+to = "/coop/elodie-boin-zanchi/ressources/"
+
+[[redirects]]
+from = "/coop/jean-charles-leyris/journal/index.html"
+to = "/coop/jean-charles-leyris/ressources/"
+
+[[redirects]]
+from = "/journal/ressources/index.html"
+to = "/ressources/ressources/"
+
+[[redirects]]
 from = "/personnes/clothilde-bunod/index.html"
 to = "/coop/clothilde-bunod/"
 
@@ -40,11 +56,15 @@ to = "/journal/ressources/la-scic/"
 
 [[redirects]]
 from = "/coop/jean-charles-leyris/posts/index.html"
-to = "/coop/jean-charles-leyris/journal/"
+to = "/coop/jean-charles-leyris/ressources/"
 
 [[redirects]]
 from = "/actualites/ressources/la-scic/index.html"
 to = "/journal/ressources/la-scic/"
+
+[[redirects]]
+from = "/journal/2026-06-19-journal-de-cuisine-4801/index.html"
+to = "/ressources/2026-06-19-journal-de-cuisine-4801/"
 
 [[redirects]]
 from = "/agenda/2026/la-prochaine-permanence-aux-etats-generaux-du-documentaire-1/index.html"
@@ -59,12 +79,16 @@ from = "/actualites/film-lie/nicole-nicole/index.html"
 to = "/journal/film-lie/nicole-nicole/"
 
 [[redirects]]
+from = "/journal/index.html"
+to = "/ressources/"
+
+[[redirects]]
 from = "/personnes/avrin-cardi/index.html"
 to = "/coop/anne-cardi-avrin/"
 
 [[redirects]]
 from = "/coop/elodie-boin-zanchi/articles/index.html"
-to = "/coop/elodie-boin-zanchi/journal/"
+to = "/coop/elodie-boin-zanchi/ressources/"
 
 [[redirects]]
 from = "/personnes/categories/membres/index.html"
@@ -72,7 +96,7 @@ to = "/coop/categories/membres/"
 
 [[redirects]]
 from = "/accompagnements/nicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
-to = "/actualites-independantes/nicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
+to = "/actus-1/nicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
 [[redirects]]
 from = "/thematique/actualite-des-films/index.html"
@@ -108,7 +132,7 @@ to = "/coop/categories/anciens-membres/"
 
 [[redirects]]
 from = "/coop/elodie-boin-zanchi/posts/index.html"
-to = "/coop/elodie-boin-zanchi/journal/"
+to = "/coop/elodie-boin-zanchi/ressources/"
 
 [[redirects]]
 from = "/coop/alice-marsal/actualites-v01/index.html"
@@ -135,6 +159,10 @@ from = "/posts/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/index.html
 to = "/journal/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
+from = "/actualites-independantes/publication-du-site-web/index.html"
+to = "/actus-1/publication-du-site-web/"
+
+[[redirects]]
 from = "/actualite-des-films/index.html"
 to = "/actualites/actualite-des-films/"
 
@@ -148,7 +176,7 @@ to = "/journal/actualites/"
 
 [[redirects]]
 from = "/coop/elodie-boin-zanchi/actualites/index.html"
-to = "/coop/elodie-boin-zanchi/journal/"
+to = "/coop/elodie-boin-zanchi/ressources/"
 
 [[redirects]]
 from = "/actualites/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/index.html"
@@ -160,11 +188,11 @@ to = "/coop/alice-marsal/actualites/"
 
 [[redirects]]
 from = "/coop/jean-charles-leyris/actualites-v01/index.html"
-to = "/coop/jean-charles-leyris/journal/"
+to = "/coop/jean-charles-leyris/ressources/"
 
 [[redirects]]
 from = "/actualites/ressources/index.html"
-to = "/journal/ressources/"
+to = "/ressources/ressources/"
 
 [[redirects]]
 from = "/personnes/flora-jouvencel/index.html"
@@ -180,11 +208,15 @@ to = "/journal/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions
 
 [[redirects]]
 from = "/actualites/ressources-test/index.html"
-to = "/journal/ressources/"
+to = "/ressources/ressources/"
 
 [[redirects]]
 from = "/actualites-v01/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
 to = "/journal/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
+
+[[redirects]]
+from = "/2027/index.html"
+to = "/date-de-publication/2027/"
 
 [[redirects]]
 from = "/articles/film-lie/index.html"
@@ -216,11 +248,15 @@ to = "/journal/film-lie/4801-nuits/"
 
 [[redirects]]
 from = "/coop/jean-charles-leyris/articles/index.html"
-to = "/coop/jean-charles-leyris/journal/"
+to = "/coop/jean-charles-leyris/ressources/"
 
 [[redirects]]
 from = "/actualites/film-lie/4801-nuits/index.html"
 to = "/journal/film-lie/4801-nuits/"
+
+[[redirects]]
+from = "/actualites-independantes/index.html"
+to = "/actus-1/"
 
 [[redirects]]
 from = "/thematique/index.html"
@@ -228,7 +264,7 @@ to = "/actualites/"
 
 [[redirects]]
 from = "/actualites/2026-06-19-journal-de-cuisine-4801/index.html"
-to = "/journal/2026-06-19-journal-de-cuisine-4801/"
+to = "/ressources/2026-06-19-journal-de-cuisine-4801/"
 
 [[redirects]]
 from = "/actualites/2026-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1/index.html"
@@ -259,6 +295,10 @@ from = "/actualites/film-lie/index.html"
 to = "/journal/film-lie/"
 
 [[redirects]]
+from = "/actualites-2026/index.html"
+to = "/date-de-publication/actualites-2026/"
+
+[[redirects]]
 from = "/articles/thematique/la-scic-1/index.html"
 to = "/journal/ressources/la-scic/"
 
@@ -272,7 +312,7 @@ to = "/journal/ressources/paroles-de-cineastes/"
 
 [[redirects]]
 from = "/actualites/2026-06-19-journal-de-cuisine-1/index.html"
-to = "/journal/2026-06-19-journal-de-cuisine-4801/"
+to = "/ressources/2026-06-19-journal-de-cuisine-4801/"
 
 [[redirects]]
 from = "/projets/en-diffusion/index.html"
@@ -296,11 +336,7 @@ to = "/journal/film-lie/nicole-nicole/"
 
 [[redirects]]
 from = "/2026/index.html"
-to = "/actualites-2026/"
-
-[[redirects]]
-from = "/actualites/2026-05-19-publication-du-site-web-1/index.html"
-to = "/journal/2026-05-19-publication-du-site-web-1/"
+to = "/date-de-publication/actualites-2026/"
 
 [[redirects]]
 from = "/articles/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/index.html"
@@ -308,15 +344,11 @@ to = "/journal/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
 from = "/coop/jean-charles-leyris/actualites/index.html"
-to = "/coop/jean-charles-leyris/journal/"
+to = "/coop/jean-charles-leyris/ressources/"
 
 [[redirects]]
 from = "/articles/index.html"
-to = "/journal/"
-
-[[redirects]]
-from = "/actualites/2026-06-19-publication-du-site-web-1/index.html"
-to = "/journal/2026-05-19-publication-du-site-web-1/"
+to = "/ressources/"
 
 [[redirects]]
 from = "/thematique/actualites-de-la-scic/index.html"
