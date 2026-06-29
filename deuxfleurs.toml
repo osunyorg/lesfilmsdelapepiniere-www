@@ -31,12 +31,12 @@ from = "/personnes/romane-martin/index.html"
 to = "/coop/romane-martin/"
 
 [[redirects]]
-from = "/actualites-de-la-scic/index.html"
-to = "/actualites/actualites-de-la-scic/"
+from = "/actus-1/publication-du-site-web/index.html"
+to = "/actualites/publication-du-site-web/"
 
 [[redirects]]
-from = "/actualites-independantes/nicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
-to = "/actus-1/nicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
+from = "/actualites-de-la-scic/index.html"
+to = "/actualites/actualites-de-la-scic/"
 
 [[redirects]]
 from = "/coop/elodie-boin-zanchi/journal/index.html"
@@ -107,10 +107,6 @@ from = "/personnes/categories/membres/index.html"
 to = "/coop/categories/membres/"
 
 [[redirects]]
-from = "/accompagnements/nicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
-to = "/actus-1/nicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
-
-[[redirects]]
 from = "/thematique/actualite-des-films/index.html"
 to = "/actualites/actualite-des-films/"
 
@@ -151,12 +147,16 @@ from = "/personnes/categories/membre/index.html"
 to = "/coop/categories/membres/"
 
 [[redirects]]
+from = "/actus-1/nicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
+to = "/actualites/nicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
+
+[[redirects]]
 from = "/tenk/index.html"
 to = "/organisations/tenk/"
 
 [[redirects]]
 from = "/actualites-independantes/publication-du-site-web/index.html"
-to = "/actus-1/publication-du-site-web/"
+to = "/actualites/publication-du-site-web/"
 
 [[redirects]]
 from = "/actualite-des-films/index.html"
