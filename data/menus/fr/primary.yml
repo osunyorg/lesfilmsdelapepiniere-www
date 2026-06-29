@@ -21,6 +21,15 @@ items:
   file: content/fr/pages/accompagnements/_index.html
 - title: Actualités
   slug: actualites
+  target: "/actus-1/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/actus-1"
+  file: content/fr/pages/actus-1/_index.html
+- title: Ressources
+  slug: ressources
   target: "/ressources/"
   kind: page
   new_tab: false

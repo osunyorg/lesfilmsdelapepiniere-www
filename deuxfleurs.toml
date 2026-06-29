@@ -15,6 +15,10 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/journal/ressources/paroles-de-cineastes/index.html"
+to = "/ressources/paroles-de-cineastes/"
+
+[[redirects]]
 from = "/date/2026/index.html"
 to = "/date-de-publication/actualites-2026/"
 
@@ -48,7 +52,7 @@ to = "/coop/clothilde-bunod/"
 
 [[redirects]]
 from = "/actualites/ressources-taxo/ressources-tests/la-scic/index.html"
-to = "/journal/ressources/la-scic/"
+to = "/ressources/la-scic/"
 
 [[redirects]]
 from = "/coop/jean-charles-leyris/posts/index.html"
@@ -56,7 +60,11 @@ to = "/coop/jean-charles-leyris/ressources/"
 
 [[redirects]]
 from = "/actualites/ressources/la-scic/index.html"
-to = "/journal/ressources/la-scic/"
+to = "/ressources/la-scic/"
+
+[[redirects]]
+from = "/journal/ressources/la-scic/index.html"
+to = "/ressources/la-scic/"
 
 [[redirects]]
 from = "/journal/2026-06-19-journal-de-cuisine-4801/index.html"
@@ -112,7 +120,7 @@ to = "/coop/jean-charles-leyris/"
 
 [[redirects]]
 from = "/actualites/ressources/paroles-de-cineastes/index.html"
-to = "/journal/ressources/paroles-de-cineastes/"
+to = "/ressources/paroles-de-cineastes/"
 
 [[redirects]]
 from = "/personnes/categories/ancien-membre/index.html"
@@ -128,11 +136,11 @@ to = "/coop/alice-marsal/actualites/"
 
 [[redirects]]
 from = "/actualites/ressources/la-scic-1/index.html"
-to = "/journal/ressources/la-scic/"
+to = "/ressources/la-scic/"
 
 [[redirects]]
 from = "/posts/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
-to = "/journal/2026-06-19-lauren-dallenbach-dans-doc-session/"
+to = "/ressources/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/personnes/categories/membre/index.html"
@@ -200,7 +208,7 @@ to = "/films/2026-nicolenicole/"
 
 [[redirects]]
 from = "/actualites/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
-to = "/journal/2026-06-19-lauren-dallenbach-dans-doc-session/"
+to = "/ressources/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/articles/film-lie/4801-nuits/index.html"
@@ -236,7 +244,7 @@ to = "/films/statut/en-developpement/"
 
 [[redirects]]
 from = "/actualites/2026-06-19-lauren-dallenbach-dans-doc-session/index.html"
-to = "/journal/2026-06-19-lauren-dallenbach-dans-doc-session/"
+to = "/ressources/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/categories/diffuseur/index.html"
@@ -252,15 +260,15 @@ to = "/date-de-publication/actualites-2026/"
 
 [[redirects]]
 from = "/articles/thematique/la-scic-1/index.html"
-to = "/journal/ressources/la-scic/"
+to = "/ressources/la-scic/"
 
 [[redirects]]
 from = "/articles/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
-to = "/journal/2026-06-19-lauren-dallenbach-dans-doc-session/"
+to = "/ressources/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/actualites/thematique/paroles-de-cineastes/index.html"
-to = "/journal/ressources/paroles-de-cineastes/"
+to = "/ressources/paroles-de-cineastes/"
 
 [[redirects]]
 from = "/actualites/2026-06-19-journal-de-cuisine-1/index.html"
@@ -271,12 +279,16 @@ from = "/projets/en-diffusion/index.html"
 to = "/films/statut/en-diffusion/"
 
 [[redirects]]
+from = "/journal/2026-06-19-lauren-dallenbach-dans-doc-session/index.html"
+to = "/ressources/2026-06-19-lauren-dallenbach-dans-doc-session/"
+
+[[redirects]]
 from = "/personnes/index.html"
 to = "/coop/"
 
 [[redirects]]
 from = "/actualites-v01/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
-to = "/journal/2026-06-19-lauren-dallenbach-dans-doc-session/"
+to = "/ressources/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
 from = "/articles/film-lie/nicole-nicole/index.html"
