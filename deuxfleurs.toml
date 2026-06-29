@@ -159,6 +159,10 @@ from = "/actualites-independantes/publication-du-site-web/index.html"
 to = "/actualites/publication-du-site-web/"
 
 [[redirects]]
+from = "/thematique/index.html"
+to = "/actus-type/"
+
+[[redirects]]
 from = "/actualite-des-films/index.html"
 to = "/actualites/actualite-des-films/"
 
