@@ -43,10 +43,6 @@ from = "/coop/jean-charles-leyris/journal/index.html"
 to = "/coop/jean-charles-leyris/ressources/"
 
 [[redirects]]
-from = "/journal/ressources/index.html"
-to = "/ressources/ressources/"
-
-[[redirects]]
 from = "/personnes/clothilde-bunod/index.html"
 to = "/coop/clothilde-bunod/"
 
@@ -73,6 +69,10 @@ to = "/agenda/2025/la-prochaine-permanence-aux-etats-generaux-du-documentaire-1/
 [[redirects]]
 from = "/personnes/equipe-editoriale/index.html"
 to = "/coop/equipe-editoriale/"
+
+[[redirects]]
+from = "/journal/film-lie/index.html"
+to = "/ressources/film-lie/"
 
 [[redirects]]
 from = "/actualites/film-lie/nicole-nicole/index.html"
@@ -103,20 +103,8 @@ from = "/thematique/actualite-des-films/index.html"
 to = "/actualites/actualite-des-films/"
 
 [[redirects]]
-from = "/posts/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
-to = "/journal/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
-
-[[redirects]]
 from = "/personnes/sylvie-plunian/index.html"
 to = "/coop/sylvie-plunian/"
-
-[[redirects]]
-from = "/actualites/thematique/la-vie-des-producteurs/index.html"
-to = "/journal/ressources/la-vie-des-producteurs/"
-
-[[redirects]]
-from = "/actualites/ressources/la-vie-des-producteurs/index.html"
-to = "/journal/ressources/la-vie-des-producteurs/"
 
 [[redirects]]
 from = "/personnes/jean-charles-leyris/index.html"
@@ -155,10 +143,6 @@ from = "/tenk/index.html"
 to = "/organisations/tenk/"
 
 [[redirects]]
-from = "/posts/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/index.html"
-to = "/journal/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
-
-[[redirects]]
 from = "/actualites-independantes/publication-du-site-web/index.html"
 to = "/actus-1/publication-du-site-web/"
 
@@ -171,16 +155,8 @@ from = "/personnes/chantal-tran/index.html"
 to = "/coop/chantal-tran/"
 
 [[redirects]]
-from = "/actualites/actualites/index.html"
-to = "/journal/actualites/"
-
-[[redirects]]
 from = "/coop/elodie-boin-zanchi/actualites/index.html"
 to = "/coop/elodie-boin-zanchi/ressources/"
-
-[[redirects]]
-from = "/actualites/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/index.html"
-to = "/journal/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
 from = "/coop/alice-marsal/articles/index.html"
@@ -191,10 +167,6 @@ from = "/coop/jean-charles-leyris/actualites-v01/index.html"
 to = "/coop/jean-charles-leyris/ressources/"
 
 [[redirects]]
-from = "/actualites/ressources/index.html"
-to = "/ressources/ressources/"
-
-[[redirects]]
 from = "/personnes/flora-jouvencel/index.html"
 to = "/coop/flora-jouvencel/"
 
@@ -203,24 +175,12 @@ from = "/archives-expositions/index.html"
 to = "/expositions/archives-expositions/"
 
 [[redirects]]
-from = "/actualites/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
-to = "/journal/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
-
-[[redirects]]
-from = "/actualites/ressources-test/index.html"
-to = "/ressources/ressources/"
-
-[[redirects]]
-from = "/actualites-v01/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
-to = "/journal/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
-
-[[redirects]]
 from = "/2027/index.html"
 to = "/date-de-publication/2027/"
 
 [[redirects]]
 from = "/articles/film-lie/index.html"
-to = "/journal/film-lie/"
+to = "/ressources/film-lie/"
 
 [[redirects]]
 from = "/personnes/categories/anciens-membres/index.html"
@@ -267,16 +227,8 @@ from = "/actualites/2026-06-19-journal-de-cuisine-4801/index.html"
 to = "/ressources/2026-06-19-journal-de-cuisine-4801/"
 
 [[redirects]]
-from = "/actualites/2026-05-20-prix-du-jury-a-visions-du-reel-pour-nicole-nicole-1/index.html"
-to = "/journal/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
-
-[[redirects]]
 from = "/personnes/aurelia-pfend/index.html"
 to = "/coop/aurelia-pfend/"
-
-[[redirects]]
-from = "/actualites-v01/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/index.html"
-to = "/journal/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
 from = "/projets/en-developpement/index.html"
@@ -292,7 +244,7 @@ to = "/organisations/categories/diffuseur/"
 
 [[redirects]]
 from = "/actualites/film-lie/index.html"
-to = "/journal/film-lie/"
+to = "/ressources/film-lie/"
 
 [[redirects]]
 from = "/actualites-2026/index.html"
@@ -319,10 +271,6 @@ from = "/projets/en-diffusion/index.html"
 to = "/films/statut/en-diffusion/"
 
 [[redirects]]
-from = "/actualites/2026-05-19-prix-du-jury-a-visions-du-reel-pour-nicole-nicole/index.html"
-to = "/journal/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
-
-[[redirects]]
 from = "/personnes/index.html"
 to = "/coop/"
 
@@ -337,10 +285,6 @@ to = "/journal/film-lie/nicole-nicole/"
 [[redirects]]
 from = "/2026/index.html"
 to = "/date-de-publication/actualites-2026/"
-
-[[redirects]]
-from = "/articles/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/index.html"
-to = "/journal/2026-05-19-sed-a-neque-non-nulla-consectetur-tincidunt/"
 
 [[redirects]]
 from = "/coop/jean-charles-leyris/actualites/index.html"
@@ -361,10 +305,6 @@ to = "/films/2026-nei/"
 [[redirects]]
 from = "/coop/alice-marsal/posts/index.html"
 to = "/coop/alice-marsal/actualites/"
-
-[[redirects]]
-from = "/articles/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/index.html"
-to = "/journal/2026-05-20-prix-dnicole-nicole-remporte-le-prix-du-jury-a-visions-du-reel/"
 
 [[redirects]]
 from = "/coop/avrin-cardi/index.html"
