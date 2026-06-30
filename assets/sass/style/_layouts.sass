@@ -2,27 +2,80 @@
     @include media-breakpoint-up(desktop)
         .logo img
             height: 80px !important
-        
+
     a
-        font-family: $body-font-family
-        font-size: 17px !important
-        // text-transform: lowercase
-        
-    .primary-menu
-        .menu
-            .nav-search
-                margin-left: 3rem
-                .search-button::after
-                        font-size: 22px
-                        opacity: .6
+        font: 17px $body-font-family
+
+    .nav-search
+        margin-left: 3rem
+
+        .search-button::after
+            font-size: 22px
+            opacity: .6
+
+
+.footer-contents
+    background: $footer-background-color
+    padding-top: var(--spacing-4) !important
+    font-size: 17px !important
+    line-height: var(--meta-line-height)
+
+    .blocks > div
+        margin: 0 !important
+
+    .block:first-child .block-content
+        padding-top: var(--spacing-3)
+        border-top: 1px solid var(--color-text)
+
 
 #document-footer
-    .container
-        padding-bottom: 0 !important
+    padding-block: 0 var(--spacing-4) !important
+
     .footer-logo
         display: none !important
 
-.taxonomies-list--dropdown, .section-taxonomies-container
+    .container
+        padding-block: 0 !important
+        flex-direction: column-reverse
+        align-items: flex-start !important
+
+    .site-links,
+    .nav-legal
+        display: flex
+        align-items: baseline
+        gap: var(--spacing-3)
+
+    .site-links
+        gap: var(--spacing-1)
+
+    .site-links li
+        gap: var(--spacing-1)
+        &::after
+            display: none
+
+    .footer-legals
+        display: flex
+        justify-content: space-between
+        align-items: baseline
+        flex-direction: row-reverse
+        width: 100%
+        margin-top: var(--spacing-4)
+        border-top: 1px solid var(--color-text)
+        padding-top: var(--spacing-3)
+
+        li, .footer-credit
+            margin-top: 0
+
+   
+
+  
+
+
+.taxonomies-list--dropdown,
+.section-taxonomies-container
     @include media-breakpoint-up(desktop)
-        margin-top: 0 !important
-        margin-bottom: 4rem
+        margin: 0 0 4rem !important
+
+.page-no-cat-btn
+    .taxonomies-list--dropdown
+        display: none

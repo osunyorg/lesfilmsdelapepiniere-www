@@ -1,5 +1,5 @@
 .projects__page
-    .toc-cta
+    .toc-cta, .section-sidebar
         display: none !important
     .share, .hero-actions
         display: none
@@ -73,8 +73,8 @@
         @include media-breakpoint-up(desktop)
             display: grid
             grid-template-columns: repeat(2, minmax(0, 1fr))
-            column-gap: var(--spacing-2)
-            row-gap: 0
+            column-gap: var(--spacing-4)
+            row-gap: var(--spacing-4)
             // row-gap: var(--grid-gutter)
 
             > *
@@ -157,6 +157,6 @@
                 td:first-child
                     color: var(--color-text-alt)
         .block-posts
-            background-color : $color-accent
+            background-color : $color-ressources
            
                 

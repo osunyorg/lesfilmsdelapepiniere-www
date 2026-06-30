@@ -1,28 +1,29 @@
-.ancestor-ressources,
-.page-ressources:not(.posts__page), .category-ressources
+.posts__page, .posts__section
     .hero, #document-header
-        background-color : $color-accent
-        .cat-ressources
-            border: 1px solid var(--color-text-alt) !important
+        background-color : $color-ressources
 
-.page-ressources:not(.posts__page),.category-ressources:not(.posts__page)
-    .post-categories, .posts-meta
-        .page-ressources:not(.ancestor-ressources)
+    
+    .taxonomies-list--dropdown
+        [aria-controls="categories-"]
             display: none
 
-.page-ressources:not(.ancestor-ressources)
-    .document-content
-        > .container
-            display: none
+.page-ressources
+    .hero-text
+            width: 100%
+            .has-lead
+                display: grid
+                grid-gap: var(--grid-gutter) var(--grid-gutter)
+                grid-template-columns: repeat(12, 1fr)
+
+                h1
+                    grid-column: 1/5
+                p
+                    grid-column: 6/13
+                    margin-top: .8rem
 
 .ancestor-ressources
 .page-ressources,
 
-    .document-content
-        display: flex
-        flex-flow: column
-
-    
     .block-page-ressources
         .top
             display: none !important
@@ -31,7 +32,7 @@
         order: -1
         display: flex
         gap: 2rem
-        background: $color-accent
+        background: $color-ressources
         margin-top: 0 !important
         padding-bottom: var(--grid-gutter)
 
@@ -54,9 +55,3 @@
 
             a::after
                 display: none !important
-
-
-        
-
-            
-

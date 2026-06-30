@@ -54,7 +54,16 @@
                         aspect-ratio: $img-aspect-ratio !important
 
         &.block-call_to_action
-            background: var(--color-accent)        
+            background: none
+            @include media-breakpoint-up(desktop)
+                .block-content
+                    padding-top: 0
+                    padding-bottom: var(--grid-gutter)
+
+            .call_to_action
+                background: $color-ressources
+                padding: calc(var(--grid-gutter) * 1.5) var(--grid-gutter)
+                
                             
 
         // a supprimer si CTA

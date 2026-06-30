@@ -1,48 +1,16 @@
-.posts__section.full-width,
-.posts_categories__term:not(.page-ressources)
-    .posts--grid
+.page-actualites
+    .pages--grid
         grid-template-columns: repeat(4, 1fr) !important
-    .post img
-        aspect-ratio: .75
+        article
+            .page-title
+                text-transform: inherit
+                font-size: var(--h5-size)
+            &:not(:has(.more)) [class$="-title"] a::after
+                display: none
+            .media img
+                aspect-ratio: .75 !important
     .post-content .post-meta
         margin-top: var(--spacing-1)
-
-.posts__page
-    .hero
-        .hero-meta
-            color: var(--color-text-alt)
-            margin-top: $spacing-3
-
-            a
-                color: var(--color-text)
-
-            @include media-breakpoint-up(desktop)
-                column-gap: 0
-
-                .authors
-                    display: inline-flex
-                    &::before
-                        content: " • "
-                        margin-left: space()
-                        margin-right: space()
-
-.posts__section
-    .taxonomies-list--dropdown
-        [aria-controls="categories-"]
-            display: none
-
-.post-categories, .posts-meta
-    .page-ressources:not(.ancestor-ressources)
-        a
-            border: 1px solid var(--color-background-alt)
-            padding: .2em
-            text-decoration: none
-            color: var(--color-accent)
-            text-transform: uppercase
-            font-size: pxToRem(12)
-
-            &:hover
-                border-color: var(--color-text)
 
 
 
