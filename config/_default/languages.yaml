@@ -2,13 +2,30 @@
 
 fr:
   title: >-
-    Les films de la pépinière
+    Les Films de la Pépinière
   contentDir: content/fr
   locale: fr
   label: Français
   buildFuture: true
   params:
     contact_details:
+      emails:
+        email:
+          label: >-
+            contact@lesfilmsdelapepiniere.fr
+          value: >-
+            mailto:contact@lesfilmsdelapepiniere.fr
+      social_networks:
+        instagram:
+          label: >-
+            lesfilmsdelapepiniere
+          value: >-
+            https://instagram.com/lesfilmsdelapepiniere
+        mastodon:
+          label: >-
+            mastodon.social/@lesfilmsdelapepiniere
+          value: >-
+            https://mastodon.social/@lesfilmsdelapepiniere
 
   taxonomies:
     administrator: administrators
