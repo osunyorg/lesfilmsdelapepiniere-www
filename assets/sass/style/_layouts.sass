@@ -1,21 +1,28 @@
-#document-header
+header#document-header
     @include media-breakpoint-up(desktop)
         .logo img
             height: 80px !important
 
-    a
-        font: 17px $body-font-family
+    .primary-menu
+    
+        .nav-level-1 a
+            @include body-text
+            
+        .siblings-navigation ul a
+            &:hover
+                color: var(--color-text-alt)
 
-    .nav-search
-        margin-left: 3rem
+        .nav-search
+            margin-left: 3rem
 
-        .search-button::after
-            font-size: 22px
-            opacity: .6
+            .search-button::after
+                font-size: 22px
+                opacity: .6
 
 
 .footer-contents
     background: $footer-background-color
+    color: $footer-color
     padding-top: var(--spacing-4) !important
     font-size: 17px !important
     line-height: var(--meta-line-height)
@@ -25,11 +32,25 @@
 
     .block:first-child .block-content
         padding-top: var(--spacing-3)
-        border-top: 1px solid var(--color-text)
+        padding-bottom: var(--spacing-4)
+        border-top: 1px solid $footer-color
+        
+footer#document-footer
+    padding-top: 0 !important
 
+    @include media-breakpoint-down(desktop)
+        .container
+            + .container,
+            > * + *
+                margin-top: 0
+    
+    @include media-breakpoint-up(desktop)
 
-#document-footer
-    padding-block: 0 var(--spacing-4) !important
+        .footer-legals
+            display: flex
+            justify-content: space-between
+            align-items: baseline
+            flex-direction: row-reverse
 
     .footer-logo
         display: none !important
@@ -39,12 +60,12 @@
         flex-direction: column-reverse
         align-items: flex-start !important
 
+
     .site-links,
     .nav-legal
         display: flex
         align-items: baseline
         gap: var(--spacing-3)
-
     .site-links
         gap: var(--spacing-1)
 
@@ -54,22 +75,13 @@
             display: none
 
     .footer-legals
-        display: flex
-        justify-content: space-between
-        align-items: baseline
-        flex-direction: row-reverse
         width: 100%
-        margin-top: var(--spacing-4)
-        border-top: 1px solid var(--color-text)
+        margin-top: var(--spacing-3)
+        border-top: 1px solid $footer-color
         padding-top: var(--spacing-3)
 
         li, .footer-credit
             margin-top: 0
-
-   
-
-  
-
 
 .taxonomies-list--dropdown,
 .section-taxonomies-container

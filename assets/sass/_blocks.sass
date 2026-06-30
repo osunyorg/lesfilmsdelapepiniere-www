@@ -35,7 +35,7 @@ body:not(.posts__page):not(.projects__page):not(.events__page)
     // TYPO
     .page-subtitle,
     .page-description
-        font-family: $body-font-family !important
+        @include h3
         line-height: 120%
 
     &.block-title, .block-title
@@ -65,6 +65,8 @@ body:not(.posts__page):not(.projects__page):not(.events__page)
             font-size: var(--body-size) !important
 
     &.block-call_to_action
+        .block-content
+            padding-bottom: var(--grid-gutter)
         .block-title
             font-size: $small-size-desktop !important
             text-transform: uppercase !important

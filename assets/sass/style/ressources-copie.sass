@@ -1,0 +1,64 @@
+.posts__page, .posts__section
+    .hero, #document-header
+        background-color : $color-ressources
+
+
+.page-ressources
+    .hero-text
+        width: 100%
+        .has-lead
+            display: grid
+            grid-gap: var(--grid-gutter) var(--grid-gutter)
+            grid-template-columns: repeat(12, 1fr)
+
+            h1
+                grid-column: 1/5
+            p
+                grid-column: 6/13
+                margin-top: .8rem
+
+.ancestor-ressources
+.page-ressources,
+
+    .document-content
+        display: flex
+        flex-flow: column
+
+    
+    .block-page-ressources
+        .top
+            display: none !important
+
+    .block-categories
+        order: -1
+        display: flex
+        gap: 2rem
+        background: $color-ressources
+        margin-top: 0 !important
+        padding-bottom: var(--grid-gutter)
+
+        .articles-count
+            &::before
+                content: "("
+            &::after
+                content: ")"
+
+        .categories
+            display: flex
+
+        .category-content
+            display: flex
+            gap: 5px
+            align-items: baseline
+
+        .posts_category-title
+            font-size: var(--meta-size) !important
+
+            a::after
+                display: none !important
+
+
+        
+
+            
+

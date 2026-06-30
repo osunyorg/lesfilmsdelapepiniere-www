@@ -60,11 +60,11 @@ params:
   # section Actualités    
   posts: #(???) Pas possibe d'archive/tri par année 
     index:
-      layout: grid
+      layout: list
       options:
         author: true
-        summary: false
-        subtitle: false
+        summary: true
+        subtitle: true
     single:
       meta:
         position: hero
