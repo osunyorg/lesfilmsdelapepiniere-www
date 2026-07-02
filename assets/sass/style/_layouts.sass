@@ -4,14 +4,13 @@ header#document-header
             height: 80px !important
 
     .primary-menu
-    
-        .nav-level-1 a
-            @include body-text
-            
-        .siblings-navigation ul a
-            &:hover
-                color: var(--color-text-alt)
+        a:hover
+            color: var(--color-text-alt)
 
+        .nav-level-1 a
+            font-size: 1.06rem
+            font-family: $body-font-family
+          
         .nav-search
             margin-left: 3rem
 

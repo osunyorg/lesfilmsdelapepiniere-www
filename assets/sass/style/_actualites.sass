@@ -1,4 +1,12 @@
+.ancestor-actualites
+    .taxonomies-container
+        margin: 0 !important
+    .pages-taxonomies
+        padding-left: 0 !important
+
 .page-actualites
+    .block-title--classic h2
+        margin-bottom: calc(1.5rem + 0.75rem)
     .pages--grid
         grid-template-columns: repeat(4, 1fr) !important
         article
@@ -11,21 +19,3 @@
                 aspect-ratio: .75 !important
     .post-content .post-meta
         margin-top: var(--spacing-1)
-
-
-
-.page-actualites
-    .block-agenda
-        margin-bottom: 6rem
-        &.block-agenda--large
-            img
-                aspect-ratio: $page-aspect-ratio
-        
-    .children-categories
-        li:not(:last-child)::after
-            content: "/"
-            margin-left: .75rem
-
-        a
-            font-size: var(--h5-size)
-

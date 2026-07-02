@@ -5,7 +5,7 @@
 // AJOUTS
 $color-ui-accent: #89FF9C !default // #89FF9C
 $color-background-alt-light: #F6F9E1 !default
-$color-ressources: #7ad99e !default
+$color-ressources: #BEF5AE !default
 
 // BASES
 $color-background: #fffff5 !default
@@ -16,7 +16,15 @@ $color-background-alt: #cbc1bc !default
 $color-border: $color-text-alt !default
 $color-selection: $color-text !default
 $color-selection-background: rgba($color-ui-accent, .7) !default
+$btn-background: transparent !default
 
+// Footer
+$footer-background-color: #393030
+// #fefaee #d5d3c8 #f6f6ee #cfcd9a #f2e7cf #b6a69c
+$footer-color: $color-background
+// $footer-color: $color-text
+$header-logo-height: 50px
+$header-logo-height-desktop: 60px
 
 /* FONTS */
 $heading-font-family: "Barlow Cond", "Helvetica Neue", "Helvetica", sans-serif
@@ -25,18 +33,23 @@ $heading-font-weight: 400 !default
 $lead-font-family: $body-font-family !default
 $h1-font-family: $body-font-family !default
 $h3-font-family: $body-font-family !default
+// $small-font-family: $heading-font-family !default
 
 
 $h1-weight: normal
 $h2-weight: normal
 $h3-weight: 300
+$h4-weight: normal
 
 $toc-active-color: var(--color-text-alt) !default
 $block-chapter-layout-alt-background: $color-background-alt-light !default
 
 /* STYLES */
+// alerts
+$alert-info-background: rgba($footer-background-color, .8) !default
+$alert-info-color: var(--color-background) !default
 // body
-$body-size-desktop: pxToRem(18) !default
+$body-size-desktop: pxToRem(19) !default
 
 // Lead
 $hero-height: 300px !default
@@ -48,6 +61,7 @@ $lead-hero-size-desktop: pxToRem(28) !default
 // h1
 $h1-size-desktop: pxToRem(34) !default
 
+$h2-size-desktop: pxToRem(25) !default
 
 // h3
 $h3-size-desktop: pxToRem(23) !default
@@ -61,6 +75,8 @@ $h5-size-desktop: pxToRem(25) !default
 $small-size-desktop: pxToRem(16) !default
 
 // Meta
+$meta-size-desktop: pxToRem(17) !default
+
 
 
 /* LAYOUTS */
@@ -80,13 +96,7 @@ $header-logo-height: pxToRem(40)
 $header-logo-height-desktop: pxToRem(70)
 $hero-background-color: $color-background
 
-// Footer
-$footer-background-color: #393030
-// #fefaee #d5d3c8 #f6f6ee #cfcd9a #f2e7cf #b6a69c
-$footer-color: $color-background
-// $footer-color: $color-text
-$header-logo-height: 50px
-$header-logo-height-desktop: 60px
+
 
 // projects
 $project-infos-color-text-alt: $color-text !default
@@ -98,10 +108,6 @@ $hero-height-desktop: 250px !default
 
 // Call to action
 $block-call-to-action-accent-color: var(--color-text)
-
-// Boutons
-$btn-hover-background: $color-text !default
-$btn-hover-color: $color-background !default
 
 // Links
 $block-links-card-hover-background: var(--color-text-alt) !default

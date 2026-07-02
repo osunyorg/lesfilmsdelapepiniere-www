@@ -2,6 +2,11 @@
 .block-agenda--large, .block-pages--large
     .page .media img
         aspect-ratio: $page-aspect-ratio !important
+
+.alert--info
+    .button
+        background: inherit
+        border-color: var(--color-background)
 // Hero
 .page-ressources
     .hero
@@ -31,19 +36,17 @@ body:not(.posts__page):not(.projects__page):not(.events__page)
     a:hover
         opacity: 1
 
+.block-title--classic h2
+    margin-bottom: calc(1.5rem + 0.75rem)
+    border-bottom: var(--border-width) solid var(--color-border)
+    padding-bottom: 1.5rem
+    width: 100%
+    max-width: inherit !important
+
+.block-title, .block-title, .h5
+    text-transform: inherit !important
+
 .block
-    // TYPO
-    .page-subtitle,
-    .page-description
-        @include h3
-        line-height: 120%
-
-    &.block-title, .block-title
-        text-transform: inherit !important
-
-        h2
-            font-size: var(--h5-size) !important
-
     .page-subtitle
         margin-top: var(--spacing-1)
         font-weight: 400
@@ -58,11 +61,16 @@ body:not(.posts__page):not(.projects__page):not(.events__page)
 
     &.block-persons
         .description p:not([class])
-            font-size: var(--h4-size)
-            line-height: var(--h4-line-height)
+            @include h4
         
-        .person-name
-            font-size: var(--body-size) !important
+        .person-name,
+        .persons--large > li .person .person-name
+            @include body-text
+            
+
+        .person-role
+            p:not([class])
+                @include small
 
     &.block-call_to_action
         .block-content
@@ -78,18 +86,28 @@ body:not(.posts__page):not(.projects__page):not(.events__page)
         .page-title
             font-size: $small-size-desktop 
             text-transform: uppercase 
-    &.block-gallery--carousel .slider figure picture img
 
+    &.block-gallery--carousel .slider figure picture img
         height: calc(50 * var(--rvh))
 
+    &.block-chapter
+        
+        &--accent_background
+             background: rgba($footer-background-color, .8) !important
+
+        @include media-breakpoint-up(desktop)
+            &--accent_background
+                background: inherit !important
+            &--accent_background .chapter
+                background: rgba($footer-background-color, .8) !important
 
 // CATEGORIES
 .taxonomies-single,
 .project-categories
     a
-        color: var(--color-text-alt)
+        @include meta
         font-family: "Barlow Cond"
-        font-size: var(--small-size)
+        
 
 .categories--list
     .category-item
@@ -137,13 +155,22 @@ body:not(.posts__page):not(.projects__page):not(.events__page)
 
 // CHAPITRE
 
-// AGENDA
-.pages__section
-    .block-agenda--list
-        background-color: $color-background-alt-light
-        padding: var(--spacing-5) var(--spacing-2)
 
+// AGENDA
+.block-agenda
+    &--list
+        .event-schedule
+            color: var(--color-text-alt)
 
 // PERSONS
 .persons__page .hero--with-image figure picture
     border-radius: $border-radius
+
+// ORGANIZATIONS
+.organizations--grid
+    grid-template-columns: repeat(3, 1fr)
+    @include media-breakpoint-up(sm)
+        grid-template-columns: repeat(4, 1fr)
+    @include media-breakpoint-up(desktop)
+        grid-template-columns: repeat(6, 1fr)
+    

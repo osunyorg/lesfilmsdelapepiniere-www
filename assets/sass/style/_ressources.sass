@@ -1,6 +1,17 @@
-.posts__page, .posts__section
+.posts__page, .posts__section, .posts_categories__term
     .hero, #document-header
         background-color : $color-ressources
+    .hero-meta
+        column-gap: 0 !important
+        a
+            color: var(--color-text) !important
+        .authors
+            display: inline-flex
+            
+            &::before
+                content: " • "
+                margin-left: space()
+                margin-right: space()
 
     
     .taxonomies-list--dropdown

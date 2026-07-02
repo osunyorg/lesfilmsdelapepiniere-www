@@ -25,6 +25,14 @@
                 .hero-image
                     width: 100%
                     align-self: center
+
+                    picture
+                        margin-left: var(--grid-gutter-negative)
+                        margin-right: var(--grid-gutter-negative)
+
+                        @include media-breakpoint-up(desktop)
+                            margin-left: inherit
+                            margin-right: inherit
                     
                     img
                         aspect-ratio: $img-aspect-ratio !important
@@ -33,12 +41,17 @@
                 .hero-text
                     width: 100%
 
+                    .taxonomies-single a
+                        @include meta
+
                     .has-lead
+
                         @include media-breakpoint-up(desktop)
                             display: grid
                             grid-template-columns: 1fr 1.4fr
                             gap: var(--spacing-4)
                             row-gap: var(--spacing-1)
+
 
                         h1
                             font-style: italic
@@ -54,8 +67,7 @@
                             grid-column: 2
 
                             &:has(> i)
-                                font-size: $small-size-desktop
-                                line-height: var(--meta-line-height)
+                                @include small
                                 color: var(--color-text-alt)
 
                         > p:has(> i)
@@ -70,12 +82,20 @@
                         i
                             font-style: normal !important
     .blocks
-        @include media-breakpoint-up(desktop)
+        .persons--large > li .person
+            .description
+                text-align: center
+            .more
+                margin-top: 1rem
+                margin-bottom: 2rem
+        
+
+        @include media-breakpoint-up(sm)
             display: grid
             grid-template-columns: repeat(2, minmax(0, 1fr))
             column-gap: var(--spacing-4)
-            row-gap: var(--spacing-4)
-            // row-gap: var(--grid-gutter)
+            // row-gap: var(--spacing-4)
+            row-gap: 0
 
             > *
                 grid-column: 1 / -1
@@ -96,13 +116,25 @@
 
                 .persons--large > li .person
                     .avatar
-                        width: calc( (var(--column-width) * 1.5) + var(--grid-gutter) * ( 2 - 1 ))
-            
+                        align-self: center
+                    
+
+        @include media-breakpoint-up(desktop)    
+            column-gap: var(--spacing-5)
+
+            .persons--large > li .person
+                .description
+                    text-align: left  
+                .avatar
+                    width: calc( (var(--column-width) * 2) + var(--grid-gutter) * ( 2 - 1 )) !important 
         
         .block-title:not(.block-title--collapsed):not(.block-title--classic)
-            border-bottom: var(--border-width) solid var(--color-border) !important
+            border-bottom: var(--border-width) solid var(--color-border)
             padding-bottom: 1.5rem
             width: 100%
+
+        .block-posts .block-title
+            border: inherit !important
         
         #galerie
             visibility: hidden
@@ -132,10 +164,7 @@
                 
                 p
                     margin-top: 0
-                    font-size: var(--small-size) !important
-                    line-height: var(--small-line-height)
-
-        
+                    @include small
 
         .block-video--player
             background: inherit
@@ -156,7 +185,37 @@
                         border-top: 0
                 td:first-child
                     color: var(--color-text-alt)
+
         .block-posts
-            background-color : $color-ressources
+            background-color: inherit
+            @include media-breakpoint-up(desktop)
+                grid-column: span 1
+                margin: var(--grid-gutter) 0
+
+                .container
+                    padding-right: inherit
+
+            .block-content
+                padding: var(--spacing-4) var(--spacing-3)
+                background-color: $color-ressources
+                border-radius: .7rem
+
+            .top
+                margin-bottom: 0rem
+                a::after
+                    display: none
+            .posts--list
+                > li
+                    padding: inherit
+                    margin: inherit
+                    border: inherit
+                    a
+                        @include icon(arrow-right-line, after, true)
+                        @include hover-translate-icon
+
+                        &:after
+                            position: relative
+            .post-title
+                @include body-text
            
                 
