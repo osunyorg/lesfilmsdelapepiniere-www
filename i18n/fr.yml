@@ -1,0 +1,25 @@
+backlinks:
+  posts: Ressources mentionnant {{ . }}
+  
+blocks:
+  posts:
+    title: Ressources
+
+categories:
+  type:
+    posts_categories: Catégories des ressources
+
+posts:
+  next: Article suivant
+  none: Aucun article publié
+  previous: Article précédent
+  reading_time: Temps de lecture
+  see_all: Voir toutes les ressources
+  see_all_in_program: Voir toutes les ressources de la formation
+  see_all_in_category: Voir toutes les ressources “{{ .Title }}”
+  title: Ressources
+
+persons:
+  posts:
+    recent: Ressources publiées récemment
+    all: Voir toutes les ressources publiées par {{ .author }}
