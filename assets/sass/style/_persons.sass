@@ -3,3 +3,15 @@
         &--grid
             @include media-breakpoint-up(desktop)
                 // règles desktop ici
+
+.persons__page
+    .person-objects
+        section
+            padding-bottom: 0 !important
+            padding-top: var(--spacing-3) !important
+    .h5
+        border-bottom: var(--border-width) solid var(--color-border)
+        margin-bottom: calc(1.5rem + .75rem)
+        max-width: inherit !important
+        padding-bottom: 1.5rem
+        width: 100%
