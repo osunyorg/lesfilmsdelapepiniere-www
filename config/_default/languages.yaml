@@ -16,6 +16,11 @@ fr:
           value: >-
             mailto:contact@lesfilmsdelapepiniere.fr
       social_networks:
+        facebook:
+          label: >-
+            LesFilmsdelaPepiniere
+          value: >-
+            https://www.facebook.com/LesFilmsdelaPepiniere
         instagram:
           label: >-
             lesfilmsdelapepiniere
