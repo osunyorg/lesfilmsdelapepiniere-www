@@ -167,6 +167,10 @@ from = "/actualites-independantes/publication-du-site-web/index.html"
 to = "/actualites/publication-du-site-web/"
 
 [[redirects]]
+from = "/actualites/prix-de-la-premiere-oeuvre-hier-au-festival-fidadoc-pour-nicole-nicole/index.html"
+to = "/actualites/prix-de-la-premiere-oeuvre-au-festival-fidadoc-pour-nicole-nicole/"
+
+[[redirects]]
 from = "/thematique/index.html"
 to = "/actus-type/"
 
