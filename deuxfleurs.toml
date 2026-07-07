@@ -75,10 +75,6 @@ from = "/journal/2026-06-19-journal-de-cuisine-4801/index.html"
 to = "/ressources/2026-06-19-journal-de-cuisine-4801/"
 
 [[redirects]]
-from = "/agenda/2026/la-prochaine-permanence-aux-etats-generaux-du-documentaire-1/index.html"
-to = "/agenda/2025/la-prochaine-permanence-aux-etats-generaux-du-documentaire-1/"
-
-[[redirects]]
 from = "/personnes/equipe-editoriale/index.html"
 to = "/coop/equipe-editoriale/"
 

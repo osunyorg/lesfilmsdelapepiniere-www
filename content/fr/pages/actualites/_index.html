@@ -86,6 +86,51 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: agenda
+    title: >-
+      À venir
+    slug: >-
+      a-venir
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          À venir
+        heading: 2
+        link: "/agenda/"
+
+    data:
+      mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: large
+
+
+      title_link: "/agenda/"
+      events:
+        - permalink: "/agenda/2026/la-prochaine-permanence-aux-etats-generaux-du-documentaire/"
+          path: "/events/2026/08/16-la-prochaine-permanence-aux-etats-generaux-du-documentaire"
+          slug: "la-prochaine-permanence-aux-etats-generaux-du-documentaire"
+          file: "content/fr/events/2026/08/16-la-prochaine-permanence-aux-etats-generaux-du-documentaire.html"
+          name: >-
+            La prochaine Permanence aux États généraux du documentaire
+
+      quantity: 1
 
   - kind: block
     template: title
