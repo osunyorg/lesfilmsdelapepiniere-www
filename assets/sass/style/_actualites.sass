@@ -1,21 +1,47 @@
 .ancestor-actualites
     .taxonomies-container
         margin: 0 !important
+
     .pages-taxonomies
         padding-left: 0 !important
 
+
 .page-actualites
-    .block-title--classic h2
-        margin-bottom: calc(1.5rem + 0.75rem)
+    .block-agenda 
+        margin-top: 0 !important
+
+    .block-title--classic
+        h2
+            margin-bottom: var(--grid-gutter)
+
     .pages--grid
         grid-template-columns: repeat(4, 1fr) !important
+
         article
             .page-title
                 text-transform: inherit
                 font-size: var(--h5-size)
-            &:not(:has(.more)) [class$="-title"] a::after
-                display: none
-            .media img
-                aspect-ratio: .75 !important
-    .post-content .post-meta
-        margin-top: var(--spacing-1)
+
+            .media
+                img
+                    aspect-ratio: .75 !important
+
+            &:not(:has(.more))
+                [class$="-title"]
+                    a::after
+                        display: none
+
+        @include media-breakpoint-down(desktop)
+            display: grid
+            grid-template-columns: repeat(3, 1fr) !important
+            gap: var(--grid-gutter)
+
+            > li + li
+                margin-top: 0
+
+        @include media-breakpoint-down(md)
+            grid-template-columns: repeat(2, 1fr) !important
+
+    .post-content
+        .post-meta
+            margin-top: var(--spacing-1)

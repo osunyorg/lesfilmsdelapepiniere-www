@@ -1,13 +1,20 @@
 // Images
-.block-agenda--large, .block-pages--large
+
+.block-agenda--large,
+.block-pages--large
     .page .media img
         aspect-ratio: $page-aspect-ratio !important
 
+
+// Alerts
 .alert--info
     .button
         background: inherit
         border-color: var(--color-background)
+
+
 // Hero
+
 .page-ressources
     .hero
         @include media-breakpoint-up(desktop)
@@ -16,44 +23,51 @@
 body:not(.page-ressources)
     .hero
         @include media-breakpoint-up(desktop)
+
             min-height: var(--hero-height-desktop)
 
 body:not(.posts__page):not(.projects__page):not(.events__page)
     .hero-text
         @include media-breakpoint-up(desktop)
             margin-top: .5rem !important
+
         p
             color: var(--color-text-alt)
+
         span
             display: none
 
-.single-meta .social-share ul.share 
+
+// Social
+.single-meta .social-share ul.share
     align-items: baseline
 
     a
         opacity: .4
         transition: $default-duration
-    a:hover
-        opacity: 1
+
+        &:hover
+            opacity: 1
+
+
+// Titles
 
 .block-title--classic h2
-    margin-bottom: calc(1.5rem + 0.75rem)
     border-bottom: var(--border-width) solid var(--color-border)
+    margin-bottom: calc(1.5rem + .75rem)
+    max-width: inherit !important
     padding-bottom: 1.5rem
     width: 100%
-    max-width: inherit !important
 
-.block-title, .block-title, .h5
+.block-title,
+.h5
     text-transform: inherit !important
 
 .block
+
     .page-subtitle
-        margin-top: var(--spacing-1)
         font-weight: 400
-
-
-    // BLOCS
-
+        margin-top: var(--spacing-1)
 
     &.block-class-ressources
         .block-content .page-content
@@ -62,52 +76,54 @@ body:not(.posts__page):not(.projects__page):not(.events__page)
     &.block-persons
         .description p:not([class])
             @include h4
-        
+
         .person-name,
         .persons--large > li .person .person-name
             @include body-text
-            
 
-        .person-role
-            p:not([class])
-                @include small
+        .person-role p:not([class])
+            @include small
 
     &.block-call_to_action
         .block-content
             padding-bottom: var(--grid-gutter)
+
         .block-title
             font-size: $small-size-desktop !important
             text-transform: uppercase !important
+
         .description p
-            font-size: $h3-size-desktop
             font-family: $body-font-family
-    
+            font-size: $h3-size-desktop
+
     &.block-pages--grid
         .page-title
-            font-size: $small-size-desktop 
-            text-transform: uppercase 
+            font-size: $small-size-desktop
+            text-transform: uppercase
 
-    &.block-gallery--carousel .slider figure picture img
-        height: calc(50 * var(--rvh))
+    &.block-gallery--carousel
+        .slider figure picture img
+            height: calc(50 * var(--rvh))
 
     &.block-chapter
-        
         &--accent_background
-             background: rgba($footer-background-color, .8) !important
+            background: rgba($footer-background-color, .8) !important
 
         @include media-breakpoint-up(desktop)
             &--accent_background
                 background: inherit !important
+
             &--accent_background .chapter
                 background: rgba($footer-background-color, .8) !important
 
-// CATEGORIES
+
+// Categories
+
 .taxonomies-single,
 .project-categories
     a
         @include meta
         font-family: "Barlow Cond"
-        
 
 .categories--list
     .category-item
@@ -116,28 +132,40 @@ body:not(.posts__page):not(.projects__page):not(.events__page)
 
         a
             &::after
+                color: $color-ui-accent
                 content: " "
+                display: inline
                 font-family: 'Icon'
+                font-size: 22px
                 font-style: normal
                 font-variant: normal
                 font-weight: normal
                 speak: never
                 text-transform: none
-                display: inline
-                color: $color-ui-accent
-                font-size: 22px
-                transition: 0.55s cubic-bezier(0, 0.65, 0.4, 1.2)
+                transition: .55s cubic-bezier(0, .65, .4, 1.2)
 
         &:hover
             a::after
-                transform: translateX(0.625rem)
+                transform: translateX(.625rem)
 
 
-// ICONES STADE DEV
+// Project categories icons
+
 .projects-taxonomies,
 .project-categories
+    a
+        display: flex
+        align-items: center
+
     .cat-en-developpement
-        @include category-icon('/assets/images/en-developpement.svg', .8em, .7em)
+        &::before
+            content: ""
+            display: inline-block
+            width: .6em
+            height: .6em
+            margin-right: .4em
+            border: .1rem solid var(--color-text-alt)
+            border-radius: 50%
 
     .cat-en-production
         @include category-icon('/assets/images/en-production.svg', 1.1em, 1.1em)
@@ -146,31 +174,31 @@ body:not(.posts__page):not(.projects__page):not(.events__page)
         @include category-icon('/assets/images/en-diffusion.svg', 1.1em, 1.1em)
 
 
-// CAROUSEL
+// Carousel
 .block-gallery--carousel
     @include media-breakpoint-up(desktop)
         .slider figure picture img
             height: calc(38 * var(--rvh)) !important
 
 
-// CHAPITRE
-
-
-// AGENDA
+// Agenda
 .block-agenda
     &--list
         .event-schedule
             color: var(--color-text-alt)
 
-// PERSONS
+
+// Persons
 .persons__page .hero--with-image figure picture
     border-radius: $border-radius
 
-// ORGANIZATIONS
+@include media-breakpoint-down(desktop)
+    .persons--list > li + li
+        border-top: none !important
+
+
+// Organizations
 .organizations--grid
     grid-template-columns: repeat(3, 1fr)
-    @include media-breakpoint-up(sm)
-        grid-template-columns: repeat(4, 1fr)
-    @include media-breakpoint-up(desktop)
-        grid-template-columns: repeat(6, 1fr)
-    
+    @include grid(4, sm)
+    @include grid(6, desktop)

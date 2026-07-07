@@ -1,50 +1,64 @@
-.posts__page, .posts__section, .posts_categories__term
-    .hero, #document-header
-        background-color : $color-ressources
+.posts__page,
+.posts__section,
+.posts_categories__term
+
+    .hero,
+    #document-header
+        background-color: $color-ressources
+
+
     .hero-meta
         column-gap: 0 !important
+
         a
             color: var(--color-text) !important
+
         .authors
             display: inline-flex
-            
+
             &::before
+
                 content: " • "
                 margin-left: space()
                 margin-right: space()
 
-    
+
+
     .taxonomies-list--dropdown
         [aria-controls="categories-"]
             display: none
 
+
+
 .page-ressources
     .hero-text
-            width: 100%
-            .has-lead
-                display: grid
-                grid-gap: var(--grid-gutter) var(--grid-gutter)
-                grid-template-columns: repeat(12, 1fr)
+        width: 100%
 
-                h1
-                    grid-column: 1/5
-                p
-                    grid-column: 6/13
-                    margin-top: .8rem
+        .has-lead
+            display: grid
+            gap: var(--grid-gutter)
+            grid-template-columns: repeat(12, 1fr)
 
-.ancestor-ressources
-.page-ressources,
+            h1
+                grid-column: 1 / 5
 
+            p
+                grid-column: 6 / 13
+                margin-top: .8rem
+
+
+.ancestor-ressources,
+.page-ressources
     .block-page-ressources
         .top
             display: none !important
 
     .block-categories
-        order: -1
+        background: $color-ressources
         display: flex
         gap: 2rem
-        background: $color-ressources
         margin-top: 0 !important
+        order: -1
         padding-bottom: var(--grid-gutter)
 
         .articles-count
@@ -57,12 +71,13 @@
             display: flex
 
         .category-content
+            align-items: baseline
             display: flex
             gap: 5px
-            align-items: baseline
 
         .posts_category-title
             font-size: var(--meta-size) !important
 
             a::after
+
                 display: none !important

@@ -1,7 +1,7 @@
 .page__home
     .hero
-        padding-bottom: var(--spacing-3)
         min-height: inherit
+        padding-bottom: var(--spacing-3)
 
         .hero-text
             margin-top: calc(var(--grid-gutter) * 1)
@@ -10,27 +10,29 @@
                 h1
                     visibility: hidden
                     position: absolute
-                
                 p
-                  @include h1
-                  color: var(--color-text-alt)
+                    @include h1
+                    color: var(--color-text-alt)
+
+
     .block
-        &.block .page-title
+        .page-title
             margin-top: var(--space-unit)
 
         &.block-pages--grid:not(.block-class-films)
             @include media-breakpoint-up(desktop)
-                margin-top: calc(var(--grid-gutter) * 1.5)
                 margin-bottom: calc(var(--grid-gutter) * 2)
-                .pages--grid
-                    grid-template-columns: repeat(3, 1fr)
+                margin-top: calc(var(--grid-gutter) * 1.5)
 
                 .pages--grid
-                    grid-gap: var(--spacing-4)
+                    grid-template-columns: repeat(3, 1fr)
+                    gap: var(--spacing-4)
+
                     .page-subtitle
                         padding-right: var(--spacing-3)
 
-        &.block-class-films    
+
+        &.block-class-films
             .block-content
                 .pages
                     display: flex !important
@@ -40,39 +42,33 @@
                     li
                         width: 100%
 
-                    .media img
-                        aspect-ratio: $page-aspect-ratio
-            
+                    .media
+                        img
+                            aspect-ratio: $page-aspect-ratio
+
+
             @include media-breakpoint-up(desktop)
                 .container
                     padding-left: var(--spacing-1)
                     padding-right: var(--spacing-1)
+
                     hgroup
                         padding-left: var(--grid-gutter)
                         padding-right: var(--grid-gutter)
-                    .media img
-                        aspect-ratio: $img-aspect-ratio !important
+
+                    .media
+                        img
+                            aspect-ratio: $img-aspect-ratio !important
+
 
         &.block-call_to_action
             background: none
+
             @include media-breakpoint-up(desktop)
                 .block-content
-                    padding-top: 0
                     padding-bottom: var(--grid-gutter)
+                    padding-top: 0
 
             .call_to_action
                 background: $color-ressources
                 padding: calc(var(--grid-gutter) * 1.5) var(--grid-gutter)
-                
-                            
-
-        // a supprimer si CTA
-        &.block-class-ressources
-            .page-content
-                text-align: center
-                background-color : var(--color-background-alt)
-                padding: 4rem 2rem
-                min-width: 100%
-
-            .media
-                display: none

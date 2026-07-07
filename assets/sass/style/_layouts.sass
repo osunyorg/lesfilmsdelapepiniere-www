@@ -1,91 +1,89 @@
 header#document-header
-    @include media-breakpoint-up(desktop)
-        .logo img
-            height: 80px !important
-
     .primary-menu
         a:hover
             color: var(--color-text-alt)
 
         .nav-level-1 a
-            font-size: 1.06rem
             font-family: $body-font-family
-          
+            font-size: 1.06rem
+
         .nav-search
             margin-left: 3rem
-
             .search-button::after
                 font-size: 22px
                 opacity: .6
 
-
 .footer-contents
     background: $footer-background-color
     color: $footer-color
-    padding-top: var(--spacing-4) !important
     font-size: 17px !important
     line-height: var(--meta-line-height)
+    padding-top: var(--spacing-4) !important
 
     .blocks > div
         margin: 0 !important
 
-    .block:first-child .block-content
-        padding-top: var(--spacing-3)
-        padding-bottom: var(--spacing-4)
-        border-top: 1px solid $footer-color
-        
+    .block:first-child
+        .block-content
+            // border-top: 1px solid $footer-color
+            padding-bottom: var(--spacing-3)
+            padding-top: var(--spacing-3)
+
 footer#document-footer
     padding-top: 0 !important
-
-    @include media-breakpoint-down(desktop)
-        .container
-            + .container,
-            > * + *
-                margin-top: 0
-    
-    @include media-breakpoint-up(desktop)
-
-        .footer-legals
-            display: flex
-            justify-content: space-between
-            align-items: baseline
-            flex-direction: row-reverse
 
     .footer-logo
         display: none !important
 
     .container
-        padding-block: 0 !important
-        flex-direction: column-reverse
         align-items: flex-start !important
-
+        flex-direction: column-reverse
+        padding-block: 0 !important
 
     .site-links,
     .nav-legal
-        display: flex
         align-items: baseline
-        gap: var(--spacing-3)
+        display: flex
+        gap: var(--spacing-3)        
+
     .site-links
+        font-size: .9rem
+        text-transform: lowercase
         gap: var(--spacing-1)
 
-    .site-links li
-        gap: var(--spacing-1)
-        &::after
-            display: none
+        li
+            gap: var(--spacing-1)
+            &::after
+                display: none
 
     .footer-legals
-        width: 100%
-        margin-top: var(--spacing-3)
         border-top: 1px solid $footer-color
+        margin-top: var(--spacing-3)
         padding-top: var(--spacing-3)
+        width: 100%
 
-        li, .footer-credit
+        li,
+        .footer-credit
             margin-top: 0
+
+    @include media-breakpoint-down(desktop)
+        .container
+            + .container,
+            > *
+                margin-top: 0
+
+    @include media-breakpoint-up(desktop)
+        .footer-legals
+            align-items: baseline
+            display: flex
+            flex-direction: row-reverse
+            justify-content: space-between
 
 .taxonomies-list--dropdown,
 .section-taxonomies-container
     @include media-breakpoint-up(desktop)
         margin: 0 0 4rem !important
+
 
 .page-no-cat-btn
     .taxonomies-list--dropdown

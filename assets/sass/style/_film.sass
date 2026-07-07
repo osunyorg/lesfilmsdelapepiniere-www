@@ -1,20 +1,30 @@
 .projects__page
-    .toc-cta, .section-sidebar
+    .toc-cta,
+    .section-sidebar
         display: none !important
-    .share, .hero-actions
+
+    .share,
+    .hero-actions
         display: none
+
+
     .hero
         .hero-text
             padding-bottom: 0
+
         .project-infos
             display: none
-        .projects-taxonomies
-            order: -1
-            margin: 0
+
+        .projects-taxonomies,
         .projects-meta
             order: -1
+
+        .projects-taxonomies
+            margin: 0
+
+        .projects-meta
             margin-top: 0
-            
+
 
     .hero--with-image
         .container
@@ -22,89 +32,93 @@
                 display: flex
                 flex-direction: column-reverse
 
-                .hero-image
-                    width: 100%
-                    align-self: center
+            .hero-image
+                align-self: center
+                width: 100%
 
-                    picture
-                        margin-left: var(--grid-gutter-negative)
-                        margin-right: var(--grid-gutter-negative)
+                picture
+                    margin-left: var(--grid-gutter-negative)
+                    margin-right: var(--grid-gutter-negative)
 
-                        @include media-breakpoint-up(desktop)
-                            margin-left: inherit
-                            margin-right: inherit
-                    
-                    img
-                        aspect-ratio: $img-aspect-ratio !important
-                        object-fit: cover
+                    @include media-breakpoint-up(desktop)
+                        margin-left: inherit
+                        margin-right: inherit
 
-                .hero-text
-                    width: 100%
+                img
+                    aspect-ratio: $img-aspect-ratio !important
+                    object-fit: cover
 
-                    .taxonomies-single a
-                        @include meta
+            .hero-text
+                width: 100%
 
-                    .has-lead
+                .taxonomies-single a
+                    @include meta
 
-                        @include media-breakpoint-up(desktop)
-                            display: grid
-                            grid-template-columns: 1fr 1.4fr
-                            gap: var(--spacing-4)
-                            row-gap: var(--spacing-1)
+                .has-lead
+
+                    @include media-breakpoint-up(desktop)
+                        display: grid
+                        gap: var(--spacing-4)
+                        grid-template-columns: 1fr 1.4fr
+                        row-gap: var(--spacing-1)
+
+                    h1
+                        font-style: italic
+
+                        span
+                            font-style: initial !important
+
+                    > :first-child
+                        grid-column: 1
+                        grid-row: 1
+                        padding-bottom: var(--spacing-3)
+
+                    > :not(:first-child)
+                        grid-column: 2
+
+                        &:has(> i)
+                            @include small
+                            color: var(--color-text-alt)
+
+                    > p:has(> i)
+                        padding-top: var(--spacing-3)
+
+                    > p:has(> i) ~ p:has(> i)
+                        padding-top: 0
+
+                    p
+                        margin-top: 0
+
+                    i
+                        font-style: normal !important
 
 
-                        h1
-                            font-style: italic
-                            span
-                                font-style: initial !important
-
-                        > :first-child
-                            grid-column: 1
-                            grid-row: 1
-                            padding-bottom: var(--spacing-3)
-
-                        > :not(:first-child)
-                            grid-column: 2
-
-                            &:has(> i)
-                                @include small
-                                color: var(--color-text-alt)
-
-                        > p:has(> i)
-                            padding-top: var(--spacing-3)
-
-                        > p:has(> i) ~ p:has(> i)
-                            padding-top: 0
-
-                        p
-                            margin-top: 0
-                        
-                        i
-                            font-style: normal !important
     .blocks
+
+        // Personnes
         .persons--large > li .person
             .description
                 text-align: center
             .more
-                margin-top: 1rem
-                margin-bottom: 2rem
-        
+                margin-bottom: $spacing-2
+                margin-top: $spacing-1
+
 
         @include media-breakpoint-up(sm)
             display: grid
-            grid-template-columns: repeat(2, minmax(0, 1fr))
             column-gap: var(--spacing-4)
-            // row-gap: var(--spacing-4)
+            grid-template-columns: repeat(2, minmax(0, 1fr))
             row-gap: 0
 
             > *
                 grid-column: 1 / -1
 
             > .block-persons
+
                 grid-column: span 1
-                min-width: 0
                 margin-bottom: 0
                 margin-top: var(--grid-gutter)
+                min-width: 0
 
                 &:first-of-type
                     .container
@@ -114,80 +128,93 @@
                     .container
                         padding-left: 0
 
+
                 .persons--large > li .person
                     .avatar
                         align-self: center
-                    
 
-        @include media-breakpoint-up(desktop)    
+
+        @include media-breakpoint-up(desktop)
             column-gap: var(--spacing-5)
 
             .persons--large > li .person
                 .description
-                    text-align: left  
+                    text-align: left
                 .avatar
-                    width: calc( (var(--column-width) * 2) + var(--grid-gutter) * ( 2 - 1 )) !important 
-        
+                    width: columns(2) !important
+
+
+
+        // Titres des blocs
+
         .block-title:not(.block-title--collapsed):not(.block-title--classic)
             border-bottom: var(--border-width) solid var(--color-border)
-            padding-bottom: 1.5rem
+            padding-bottom: $spacing-2
             width: 100%
 
         .block-posts .block-title
             border: inherit !important
-        
+
+        // Galerie
+
         #galerie
-            visibility: hidden
             position: absolute
+            visibility: hidden
 
         .block-gallery
-            margin-top: calc(var(--grid-gutter) * 1)
-            margin-bottom: 0
-            padding-bottom: 0
             background-color: inherit !important
+            margin-bottom: 0
+            margin-top: var(--grid-gutter)
+            padding-bottom: 0
 
+        // Festivals
         .block-class-festivals
-            padding: var(--spacing-5) var(--spacing-2)
             margin-bottom: var(--grid-gutter)
+            padding: var(--spacing-5) var(--spacing-2)
 
             .top
                 margin-bottom: 0
-
             h2
-                visibility: hidden
                 position: absolute
-
+                visibility: hidden
             .text
-                font-size: var(--body-size)
-                width: 100% !important
                 color: var(--color-text-alt)
-                
+                width: 100% !important
+
                 p
-                    margin-top: 0
                     @include small
+                    margin-top: 0
+
+
+
+        // Vidéo
 
         .block-video--player
             background: inherit
             margin: 0
-            
+
             .block-title
-                visibility: hidden
                 position: absolute
-                
+                visibility: hidden
+
+
+        // Générique
         .block-datatable
             thead
                 display: none
+
             tbody
                 td
-                    border-top: var(--border-width) solid rgba($color-text-alt, 0.4)
-                tr:first-child
-                    td
-                        border-top: 0
+                    border-top: var(--border-width) solid rgba($color-text-alt, .4)
+                tr:first-child td
+                    border-top: 0
                 td:first-child
                     color: var(--color-text-alt)
 
+        // Posts
         .block-posts
             background-color: inherit
+
             @include media-breakpoint-up(desktop)
                 grid-column: span 1
                 margin: var(--grid-gutter) 0
@@ -195,27 +222,32 @@
                 .container
                     padding-right: inherit
 
+
             .block-content
-                padding: var(--spacing-4) var(--spacing-3)
                 background-color: $color-ressources
                 border-radius: .7rem
+                padding: var(--spacing-4) var(--spacing-3)
+
 
             .top
-                margin-bottom: 0rem
+                margin-bottom: 0
+
                 a::after
                     display: none
+
+
             .posts--list
                 > li
-                    padding: inherit
-                    margin: inherit
                     border: inherit
+                    margin: inherit
+                    padding: inherit
+
                     a
                         @include icon(arrow-right-line, after, true)
                         @include hover-translate-icon
 
-                        &:after
+                        &::after
                             position: relative
+
             .post-title
                 @include body-text
-           
-                

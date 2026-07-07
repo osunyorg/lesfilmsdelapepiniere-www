@@ -7,8 +7,8 @@ pagination:
 params:
   # Design system
   logo:
-    header: '/assets/images/logo.png'
-    footer: '/assets/images/logo.png'
+    header: '/assets/images/logo.svg'
+    footer: '/assets/images/logo.svg'
   # Fonction recherche
   search:
     active: true

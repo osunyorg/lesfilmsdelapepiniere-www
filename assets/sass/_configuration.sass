@@ -1,13 +1,19 @@
-/* (pour info, à supp) */
+// (pour info, à supp)
 // $grid-breakpoints: (xs: 0, sm: 576px, md: 768px, desktop: 992px, lg: 992px, xl: 1200px, xxl: 1440px, xxxl: 1600px) !default
 
-/* COLORS */
-// AJOUTS
-$color-ui-accent: #89FF9C !default // #89FF9C
-$color-background-alt-light: #F6F9E1 !default
-$color-ressources: #BEF5AE !default
+/* =====================================================
+   CUSTOM SITE VARIABLES
+   ===================================================== */
 
-// BASES
+$color-ui-accent: #89FF9C !default
+$color-background-alt-light: #F6F9E1 !default
+$color-ressources: #C8EDCC !default
+
+
+/* =====================================================
+   COLORS
+   ===================================================== */
+
 $color-background: #fffff5 !default
 $color-text: #403e49 !default
 $color-text-alt: rgba($color-text, .8) !default
@@ -18,68 +24,59 @@ $color-selection: $color-text !default
 $color-selection-background: rgba($color-ui-accent, .7) !default
 $btn-background: transparent !default
 
-// Footer
-$footer-background-color: #393030
-// #fefaee #d5d3c8 #f6f6ee #cfcd9a #f2e7cf #b6a69c
-$footer-color: $color-background
-// $footer-color: $color-text
-$header-logo-height: 50px
-$header-logo-height-desktop: 60px
 
-/* FONTS */
-$heading-font-family: "Barlow Cond", "Helvetica Neue", "Helvetica", sans-serif
+/* =====================================================
+   TYPOGRAPHY
+   ===================================================== */
+
 $body-font-family: "Barlow", "Helvetica Neue", "Helvetica", sans-serif
+$heading-font-family: "Barlow Cond", "Helvetica Neue", "Helvetica", sans-serif
 $heading-font-weight: 400 !default
-$lead-font-family: $body-font-family !default
-$h1-font-family: $body-font-family !default
-$h3-font-family: $body-font-family !default
-// $small-font-family: $heading-font-family !default
-
-
-$h1-weight: normal
-$h2-weight: normal
-$h3-weight: 300
-$h4-weight: normal
-
-$toc-active-color: var(--color-text-alt) !default
-$block-chapter-layout-alt-background: $color-background-alt-light !default
-
-/* STYLES */
-// alerts
-$alert-info-background: rgba($footer-background-color, .8) !default
-$alert-info-color: var(--color-background) !default
-// body
-$body-size-desktop: pxToRem(19) !default
-
-// Lead
-$hero-height: 300px !default
-$hero-height-desktop: 400px !default
-
-$lead-size-desktop: pxToRem(28) !default
-$lead-hero-size-desktop: pxToRem(28) !default
 
 // h1
+$h1-font-family: $body-font-family !default
 $h1-size-desktop: pxToRem(34) !default
+$h1-weight: normal !default
 
+// h2
 $h2-size-desktop: pxToRem(25) !default
+$h2-weight: normal !default
 
 // h3
+$h3-font-family: $body-font-family !default
 $h3-size-desktop: pxToRem(23) !default
+$h3-weight: 300 !default
 
 // h4
 $h4-size-desktop: pxToRem(20) !default
+$h4-weight: normal !default
 
+// h5
 $h5-size-desktop: pxToRem(25) !default
 
+// Lead
+$lead-font-family: $body-font-family !default
+$lead-size-desktop: pxToRem(28) !default
+$lead-hero-size-desktop: pxToRem(28) !default
+
+// Body
+$body-size-desktop: pxToRem(19) !default
+
 // Small
+// $small-font-family: $heading-font-family !default
 $small-size-desktop: pxToRem(16) !default
+
 
 // Meta
 $meta-size-desktop: pxToRem(17) !default
 
 
 
-/* LAYOUTS */
+/* =====================================================
+   LAYOUTS
+   ===================================================== */
+
+// Grid
 $grid-max-width: pxToRem(1980) !default
 
 // Images
@@ -87,27 +84,52 @@ $border-radius: 2px !default
 $img-aspect-ratio: 2.24 !default
 $page-aspect-ratio: 1.35 !default
 $article-media-aspect-ratio: 16 / 9 !default
+
 $block-gallery-carousel-background: var(--color-background) !default
 $block-video-background: var(--color-background) !default
+
 // Header
 $header-background: $color-background
-$header-border-bottom-width: 0
-$header-logo-height: pxToRem(40)
-$header-logo-height-desktop: pxToRem(70)
+$header-border-bottom-width: 0 !default
+$header-logo-height: pxToRem(53) !default
+$header-logo-height-desktop: pxToRem(60) !default
+
+// Hero
+$hero-height: 300px !default
+$hero-height-desktop: 250px !default
 $hero-background-color: $color-background
 
+// Footer
+$footer-background-color: #393030 !default
+// #fefaee #d5d3c8 #f6f6ee #cfcd9a #f2e7cf #b6a69c
+$footer-color: $color-background !default
+// $footer-color: $color-text
 
 
-// projects
-$project-infos-color-text-alt: $color-text !default
+/* =====================================================
+   COMPONENTS
+   ===================================================== */
 
-/* COMPONENTS */
-// Hero
-// $hero-height: 250px !default
-$hero-height-desktop: 250px !default
+// Alert
+$alert-info-background: rgba($footer-background-color, .8) !default
+$alert-info-color: var(--color-background) !default
+
+// Table of content
+$toc-active-color: var(--color-text-alt) !default
 
 // Call to action
 $block-call-to-action-accent-color: var(--color-text)
 
 // Links
 $block-links-card-hover-background: var(--color-text-alt) !default
+
+
+/* =====================================================
+   BLOCKS
+   ===================================================== */
+
+// Chapter
+$block-chapter-layout-alt-background: $color-background-alt-light !default
+
+// Projects
+$project-infos-color-text-alt: $color-text !default

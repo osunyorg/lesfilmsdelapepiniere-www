@@ -73,8 +73,13 @@ img
   li
     &:not(:first-child)::before
       content: "—" /""
-    &:last-child::before
-      content: "•" /""
+    &:last-child
+      display: flex
+      align-items: baseline
+      &::before
+        content: "•" /""
+        display: flex
+        align-items: baseline
     a, span
       text-transform: uppercase
       font-size: .75rem // remplacer par variable
