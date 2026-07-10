@@ -31,6 +31,10 @@ from = "/journal/film-lie/nicole-nicole/index.html"
 to = "/ressources/film-lie/nicole-nicole/"
 
 [[redirects]]
+from = "/films/2026-a-la-nuit/index.html"
+to = "/films/2022-a-la-nuit/"
+
+[[redirects]]
 from = "/personnes/romane-martin/index.html"
 to = "/coop/romane-martin/"
 
@@ -69,6 +73,10 @@ to = "/ressources/la-scic/"
 [[redirects]]
 from = "/journal/ressources/la-scic/index.html"
 to = "/ressources/la-scic/"
+
+[[redirects]]
+from = "/films/2025-les-lumieres-d-une-ville-1/index.html"
+to = "/films/2026-les-lumieres-d-une-ville-1/"
 
 [[redirects]]
 from = "/journal/2026-06-19-journal-de-cuisine-4801/index.html"
@@ -112,7 +120,7 @@ to = "/coop/categories/membres/"
 
 [[redirects]]
 from = "/films/2026-demande-a-la-nuit/index.html"
-to = "/films/2026-a-la-nuit/"
+to = "/films/2022-a-la-nuit/"
 
 [[redirects]]
 from = "/thematique/actualite-des-films/index.html"
@@ -203,6 +211,10 @@ from = "/archives-expositions/index.html"
 to = "/expositions/archives-expositions/"
 
 [[redirects]]
+from = "/films/2026-pas-de-deux/index.html"
+to = "/films/2024-pas-de-deux/"
+
+[[redirects]]
 from = "/2027/index.html"
 to = "/date-de-publication/2027/"
 
@@ -291,6 +303,10 @@ from = "/projets/en-diffusion/index.html"
 to = "/films/statut/en-diffusion/"
 
 [[redirects]]
+from = "/films/2026-nei/index.html"
+to = "/films/2023-nei/"
+
+[[redirects]]
 from = "/journal/2026-06-19-lauren-dallenbach-dans-doc-session/index.html"
 to = "/ressources/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
@@ -332,7 +348,7 @@ to = "/actus-type/actualites-de-la-scic/"
 
 [[redirects]]
 from = "/films/2026-les-cedres-1/index.html"
-to = "/films/2026-nei/"
+to = "/films/2023-nei/"
 
 [[redirects]]
 from = "/coop/alice-marsal/posts/index.html"
