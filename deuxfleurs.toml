@@ -111,6 +111,10 @@ from = "/personnes/categories/membres/index.html"
 to = "/coop/categories/membres/"
 
 [[redirects]]
+from = "/films/2026-demande-a-la-nuit/index.html"
+to = "/films/2026-a-la-nuit/"
+
+[[redirects]]
 from = "/thematique/actualite-des-films/index.html"
 to = "/actus-type/actualites-des-films/"
 
