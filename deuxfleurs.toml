@@ -80,7 +80,7 @@ to = "/ressources/la-scic/"
 
 [[redirects]]
 from = "/films/2025-les-lumieres-d-une-ville-1/index.html"
-to = "/films/2026-les-lumieres-d-une-ville-1/"
+to = "/films/2026-les-lumieres-d-une-ville/"
 
 [[redirects]]
 from = "/journal/2026-06-19-journal-de-cuisine-4801/index.html"
@@ -269,6 +269,10 @@ to = "/ressources/2026-06-19-journal-de-cuisine-4801/"
 [[redirects]]
 from = "/personnes/aurelia-pfend/index.html"
 to = "/coop/aurelia-pfend/"
+
+[[redirects]]
+from = "/films/2026-les-lumieres-d-une-ville-1/index.html"
+to = "/films/2026-les-lumieres-d-une-ville/"
 
 [[redirects]]
 from = "/projets/en-developpement/index.html"
