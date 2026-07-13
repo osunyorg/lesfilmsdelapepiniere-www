@@ -31,16 +31,29 @@
                     .page-subtitle
                         padding-right: var(--spacing-3)
 
-
         &.block-class-films
             .block-content
-                .pages
+                .pages--large .page
                     display: flex !important
                     flex-direction: column
                     align-items: start !important
+                    gap: 1.5rem
+                    width: 100%
 
-                    li
+                    .page-content, .media
                         width: 100%
+
+                    .page-title
+                        font-size: $small-size-desktop !important
+                        text-transform: uppercase !important
+                        @include icon(arrow-right-line, after, true)
+                        @include hover-translate-icon
+
+                    .page-subtitle
+                        @include h3
+                        
+                    .more
+                        display: none
 
                     .media
                         img

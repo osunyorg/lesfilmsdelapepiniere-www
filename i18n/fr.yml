@@ -9,6 +9,10 @@ categories:
   type:
     posts_categories: Catégories des ressources
 
+
+pages:
+  posts: Ressources
+
 posts:
   next: Article suivant
   none: Aucun article publié
@@ -20,6 +24,9 @@ posts:
   title: Ressources
 
 persons:
+  publications:
+    recent: Ressources récentes
+    all: Voir toutes les ressources de {{ .author }}
   posts:
     recent: Ressources publiées récemment
     all: Voir toutes les ressources publiées par {{ .author }}

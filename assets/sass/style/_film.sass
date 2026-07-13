@@ -3,8 +3,7 @@
     .section-sidebar
         display: none !important
 
-    .share,
-    .hero-actions
+    .share, .dropdown-share
         display: none
 
 
@@ -55,6 +54,8 @@
                     @include meta
 
                 .has-lead
+                    b
+                        font-weight: 400 !important
 
                     @include media-breakpoint-up(desktop)
                         display: grid
@@ -76,20 +77,20 @@
                     > :not(:first-child)
                         grid-column: 2
 
-                        &:has(> i)
+                        &:has(b)
                             @include small
                             color: var(--color-text-alt)
 
-                    > p:has(> i)
+                    > p:has(b)
                         padding-top: var(--spacing-3)
 
-                    > p:has(> i) ~ p:has(> i)
+                    > p:has(b) ~ p:has(b)
                         padding-top: 0
 
                     p
                         margin-top: 0
 
-                    i
+                    b
                         font-style: normal !important
 
 
@@ -193,7 +194,7 @@
             background: inherit
             margin: 0
 
-            .block-title
+            .block-title, &[aria-hidden="true"]
                 position: absolute
                 visibility: hidden
 

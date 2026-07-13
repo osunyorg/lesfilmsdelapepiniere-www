@@ -81,15 +81,30 @@ params:
 
 
   image_sizes:
+      blocks:
+        gallery:
+          carousel:
+            mobile:   300
+            tablet:   300
+            desktop:  500
       sections:
         projects:
           hero_single:
             mobile:   400
             tablet:   800
             desktop:  1600
+          layouts:
+            grid:
+              mobile:   350
+              tablet:   555
+              desktop:  800
         pages:
           layouts:
             grid:
+              mobile:   700
+              tablet:   400
+              desktop:  500
+            large:
               mobile:   700
               tablet:   1000
               desktop:  1500
