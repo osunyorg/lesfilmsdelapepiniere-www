@@ -21,16 +21,6 @@ fr:
             LesFilmsdelaPepiniere
           value: >-
             https://www.facebook.com/LesFilmsdelaPepiniere
-        instagram:
-          label: >-
-            lesfilmsdelapepiniere
-          value: >-
-            https://instagram.com/lesfilmsdelapepiniere
-        mastodon:
-          label: >-
-            mastodon.social/@lesfilmsdelapepiniere
-          value: >-
-            https://mastodon.social/@lesfilmsdelapepiniere
 
   taxonomies:
     administrator: administrators
