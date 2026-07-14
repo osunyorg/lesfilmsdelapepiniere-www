@@ -1,6 +1,6 @@
 default:
 contents_reading_time:
-  seconds: 4
+  seconds: 6
   text: >-
     moins d'une minute
 contents:
@@ -17,7 +17,7 @@ contents:
     data:
       layout: no_background
       text: >-
-        <p>  Les Films de la Pépinière<br>• Coopérative de production de films documentaires<br>(Lussas)  </p>
+        <p>  Les Films de la Pépinière<br>est une coopérative de production de films documentaires<br>basée à Lussas, en Ardèche.</p>
 
 
 
