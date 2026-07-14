@@ -95,8 +95,8 @@ img
       display: inline-flex;
       align-items: center;
       gap: 12px;
-      font-size: $body-size
-      font-family: $body-font-family
+      @include meta
+      font-family: var(--body-font-family)
       &::after
         +dropdown-btn
 

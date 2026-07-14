@@ -58,7 +58,7 @@ body:not(.posts__page):not(.projects__page):not(.events__page)
     border-bottom: var(--border-width) solid var(--color-border)
     margin-bottom: calc(1.5rem + .75rem)
     max-width: inherit !important
-    // padding-bottom: 1.5rem
+    padding-bottom: var(--spacing-1)
     width: 100%
 
 .block-title,
@@ -205,6 +205,16 @@ body:not(.posts__page):not(.projects__page):not(.events__page)
             height: calc(38 * var(--rvh)) !important
 
 
+// video
+
+.block-video--player
+    p
+        grid-column: span 8 !important
+        grid-row: 3
+        padding-top: var(--spacing-1)
+        color: var(--color-text-alt)
+        @include small
+  
 // Agenda
 .block-agenda
     &--list

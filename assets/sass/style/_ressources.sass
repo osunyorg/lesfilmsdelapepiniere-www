@@ -6,9 +6,15 @@
     #document-header
         background-color: $color-ressources
 
+
     .hero-image
         figcaption::before 
             background: transparent !important
+
+    .hero-text
+        .hero-actions .btn
+            &:hover
+                border-color: var(--color-text) !important
 
     .hero-meta
         column-gap: 0 !important
@@ -58,14 +64,31 @@
             display: none !important
 
     .block-categories
+        order: -1
         background: $color-ressources
         display: flex
         gap: 2rem
         margin-top: 0 !important
-        order: -1
+        padding-top: var(--heading-margin-bottom)
         padding-bottom: var(--grid-gutter)
 
+        .category-content
+            background: var(--color-background-alt);
+            padding: .5rem 1rem;
+            border-radius: 50px;
+            @include icon(arrow-right-line, after, true)
+            @include hover-translate-icon
+
+            &::after
+                color: $color-ui-accent
+
+
         .articles-count
+            margin-top: 0
+            opacity: .8
+            font-size: .6em
+
+
             &::before
                 content: "("
             &::after

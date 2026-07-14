@@ -1,11 +1,15 @@
 header#document-header
     .primary-menu
+        @include media-breakpoint-up(desktop)
+            padding-bottom: 3rem
+            padding-top: 1rem
+
         a:hover
             color: var(--color-text-alt)
 
-        .nav-level-1 a
-            font-family: $body-font-family
-            font-size: 1.06rem
+        .nav-level-1 a, .nav-level-2 a
+            @include meta
+            font-family: var(--body-font-family)
 
         @include media-breakpoint-up(desktop)
             .nav-search
@@ -20,19 +24,22 @@ header#document-header
     color: $footer-color
     font-size: 17px !important
     line-height: var(--meta-line-height)
-    padding-top: var(--spacing-4) !important
+    padding-top: var(--spacing-2) !important
 
     .blocks > div
         margin: 0 !important
 
     .block:first-child
         .block-content
-            // border-top: 1px solid $footer-color
             padding-bottom: var(--spacing-3)
             padding-top: var(--spacing-3)
 
 footer#document-footer
-    padding-top: 0 !important
+    padding: 0 !important
+
+    .footer-credit, .site-links,
+    .nav-legal
+        font-size: var(--small-size)
 
     .footer-logo
         display: none !important
@@ -48,23 +55,25 @@ footer#document-footer
         display: flex
         flex-flow: column wrap
         gap: var(--spacing-1)
-        margin-bottom: var(--spacing-1) 
-
+        margin-bottom: var(--spacing-1)
+        
         @include media-breakpoint-up(desktop)
             flex-flow: row wrap 
             gap: var(--spacing-3)
             margin-bottom: var(--spacing-3)     
 
     .site-links
-        font-size: .9rem
-        text-transform: lowercase
+        font-size: .7em
         flex-flow: row wrap
-        gap: var(--spacing-1)
+        gap: var(--spacing-2)
 
         li
-            gap: var(--spacing-1)
+            flex-flow: row-reverse wrap
+
             &::after
-                display: none
+                margin-left: 0
+                margin-right: .7em
+                font-size: 1em
 
     .footer-legals
         border-top: 1px solid $footer-color
