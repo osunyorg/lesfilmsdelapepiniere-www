@@ -7,11 +7,13 @@ header#document-header
             font-family: $body-font-family
             font-size: 1.06rem
 
-        .nav-search
-            margin-left: 3rem
-            .search-button::after
-                font-size: 22px
-                opacity: .6
+        @include media-breakpoint-up(desktop)
+            .nav-search
+                margin-left: 4rem
+
+                .search-button::after
+                    font-size: 22px
+                    opacity: .6
 
 .footer-contents
     background: $footer-background-color
@@ -78,12 +80,6 @@ footer#document-footer
             display: flex
             flex-direction: row-reverse
             justify-content: space-between
-
-.taxonomies-list--dropdown,
-.section-taxonomies-container
-    @include media-breakpoint-up(desktop)
-        margin: 0 0 4rem !important
-
 
 .page-no-cat-btn
     .taxonomies-list--dropdown

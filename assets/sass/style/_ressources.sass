@@ -37,17 +37,18 @@
     .hero-text
         width: 100%
 
-        .has-lead
-            display: grid
-            gap: var(--grid-gutter)
-            grid-template-columns: repeat(12, 1fr)
+        @include media-breakpoint-up(desktop)
+            .has-lead
+                display: grid
+                gap: var(--grid-gutter)
+                grid-template-columns: repeat(12, 1fr)
 
-            h1
-                grid-column: 1 / 5
+                h1
+                    grid-column: 1 / 5
 
-            p
-                grid-column: 6 / 13
-                margin-top: .8rem
+                p
+                    grid-column: 6 / 13
+                    margin-top: .4rem
 
 
 .ancestor-ressources,
@@ -72,6 +73,9 @@
 
         .categories
             display: flex
+            align-items: baseline
+            gap: 1em
+
 
         .category-content
             align-items: baseline
