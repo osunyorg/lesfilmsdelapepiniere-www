@@ -46,11 +46,19 @@ footer#document-footer
     .nav-legal
         align-items: baseline
         display: flex
-        gap: var(--spacing-3)        
+        flex-flow: column wrap
+        gap: var(--spacing-1)
+        margin-bottom: var(--spacing-1) 
+
+        @include media-breakpoint-up(desktop)
+            flex-flow: row wrap 
+            gap: var(--spacing-3)
+            margin-bottom: var(--spacing-3)     
 
     .site-links
         font-size: .9rem
         text-transform: lowercase
+        flex-flow: row wrap
         gap: var(--spacing-1)
 
         li

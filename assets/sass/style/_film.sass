@@ -49,6 +49,7 @@
 
             .hero-text
                 width: 100%
+                margin-bottom: 0
 
                 .taxonomies-single a
                     @include meta
@@ -105,9 +106,9 @@
                 margin-top: $spacing-1
 
 
-        @include media-breakpoint-up(sm)
+        @include media-breakpoint-up(xs)
             display: grid
-            column-gap: var(--spacing-4)
+            column-gap: var(--spacing-2)
             grid-template-columns: repeat(2, minmax(0, 1fr))
             row-gap: 0
 
@@ -165,7 +166,7 @@
         .block-gallery
             background-color: inherit !important
             margin-bottom: 0
-            margin-top: var(--grid-gutter)
+            margin-top: var(--block-space-y)
             padding-bottom: 0
 
         // Festivals
@@ -192,7 +193,6 @@
 
         .block-video--player
             background: inherit
-            margin: 0
 
             .block-title, &[aria-hidden="true"]
                 position: absolute
@@ -246,6 +246,7 @@
                     a
                         @include icon(arrow-right-line, after, true)
                         @include hover-translate-icon
+                        @include meta
 
                         &::after
                             position: relative

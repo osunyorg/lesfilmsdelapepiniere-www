@@ -37,7 +37,7 @@
                     display: flex !important
                     flex-direction: column
                     align-items: start !important
-                    gap: 1.5rem
+                    gap: 0
                     width: 100%
 
                     .page-content, .media
@@ -56,10 +56,15 @@
                         display: none
 
                     .media
+                        margin: 0
+                        margin-bottom: 0.75rem
+
                         img
                             aspect-ratio: $page-aspect-ratio
 
-
+            @include media-breakpoint-up(md)
+                .media
+                        margin-bottom: 1.5rem
             @include media-breakpoint-up(desktop)
                 .container
                     padding-left: var(--spacing-1)
@@ -70,6 +75,7 @@
                         padding-right: var(--grid-gutter)
 
                     .media
+                        margin-bottom: 1.5rem !important
                         img
                             aspect-ratio: $img-aspect-ratio !important
 
