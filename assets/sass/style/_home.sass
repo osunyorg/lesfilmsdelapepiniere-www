@@ -3,6 +3,9 @@
         min-height: inherit
         padding-bottom: var(--spacing-3)
 
+        .content h1 + p
+            margin-top: var(--spacing-5)
+
         .hero-text
             margin-top: calc(var(--grid-gutter) * 1)
 
@@ -87,6 +90,9 @@
                 .block-content
                     padding-bottom: var(--grid-gutter)
                     padding-top: 0
+
+            .description p
+                @include h3
 
             .call_to_action
                 background: $color-ressources

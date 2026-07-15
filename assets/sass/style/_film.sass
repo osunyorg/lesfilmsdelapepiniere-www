@@ -116,20 +116,10 @@
                 grid-column: 1 / -1
 
             > .block-persons
-
                 grid-column: span 1
                 margin-bottom: 0
                 margin-top: var(--grid-gutter)
                 min-width: 0
-
-                &:first-of-type
-                    .container
-                        padding-right: 0
-
-                & + .block-persons
-                    .container
-                        padding-left: 0
-
 
                 .persons--large > li .person
                     .avatar
@@ -138,6 +128,15 @@
 
         @include media-breakpoint-up(desktop)
             column-gap: var(--spacing-5)
+
+            > .block-persons
+                &:first-of-type
+                    .container
+                        padding-right: 0
+
+                & + .block-persons
+                    .container
+                        padding-left: 0
 
             .persons--large > li .person
                 .description

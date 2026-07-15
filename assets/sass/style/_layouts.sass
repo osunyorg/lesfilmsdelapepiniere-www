@@ -35,7 +35,8 @@ header#document-header
             padding-top: var(--spacing-3)
 
 footer#document-footer
-    padding: 0 !important
+    @include media-breakpoint-up(desktop)
+        padding: 0 !important
 
     .footer-credit, .site-links,
     .nav-legal
