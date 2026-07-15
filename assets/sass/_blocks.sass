@@ -84,12 +84,16 @@ body:not(.posts__page):not(.projects__page):not(.events__page)
         .description p:not([class])
             @include h4
 
-        .person-name,
-        .persons--large > li .person .person-name
-            @include body-text
+    &.block-persons--large
+        .persons--large
+            > li .person .person-name
+                @include body-text
+            > li .person .person-role p
+                @include meta
+                font-family: var(--body-font-family)
+            .avatar
+                align-self: inherit
 
-        .person-role p:not([class])
-            @include small
 
     &.block-call_to_action
         .block-content
@@ -225,11 +229,6 @@ body:not(.posts__page):not(.projects__page):not(.events__page)
 // Persons
 .persons__page .hero--with-image figure picture
     border-radius: $border-radius
-
-@include media-breakpoint-down(desktop)
-    .persons--list > li + li
-        border-top: none !important
-
 
 // Organizations
 .organizations--grid

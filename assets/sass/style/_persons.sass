@@ -1,8 +1,26 @@
 .page-coop
-    .block-persons
-        &--grid
-            @include media-breakpoint-up(desktop)
-                // règles desktop ici
+    .block-persons--large
+        .persons--large
+            display: grid
+            grid-template-columns: 1fr 1fr
+            gap: var(--grid-gutter)
+            margin-top: var(--grid-gutter)
+
+            > li + li
+                margin-top: 0
+
+            .person
+                span: 1
+                display: flex
+                flex-flow: column wrap
+                justify-content: center
+                align-items: center
+
+                .person-name
+                    text-align: center
+
+                .more, .meta
+                    display: none
 
 .persons__page
     .person-objects
