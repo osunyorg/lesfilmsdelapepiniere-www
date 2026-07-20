@@ -132,7 +132,7 @@ to = "/actus-type/actualites-des-films/"
 
 [[redirects]]
 from = "/agenda/2026/deux-projections-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas/index.html"
-to = "/agenda/2026/projection-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas-17-aout-1/"
+to = "/agenda/2026/projection-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas-17-aout/"
 
 [[redirects]]
 from = "/personnes/sylvie-plunian/index.html"
@@ -343,6 +343,10 @@ from = "/actualites-v01/2026-05-19-lauren-dallenbach-dans-doc-session/index.html
 to = "/ressources/2026-06-19-lauren-dallenbach-dans-doc-session/"
 
 [[redirects]]
+from = "/agenda/2026/projection-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas-17-aout-1/index.html"
+to = "/agenda/2026/projection-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas-17-aout/"
+
+[[redirects]]
 from = "/agenda/2026/4801-nuits-aux-rencontres-ad-hoc-le-vendredi-11-septembre-1/index.html"
 to = "/agenda/2026/4801-nuits-aux-rencontres-ad-hoc-le-dimanche-13-septembre/"
 
@@ -381,10 +385,6 @@ to = "/films/2023-nei/"
 [[redirects]]
 from = "/coop/alice-marsal/posts/index.html"
 to = "/coop/alice-marsal/ressources/"
-
-[[redirects]]
-from = "/agenda/2026/projection-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas-17-aout/index.html"
-to = "/agenda/2026/projection-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas-19-aout/"
 
 [[redirects]]
 from = "/coop/avrin-cardi/index.html"
