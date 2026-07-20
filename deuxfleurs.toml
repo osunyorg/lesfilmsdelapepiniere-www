@@ -131,6 +131,10 @@ from = "/thematique/actualite-des-films/index.html"
 to = "/actus-type/actualites-des-films/"
 
 [[redirects]]
+from = "/agenda/2026/deux-projections-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas/index.html"
+to = "/agenda/2026/projection-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas-17-aout-1/"
+
+[[redirects]]
 from = "/personnes/sylvie-plunian/index.html"
 to = "/coop/sylvie-plunian/"
 
@@ -205,6 +209,10 @@ to = "/coop/alice-marsal/ressources/"
 [[redirects]]
 from = "/coop/jean-charles-leyris/actualites-v01/index.html"
 to = "/coop/jean-charles-leyris/ressources/"
+
+[[redirects]]
+from = "/agenda/2026/deux-projections-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas-1/index.html"
+to = "/agenda/2026/projection-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas-19-aout/"
 
 [[redirects]]
 from = "/personnes/flora-jouvencel/index.html"
@@ -365,6 +373,10 @@ to = "/films/2023-nei/"
 [[redirects]]
 from = "/coop/alice-marsal/posts/index.html"
 to = "/coop/alice-marsal/ressources/"
+
+[[redirects]]
+from = "/agenda/2026/projection-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas-17-aout/index.html"
+to = "/agenda/2026/projection-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas-19-aout/"
 
 [[redirects]]
 from = "/coop/avrin-cardi/index.html"
