@@ -131,6 +131,10 @@ from = "/thematique/actualite-des-films/index.html"
 to = "/actus-type/actualites-des-films/"
 
 [[redirects]]
+from = "/agenda/2026/deux-projections-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas/index.html"
+to = "/agenda/2026/projection-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas-17-aout/"
+
+[[redirects]]
 from = "/personnes/sylvie-plunian/index.html"
 to = "/coop/sylvie-plunian/"
 
@@ -153,6 +157,10 @@ to = "/coop/elodie-boin-zanchi/ressources/"
 [[redirects]]
 from = "/coop/alice-marsal/actualites-v01/index.html"
 to = "/coop/alice-marsal/ressources/"
+
+[[redirects]]
+from = "/agenda/2026/4801-nuits-aux-rencontres-ad-hoc-le-dimanche-13-septembre-1/index.html"
+to = "/agenda/2026/4801-nuits-aux-rencontres-ad-hoc-le-dimanche-13-septembre/"
 
 [[redirects]]
 from = "/actualites/ressources/la-scic-1/index.html"
@@ -205,6 +213,10 @@ to = "/coop/alice-marsal/ressources/"
 [[redirects]]
 from = "/coop/jean-charles-leyris/actualites-v01/index.html"
 to = "/coop/jean-charles-leyris/ressources/"
+
+[[redirects]]
+from = "/agenda/2026/deux-projections-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas-1/index.html"
+to = "/agenda/2026/projection-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas-19-aout/"
 
 [[redirects]]
 from = "/personnes/flora-jouvencel/index.html"
@@ -329,6 +341,14 @@ to = "/coop/"
 [[redirects]]
 from = "/actualites-v01/2026-05-19-lauren-dallenbach-dans-doc-session/index.html"
 to = "/ressources/2026-06-19-lauren-dallenbach-dans-doc-session/"
+
+[[redirects]]
+from = "/agenda/2026/projection-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas-17-aout-1/index.html"
+to = "/agenda/2026/projection-de-nicole-nicole-aux-etats-generaux-du-film-documentaire-a-lussas-17-aout/"
+
+[[redirects]]
+from = "/agenda/2026/4801-nuits-aux-rencontres-ad-hoc-le-vendredi-11-septembre-1/index.html"
+to = "/agenda/2026/4801-nuits-aux-rencontres-ad-hoc-le-dimanche-13-septembre/"
 
 [[redirects]]
 from = "/articles/film-lie/nicole-nicole/index.html"
