@@ -47,6 +47,10 @@ from = "/actus-1/publication-du-site-web/index.html"
 to = "/actualites/publication-du-site-web/"
 
 [[redirects]]
+from = "/actualites/nicole-nicole-prime-au-festival-frontdoc-a-aoste-en-italie/index.html"
+to = "/actualites/cest-la-saison-des-projections-de-nicole-nicole-en-suisse-romande-grace-a-notre-partenaire-de-lausan/"
+
+[[redirects]]
 from = "/actualites-de-la-scic/index.html"
 to = "/actus-type/actualites-de-la-scic/"
 
