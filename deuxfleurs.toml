@@ -243,6 +243,10 @@ from = "/articles/film-lie/index.html"
 to = "/ressources/film-lie/"
 
 [[redirects]]
+from = "/personnes/lauren-dallenbach/index.html"
+to = "/coop/lauren-dallenbach/"
+
+[[redirects]]
 from = "/personnes/categories/anciens-membres/index.html"
 to = "/coop/categories/anciens-membres/"
 
