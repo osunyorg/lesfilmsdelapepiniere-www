@@ -59,6 +59,10 @@ from = "/coop/elodie-boin-zanchi/journal/index.html"
 to = "/coop/elodie-boin-zanchi/ressources/"
 
 [[redirects]]
+from = "/lauren-dallenbach-en-coree-du-sud-avec-nicole-nicole/index.html"
+to = "/actualites/lauren-dallenbach-en-coree-du-sud-avec-nicole-nicole/"
+
+[[redirects]]
 from = "/coop/jean-charles-leyris/journal/index.html"
 to = "/coop/jean-charles-leyris/ressources/"
 
