@@ -287,6 +287,10 @@ from = "/actualites/film-lie/4801-nuits/index.html"
 to = "/ressources/film-lie/4801-nuits/"
 
 [[redirects]]
+from = "/projections-de-nicole-nicole-au-mois-de-novembre-en-france/index.html"
+to = "/agenda/projections-de-nicole-nicole-au-mois-de-novembre-en-france/"
+
+[[redirects]]
 from = "/actualites/2026-06-19-journal-de-cuisine-4801/index.html"
 to = "/ressources/2026-06-19-journal-de-cuisine-4801/"
 
@@ -397,6 +401,10 @@ to = "/films/2023-nei/"
 [[redirects]]
 from = "/coop/alice-marsal/posts/index.html"
 to = "/coop/alice-marsal/ressources/"
+
+[[redirects]]
+from = "/actualites/projections-de-nicole-nicole-au-mois-de-novembre-en-france/index.html"
+to = "/agenda/projections-de-nicole-nicole-au-mois-de-novembre-en-france/"
 
 [[redirects]]
 from = "/coop/avrin-cardi/index.html"
