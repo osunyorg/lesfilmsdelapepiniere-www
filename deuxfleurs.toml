@@ -211,6 +211,10 @@ from = "/personnes/chantal-tran/index.html"
 to = "/coop/chantal-tran/"
 
 [[redirects]]
+from = "/sur-les-sentiers-du-doc/index.html"
+to = "/actualites/sur-les-sentiers-du-doc/"
+
+[[redirects]]
 from = "/coop/elodie-boin-zanchi/actualites/index.html"
 to = "/coop/elodie-boin-zanchi/ressources/"
 
